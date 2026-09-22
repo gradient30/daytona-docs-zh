@@ -1,0 +1,43 @@
+[
+  {
+    "id": "20260922T1136",
+    "capturedAt": "2026-09-22T11:36:00.000Z",
+    "summary": "首次全量汉化：对照官网 sitemap 完成中文手册底稿",
+    "llmsHash": "9915438f3601",
+    "changes": [
+      {
+        "kind": "baseline",
+        "slug": "index",
+        "title": "Daytona 是什么",
+        "officialUrl": "https://www.daytona.io/docs/",
+        "handbookHref": "/",
+        "location": "侧栏「开始」→「Daytona 是什么」· 本站 /",
+        "prevHash": null,
+        "nextHash": "f1a498fdf300",
+        "note": "首版全站汉化。之后官网每次变动会在本页新增一条独立日志，并标明中文站位置。"
+      },
+      {
+        "kind": "translated",
+        "slug": "sandboxes",
+        "title": "沙箱",
+        "officialUrl": "https://www.daytona.io/docs/en/sandboxes",
+        "handbookHref": "/docs/sandboxes",
+        "location": "侧栏「开始」→「沙箱」· 本站 /docs/sandboxes",
+        "prevHash": null,
+        "nextHash": "3605baabf498",
+        "note": "平台核心页已译。对照表见 /docs/sitemap。"
+      },
+      {
+        "kind": "translated",
+        "slug": "updates",
+        "title": "同步日志",
+        "officialUrl": null,
+        "handbookHref": "/docs/updates",
+        "location": "顶栏「同步」· 侧栏「本站」→「同步日志」· 本站 /docs/updates",
+        "prevHash": null,
+        "nextHash": null,
+        "note": "本站加页。官网一变，这里单独记：改了什么、中文站在哪一页。"
+      }
+    ]
+  }
+]
