@@ -1,7 +1,7 @@
 {
   "capturedAt": "2026-09-23",
   "officialRef": "docs-site",
-  "docsTreeSha": "739c9133463b",
+  "docsTreeSha": "eec080f32fc5",
   "source": "https://www.daytona.io/docs/sitemap-0.xml",
   "docs": [
     {
@@ -515,11 +515,12 @@
       "section": "tools",
       "kind": "official",
       "officialPath": "en/tools/api.md",
-      "size": 19828,
-      "lastSeenSha": "07c2e6182b1c",
+      "size": 19979,
+      "lastSeenSha": "943cb210269d",
       "translatedAtSha": "07c2e6182b1c",
       "webPath": "/docs/tools/api",
-      "officialUrl": "https://www.daytona.io/docs/en/tools/api"
+      "officialUrl": "https://www.daytona.io/docs/en/tools/api",
+      "contentSha": "943cb210269d"
     },
     {
       "slug": "typescript-sdk",
@@ -1540,12 +1541,12 @@
       "section": "tools",
       "kind": "official",
       "officialPath": "en/python-sdk/common/image.md",
-      "size": 8577,
-      "lastSeenSha": "077c3e9e3cce",
+      "size": 9255,
+      "lastSeenSha": "46254eb0071b",
       "translatedAtSha": "stub00000000",
       "webPath": "/docs/python-sdk/common/image",
       "officialUrl": "https://www.daytona.io/docs/en/python-sdk/common/image",
-      "contentSha": "077c3e9e3cce"
+      "contentSha": "46254eb0071b"
     },
     {
       "slug": "python-sdk/sync/code-interpreter",
@@ -1768,12 +1769,12 @@
       "section": "tools",
       "kind": "official",
       "officialPath": "en/ruby-sdk/image.md",
-      "size": 6523,
-      "lastSeenSha": "904718b06b12",
+      "size": 6849,
+      "lastSeenSha": "d197c59e37f9",
       "translatedAtSha": "stub00000000",
       "webPath": "/docs/ruby-sdk/image",
       "officialUrl": "https://www.daytona.io/docs/en/ruby-sdk/image",
-      "contentSha": "904718b06b12"
+      "contentSha": "d197c59e37f9"
     },
     {
       "slug": "ruby-sdk/lsp-server",
@@ -1984,12 +1985,12 @@
       "section": "tools",
       "kind": "official",
       "officialPath": "en/typescript-sdk/image.md",
-      "size": 7998,
-      "lastSeenSha": "8f53aff1a509",
+      "size": 8193,
+      "lastSeenSha": "212825a3ba86",
       "translatedAtSha": "stub00000000",
       "webPath": "/docs/typescript-sdk/image",
       "officialUrl": "https://www.daytona.io/docs/en/typescript-sdk/image",
-      "contentSha": "8f53aff1a509"
+      "contentSha": "212825a3ba86"
     },
     {
       "slug": "typescript-sdk/lsp-server",

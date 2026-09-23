@@ -20,6 +20,47 @@ export type UpdateLog = {
 
 export const UPDATE_LOGS: UpdateLog[] = [
   {
+    "id": "2026-09-23-a1cae1",
+    "date": "2026-09-23",
+    "title": "官网对照：4 处变动",
+    "summary": "更新 /docs/python-sdk/common/image；更新 /docs/ruby-sdk/image；更新 /docs/tools/api；更新 /docs/typescript-sdk/image",
+    "sourceHint": "https://www.daytona.io/docs/llms.txt · https://www.daytona.io/docs/sitemap-0.xml",
+    "changes": [
+      {
+        "kind": "updated",
+        "slug": "python-sdk/common/image",
+        "title": "python-sdk/common/image",
+        "webPath": "/docs/python-sdk/common/image",
+        "officialUrl": "https://www.daytona.io/docs/en/python-sdk/common/image",
+        "detail": "官网正文 077c3e9 → 46254eb。中文站：/docs/python-sdk/common/image。"
+      },
+      {
+        "kind": "updated",
+        "slug": "ruby-sdk/image",
+        "title": "ruby-sdk/image",
+        "webPath": "/docs/ruby-sdk/image",
+        "officialUrl": "https://www.daytona.io/docs/en/ruby-sdk/image",
+        "detail": "官网正文 904718b → d197c59。中文站：/docs/ruby-sdk/image。"
+      },
+      {
+        "kind": "updated",
+        "slug": "tools/api",
+        "title": "tools/api",
+        "webPath": "/docs/tools/api",
+        "officialUrl": "https://www.daytona.io/docs/en/tools/api",
+        "detail": "官网正文 07c2e61 → 943cb21。中文站：/docs/tools/api。"
+      },
+      {
+        "kind": "updated",
+        "slug": "typescript-sdk/image",
+        "title": "typescript-sdk/image",
+        "webPath": "/docs/typescript-sdk/image",
+        "officialUrl": "https://www.daytona.io/docs/en/typescript-sdk/image",
+        "detail": "官网正文 8f53aff → 212825a。中文站：/docs/typescript-sdk/image。"
+      }
+    ]
+  },
+  {
     "id": "2026-09-22-cd8b33",
     "date": "2026-09-22",
     "title": "官网对照：84 处变动",

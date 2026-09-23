@@ -1,5 +1,57 @@
 [
   {
+    "id": "202609231310",
+    "capturedAt": "2026-09-23T13:10:56.941Z",
+    "summary": "4 处官网变动（新增 0 / 改动 4 / 删除 0）",
+    "llmsHash": "49b6eeb12e91",
+    "changes": [
+      {
+        "kind": "modified",
+        "slug": "python-sdk/common/image",
+        "title": "python-sdk/common/image",
+        "officialUrl": "https://www.daytona.io/docs/en/python-sdk/common/image",
+        "handbookHref": "/docs/python-sdk/common/image",
+        "location": "侧栏「工具」→「python-sdk/common/image」· 本站 /docs/python-sdk/common/image",
+        "prevHash": "077c3e9e3cce",
+        "nextHash": "46254eb0071b",
+        "note": "官网正文 077c3e9 → 46254eb。中文站：/docs/python-sdk/common/image。"
+      },
+      {
+        "kind": "modified",
+        "slug": "ruby-sdk/image",
+        "title": "ruby-sdk/image",
+        "officialUrl": "https://www.daytona.io/docs/en/ruby-sdk/image",
+        "handbookHref": "/docs/ruby-sdk/image",
+        "location": "侧栏「工具」→「ruby-sdk/image」· 本站 /docs/ruby-sdk/image",
+        "prevHash": "904718b06b12",
+        "nextHash": "d197c59e37f9",
+        "note": "官网正文 904718b → d197c59。中文站：/docs/ruby-sdk/image。"
+      },
+      {
+        "kind": "modified",
+        "slug": "tools/api",
+        "title": "tools/api",
+        "officialUrl": "https://www.daytona.io/docs/en/tools/api",
+        "handbookHref": "/docs/tools/api",
+        "location": "侧栏「工具」→「tools/api」· 本站 /docs/tools/api",
+        "prevHash": "07c2e6182b1c",
+        "nextHash": "943cb210269d",
+        "note": "官网正文 07c2e61 → 943cb21。中文站：/docs/tools/api。"
+      },
+      {
+        "kind": "modified",
+        "slug": "typescript-sdk/image",
+        "title": "typescript-sdk/image",
+        "officialUrl": "https://www.daytona.io/docs/en/typescript-sdk/image",
+        "handbookHref": "/docs/typescript-sdk/image",
+        "location": "侧栏「工具」→「typescript-sdk/image」· 本站 /docs/typescript-sdk/image",
+        "prevHash": "8f53aff1a509",
+        "nextHash": "212825a3ba86",
+        "note": "官网正文 8f53aff → 212825a。中文站：/docs/typescript-sdk/image。"
+      }
+    ]
+  },
+  {
     "id": "202609221203",
     "capturedAt": "2026-09-22T12:03:21.740Z",
     "summary": "84 处官网变动（新增 1 / 改动 83 / 删除 0）",
