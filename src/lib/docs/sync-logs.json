@@ -1,5 +1,57 @@
 [
   {
+    "id": "202609241303",
+    "capturedAt": "2026-09-24T13:03:44.174Z",
+    "summary": "4 处官网变动（新增 0 / 改动 4 / 删除 0）",
+    "llmsHash": "49b6eeb12e91",
+    "changes": [
+      {
+        "kind": "modified",
+        "slug": "api-keys",
+        "title": "api-keys",
+        "officialUrl": "https://www.daytona.io/docs/en/api-keys",
+        "handbookHref": "/docs/api-keys",
+        "location": "侧栏 →「api-keys」· 本站 /docs/api-keys",
+        "prevHash": "1e2742186cd0",
+        "nextHash": "1390fe91123c",
+        "note": "官网正文 1e27421 → 1390fe9。中文站：/docs/api-keys。"
+      },
+      {
+        "kind": "modified",
+        "slug": "organizations",
+        "title": "organizations",
+        "officialUrl": "https://www.daytona.io/docs/en/organizations",
+        "handbookHref": "/docs/organizations",
+        "location": "侧栏 →「organizations」· 本站 /docs/organizations",
+        "prevHash": "eaaf557abfd7",
+        "nextHash": "8c4467681810",
+        "note": "官网正文 eaaf557 → 8c44676。中文站：/docs/organizations。"
+      },
+      {
+        "kind": "modified",
+        "slug": "secrets",
+        "title": "secrets",
+        "officialUrl": "https://www.daytona.io/docs/en/secrets",
+        "handbookHref": "/docs/secrets",
+        "location": "侧栏 →「secrets」· 本站 /docs/secrets",
+        "prevHash": "a0cfd1dfe646",
+        "nextHash": "f7e051f44125",
+        "note": "官网正文 a0cfd1d → f7e051f。中文站：/docs/secrets。"
+      },
+      {
+        "kind": "modified",
+        "slug": "troubleshooting",
+        "title": "troubleshooting",
+        "officialUrl": "https://www.daytona.io/docs/en/troubleshooting",
+        "handbookHref": "/docs/troubleshooting",
+        "location": "侧栏 →「troubleshooting」· 本站 /docs/troubleshooting",
+        "prevHash": "c3d2e8731c14",
+        "nextHash": "b93ee4eec16a",
+        "note": "官网正文 c3d2e87 → b93ee4e。中文站：/docs/troubleshooting。"
+      }
+    ]
+  },
+  {
     "id": "202609231310",
     "capturedAt": "2026-09-23T13:10:56.941Z",
     "summary": "4 处官网变动（新增 0 / 改动 4 / 删除 0）",

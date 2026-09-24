@@ -1,7 +1,7 @@
 {
-  "capturedAt": "2026-09-23",
+  "capturedAt": "2026-09-24",
   "officialRef": "docs-site",
-  "docsTreeSha": "eec080f32fc5",
+  "docsTreeSha": "e22c8171f932",
   "source": "https://www.daytona.io/docs/sitemap-0.xml",
   "docs": [
     {
@@ -152,11 +152,12 @@
       "section": "platform",
       "kind": "official",
       "officialPath": "en/api-keys.md",
-      "size": 12512,
-      "lastSeenSha": "1e2742186cd0",
+      "size": 13470,
+      "lastSeenSha": "1390fe91123c",
       "translatedAtSha": "1e2742186cd0",
       "webPath": "/docs/api-keys",
-      "officialUrl": "https://www.daytona.io/docs/en/api-keys"
+      "officialUrl": "https://www.daytona.io/docs/en/api-keys",
+      "contentSha": "1390fe91123c"
     },
     {
       "slug": "organizations",
@@ -164,10 +165,11 @@
       "kind": "official",
       "officialPath": "en/organizations.md",
       "size": 19962,
-      "lastSeenSha": "eaaf557abfd7",
+      "lastSeenSha": "8c4467681810",
       "translatedAtSha": "eaaf557abfd7",
       "webPath": "/docs/organizations",
-      "officialUrl": "https://www.daytona.io/docs/en/organizations"
+      "officialUrl": "https://www.daytona.io/docs/en/organizations",
+      "contentSha": "8c4467681810"
     },
     {
       "slug": "billing",
@@ -196,11 +198,12 @@
       "section": "platform",
       "kind": "official",
       "officialPath": "en/troubleshooting.md",
-      "size": 47699,
-      "lastSeenSha": "c3d2e8731c14",
+      "size": 47673,
+      "lastSeenSha": "b93ee4eec16a",
       "translatedAtSha": "c3d2e8731c14",
       "webPath": "/docs/troubleshooting",
-      "officialUrl": "https://www.daytona.io/docs/en/troubleshooting"
+      "officialUrl": "https://www.daytona.io/docs/en/troubleshooting",
+      "contentSha": "b93ee4eec16a"
     },
     {
       "slug": "playground",
@@ -405,11 +408,12 @@
       "section": "access",
       "kind": "official",
       "officialPath": "en/secrets.md",
-      "size": 27435,
-      "lastSeenSha": "a0cfd1dfe646",
+      "size": 28172,
+      "lastSeenSha": "f7e051f44125",
       "translatedAtSha": "a0cfd1dfe646",
       "webPath": "/docs/secrets",
-      "officialUrl": "https://www.daytona.io/docs/en/secrets"
+      "officialUrl": "https://www.daytona.io/docs/en/secrets",
+      "contentSha": "f7e051f44125"
     },
     {
       "slug": "sso",

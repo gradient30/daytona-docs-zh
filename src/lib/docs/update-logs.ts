@@ -20,6 +20,47 @@ export type UpdateLog = {
 
 export const UPDATE_LOGS: UpdateLog[] = [
   {
+    "id": "2026-09-24-ea3d29",
+    "date": "2026-09-24",
+    "title": "官网对照：4 处变动",
+    "summary": "更新 /docs/api-keys；更新 /docs/organizations；更新 /docs/secrets；更新 /docs/troubleshooting",
+    "sourceHint": "https://www.daytona.io/docs/llms.txt · https://www.daytona.io/docs/sitemap-0.xml",
+    "changes": [
+      {
+        "kind": "updated",
+        "slug": "api-keys",
+        "title": "api-keys",
+        "webPath": "/docs/api-keys",
+        "officialUrl": "https://www.daytona.io/docs/en/api-keys",
+        "detail": "官网正文 1e27421 → 1390fe9。中文站：/docs/api-keys。"
+      },
+      {
+        "kind": "updated",
+        "slug": "organizations",
+        "title": "organizations",
+        "webPath": "/docs/organizations",
+        "officialUrl": "https://www.daytona.io/docs/en/organizations",
+        "detail": "官网正文 eaaf557 → 8c44676。中文站：/docs/organizations。"
+      },
+      {
+        "kind": "updated",
+        "slug": "secrets",
+        "title": "secrets",
+        "webPath": "/docs/secrets",
+        "officialUrl": "https://www.daytona.io/docs/en/secrets",
+        "detail": "官网正文 a0cfd1d → f7e051f。中文站：/docs/secrets。"
+      },
+      {
+        "kind": "updated",
+        "slug": "troubleshooting",
+        "title": "troubleshooting",
+        "webPath": "/docs/troubleshooting",
+        "officialUrl": "https://www.daytona.io/docs/en/troubleshooting",
+        "detail": "官网正文 c3d2e87 → b93ee4e。中文站：/docs/troubleshooting。"
+      }
+    ]
+  },
+  {
     "id": "2026-09-23-a1cae1",
     "date": "2026-09-23",
     "title": "官网对照：4 处变动",
