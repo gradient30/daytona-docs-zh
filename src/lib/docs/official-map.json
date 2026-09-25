@@ -1,7 +1,7 @@
 {
   "capturedAt": "2026-09-25",
   "officialRef": "docs-site",
-  "docsTreeSha": "e22c8171f932",
+  "docsTreeSha": "689dc910196b",
   "source": "https://www.daytona.io/docs/sitemap-0.xml",
   "docs": [
     {
@@ -64,11 +64,12 @@
       "section": "start",
       "kind": "official",
       "officialPath": "en/sandboxes.md",
-      "size": 102526,
-      "lastSeenSha": "3605baabf498",
+      "size": 102556,
+      "lastSeenSha": "91f9ea23c4d3",
       "translatedAtSha": "3605baabf498",
       "webPath": "/docs/sandboxes",
-      "officialUrl": "https://www.daytona.io/docs/en/sandboxes"
+      "officialUrl": "https://www.daytona.io/docs/en/sandboxes",
+      "contentSha": "91f9ea23c4d3"
     },
     {
       "slug": "snapshots",

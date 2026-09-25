@@ -20,6 +20,23 @@ export type UpdateLog = {
 
 export const UPDATE_LOGS: UpdateLog[] = [
   {
+    "id": "2026-09-25-c44c93",
+    "date": "2026-09-25",
+    "title": "官网对照：1 处变动",
+    "summary": "更新 /docs/sandboxes",
+    "sourceHint": "https://www.daytona.io/docs/llms.txt · https://www.daytona.io/docs/sitemap-0.xml",
+    "changes": [
+      {
+        "kind": "updated",
+        "slug": "sandboxes",
+        "title": "sandboxes",
+        "webPath": "/docs/sandboxes",
+        "officialUrl": "https://www.daytona.io/docs/en/sandboxes",
+        "detail": "官网正文 3605baa → 91f9ea2。中文站：/docs/sandboxes。"
+      }
+    ]
+  },
+  {
     "id": "2026-09-24-ea3d29",
     "date": "2026-09-24",
     "title": "官网对照：4 处变动",
