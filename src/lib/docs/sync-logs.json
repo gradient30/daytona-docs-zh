@@ -1,5 +1,156 @@
 [
   {
+    "id": "202609261235",
+    "capturedAt": "2026-09-26T12:35:35.720Z",
+    "summary": "13 处官网变动（新增 0 / 改动 13 / 删除 0）",
+    "llmsHash": "49b6eeb12e91",
+    "changes": [
+      {
+        "kind": "modified",
+        "slug": "go-sdk/daytona",
+        "title": "go-sdk/daytona",
+        "officialUrl": "https://www.daytona.io/docs/en/go-sdk/daytona",
+        "handbookHref": "/docs/go-sdk/daytona",
+        "location": "侧栏「工具」→「go-sdk/daytona」· 本站 /docs/go-sdk/daytona",
+        "prevHash": "d0fd86443df2",
+        "nextHash": "8f74c619b17a",
+        "note": "官网正文 d0fd864 → 8f74c61。中文站：/docs/go-sdk/daytona。"
+      },
+      {
+        "kind": "modified",
+        "slug": "go-sdk/types",
+        "title": "go-sdk/types",
+        "officialUrl": "https://www.daytona.io/docs/en/go-sdk/types",
+        "handbookHref": "/docs/go-sdk/types",
+        "location": "侧栏「工具」→「go-sdk/types」· 本站 /docs/go-sdk/types",
+        "prevHash": "22f7345c556f",
+        "nextHash": "ba03112d6cb5",
+        "note": "官网正文 22f7345 → ba03112。中文站：/docs/go-sdk/types。"
+      },
+      {
+        "kind": "modified",
+        "slug": "java-sdk/daytona",
+        "title": "java-sdk/daytona",
+        "officialUrl": "https://www.daytona.io/docs/en/java-sdk/daytona",
+        "handbookHref": "/docs/java-sdk/daytona",
+        "location": "侧栏「工具」→「java-sdk/daytona」· 本站 /docs/java-sdk/daytona",
+        "prevHash": "ec8d0b899ca2",
+        "nextHash": "0010d85594a3",
+        "note": "官网正文 ec8d0b8 → 0010d85。中文站：/docs/java-sdk/daytona。"
+      },
+      {
+        "kind": "modified",
+        "slug": "java-sdk/sandbox",
+        "title": "java-sdk/sandbox",
+        "officialUrl": "https://www.daytona.io/docs/en/java-sdk/sandbox",
+        "handbookHref": "/docs/java-sdk/sandbox",
+        "location": "侧栏「工具」→「java-sdk/sandbox」· 本站 /docs/java-sdk/sandbox",
+        "prevHash": "29aca7269df8",
+        "nextHash": "968ac0f783eb",
+        "note": "官网正文 29aca72 → 968ac0f。中文站：/docs/java-sdk/sandbox。"
+      },
+      {
+        "kind": "modified",
+        "slug": "python-sdk/async/async-daytona",
+        "title": "python-sdk/async/async-daytona",
+        "officialUrl": "https://www.daytona.io/docs/en/python-sdk/async/async-daytona",
+        "handbookHref": "/docs/python-sdk/async/async-daytona",
+        "location": "侧栏「工具」→「python-sdk/async/async-daytona」· 本站 /docs/python-sdk/async/async-daytona",
+        "prevHash": "3bab91e1bd23",
+        "nextHash": "aa5db260e9fa",
+        "note": "官网正文 3bab91e → aa5db26。中文站：/docs/python-sdk/async/async-daytona。"
+      },
+      {
+        "kind": "modified",
+        "slug": "python-sdk/async/async-sandbox",
+        "title": "python-sdk/async/async-sandbox",
+        "officialUrl": "https://www.daytona.io/docs/en/python-sdk/async/async-sandbox",
+        "handbookHref": "/docs/python-sdk/async/async-sandbox",
+        "location": "侧栏「工具」→「python-sdk/async/async-sandbox」· 本站 /docs/python-sdk/async/async-sandbox",
+        "prevHash": "6af9b9df906f",
+        "nextHash": "1303717c1d71",
+        "note": "官网正文 6af9b9d → 1303717。中文站：/docs/python-sdk/async/async-sandbox。"
+      },
+      {
+        "kind": "modified",
+        "slug": "python-sdk/sync/daytona",
+        "title": "python-sdk/sync/daytona",
+        "officialUrl": "https://www.daytona.io/docs/en/python-sdk/sync/daytona",
+        "handbookHref": "/docs/python-sdk/sync/daytona",
+        "location": "侧栏「工具」→「python-sdk/sync/daytona」· 本站 /docs/python-sdk/sync/daytona",
+        "prevHash": "3f1f6fc8a732",
+        "nextHash": "c8797e5b9b3f",
+        "note": "官网正文 3f1f6fc → c8797e5。中文站：/docs/python-sdk/sync/daytona。"
+      },
+      {
+        "kind": "modified",
+        "slug": "python-sdk/sync/sandbox",
+        "title": "python-sdk/sync/sandbox",
+        "officialUrl": "https://www.daytona.io/docs/en/python-sdk/sync/sandbox",
+        "handbookHref": "/docs/python-sdk/sync/sandbox",
+        "location": "侧栏「工具」→「python-sdk/sync/sandbox」· 本站 /docs/python-sdk/sync/sandbox",
+        "prevHash": "2c367741e1e0",
+        "nextHash": "c55f9b83b990",
+        "note": "官网正文 2c36774 → c55f9b8。中文站：/docs/python-sdk/sync/sandbox。"
+      },
+      {
+        "kind": "modified",
+        "slug": "ruby-sdk/sandbox",
+        "title": "ruby-sdk/sandbox",
+        "officialUrl": "https://www.daytona.io/docs/en/ruby-sdk/sandbox",
+        "handbookHref": "/docs/ruby-sdk/sandbox",
+        "location": "侧栏「工具」→「ruby-sdk/sandbox」· 本站 /docs/ruby-sdk/sandbox",
+        "prevHash": "4d831bd04ae1",
+        "nextHash": "5d0ea4cebb9c",
+        "note": "官网正文 4d831bd → 5d0ea4c。中文站：/docs/ruby-sdk/sandbox。"
+      },
+      {
+        "kind": "modified",
+        "slug": "sandboxes",
+        "title": "sandboxes",
+        "officialUrl": "https://www.daytona.io/docs/en/sandboxes",
+        "handbookHref": "/docs/sandboxes",
+        "location": "侧栏 →「sandboxes」· 本站 /docs/sandboxes",
+        "prevHash": "91f9ea23c4d3",
+        "nextHash": "6b33ce500d7d",
+        "note": "官网正文 91f9ea2 → 6b33ce5。中文站：/docs/sandboxes。"
+      },
+      {
+        "kind": "modified",
+        "slug": "tools/cli",
+        "title": "tools/cli",
+        "officialUrl": "https://www.daytona.io/docs/en/tools/cli",
+        "handbookHref": "/docs/tools/cli",
+        "location": "侧栏「工具」→「tools/cli」· 本站 /docs/tools/cli",
+        "prevHash": "814b44b2172c",
+        "nextHash": "0a3b0241bddf",
+        "note": "官网正文 814b44b → 0a3b024。中文站：/docs/tools/cli。"
+      },
+      {
+        "kind": "modified",
+        "slug": "typescript-sdk/daytona",
+        "title": "typescript-sdk/daytona",
+        "officialUrl": "https://www.daytona.io/docs/en/typescript-sdk/daytona",
+        "handbookHref": "/docs/typescript-sdk/daytona",
+        "location": "侧栏「工具」→「typescript-sdk/daytona」· 本站 /docs/typescript-sdk/daytona",
+        "prevHash": "eda442305045",
+        "nextHash": "286910e787c8",
+        "note": "官网正文 eda4423 → 286910e。中文站：/docs/typescript-sdk/daytona。"
+      },
+      {
+        "kind": "modified",
+        "slug": "typescript-sdk/sandbox",
+        "title": "typescript-sdk/sandbox",
+        "officialUrl": "https://www.daytona.io/docs/en/typescript-sdk/sandbox",
+        "handbookHref": "/docs/typescript-sdk/sandbox",
+        "location": "侧栏「工具」→「typescript-sdk/sandbox」· 本站 /docs/typescript-sdk/sandbox",
+        "prevHash": "8c6a61e26c09",
+        "nextHash": "e38b6083bd16",
+        "note": "官网正文 8c6a61e → e38b608。中文站：/docs/typescript-sdk/sandbox。"
+      }
+    ]
+  },
+  {
     "id": "202609251308",
     "capturedAt": "2026-09-25T13:08:42.689Z",
     "summary": "1 处官网变动（新增 0 / 改动 1 / 删除 0）",
