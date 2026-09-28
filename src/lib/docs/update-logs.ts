@@ -20,6 +20,23 @@ export type UpdateLog = {
 
 export const UPDATE_LOGS: UpdateLog[] = [
   {
+    id: "2026-09-28-sync",
+    date: "2026-09-28",
+    title: "官网对照：密钥权限与嵌套虚拟化",
+    summary: "Developer 不再包含创建密钥；write:sandboxes 可挂载任意密钥；Linux VM 支持嵌套虚拟化（kvm）。404 页补上中文。",
+    sourceHint: "https://www.daytona.io/docs/sitemap-0.xml · 2026-09-28",
+    changes: [
+      { kind: "updated", slug: "sandboxes", title: "沙箱", webPath: "/docs/sandboxes", officialUrl: "https://www.daytona.io/docs/en/sandboxes", detail: "新增嵌套虚拟化：Linux VM 可开 kvm。中文站 /docs/sandboxes#nested-virtualization。" },
+      { kind: "updated", slug: "api-keys", title: "认证", webPath: "/docs/api-keys", officialUrl: "https://www.daytona.io/docs/en/api-keys", detail: "创建密钥不再是可分配权限。write:sandboxes 可以挂载组织内任意密钥。" },
+      { kind: "updated", slug: "organizations", title: "组织", webPath: "/docs/organizations", officialUrl: "https://www.daytona.io/docs/en/organizations", detail: "Developer 只创建沙箱，不再包含创建密钥。" },
+      { kind: "updated", slug: "secrets", title: "密钥", webPath: "/docs/secrets", officialUrl: "https://www.daytona.io/docs/en/secrets", detail: "没有主机允许列表时会对任意主机替换。挂载密钥需要 write:sandboxes。" },
+      { kind: "updated", slug: "tools/cli", title: "CLI", webPath: "/docs/tools/cli", officialUrl: "https://www.daytona.io/docs/en/tools/cli", detail: "daytona create 新增 --kvm。" },
+      { kind: "updated", slug: "tools/api", title: "API 参考", webPath: "/docs/tools/api", officialUrl: "https://www.daytona.io/docs/en/tools/api", detail: "新增 GET …/identity-providers/workos-sso-connections。" },
+      { kind: "updated", slug: "troubleshooting", title: "故障排查", webPath: "/docs/troubleshooting", officialUrl: "https://www.daytona.io/docs/en/troubleshooting", detail: "403 说明改为 Developer 只创建沙箱。" },
+      { kind: "added", slug: "404", title: "未找到", webPath: "/docs/404", officialUrl: "https://www.daytona.io/docs/en/404", detail: "官网 404 页补上中文说明。" },
+    ],
+  },
+  {
     "id": "2026-09-26-13daf7",
     "date": "2026-09-26",
     "title": "官网对照：13 处变动",

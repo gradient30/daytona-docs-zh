@@ -80,6 +80,27 @@ sandbox = Daytona().create(CreateSandboxFromSnapshotParams(snapshot="daytona-med
 
 Linux VM 与 Windows 跑在独立虚拟机里，支持 Fork、暂停/恢复、热快照（含内存）。适合需要完整操作系统或 Windows 工具链的智能体。
 
+### 嵌套虚拟化 {#nested-virtualization}
+
+仅 **Linux VM**。打开后客户机里会出现 KVM（`/dev/kvm`），沙箱可以再用硬件加速跑自己的虚拟机。组织需要开通 `sandbox_kvm`。CLI 对应 `daytona create --kvm`。
+
+```python
+from daytona import Daytona, CreateSandboxFromSnapshotParams
+
+sandbox = Daytona().create(
+    CreateSandboxFromSnapshotParams(snapshot="daytona-vm-small", kvm=True)
+)
+```
+
+```typescript
+import { Daytona } from '@daytona/sdk'
+
+const sandbox = await new Daytona().create({
+  snapshot: 'daytona-vm-small',
+  kvm: true,
+})
+```
+
 ## macOS 沙箱 {#macos-sandboxes}
 
 跑在 Apple silicon 上，适合桌面自动化、Computer Use、VNC。

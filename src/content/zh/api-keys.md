@@ -156,6 +156,10 @@ Organization usage and spend data is a partial exception. The endpoints that ser
 
 A sandbox's deletion schedule is a modification rather than a deletion. Setting the auto-delete interval or the time-to-live on an existing sandbox requires `write:sandboxes`, and both values are also accepted when a sandbox is created. When either schedule elapses the sandbox is destroyed and its local filesystem is not recoverable, so a key holding `write:sandboxes` alone can cause sandboxes to be deleted on a schedule. `delete:sandboxes` governs the explicit delete request.
 
+组织里的任何成员都可以给自己创建 API 密钥；**创建密钥本身不是可分配的角色权限**。密钥不能超出创建者已有的权限：请求里多出来的范围会被拒绝。
+
+密钥按名字挂进沙箱，因此 `write:sandboxes` 也决定沙箱能拿到哪些 [密钥](/docs/secrets)。持有 `write:sandboxes` 的密钥可以挂载组织里的任意密钥，包括自己没有 `manage:secrets`、因而不能创建或查看的密钥。
+
 | **Resource** | **Scope** | **Description** |
 | ------------ | ----------------------- | ------------------------ |
 | Sandboxes | **`write:sandboxes`** | Create/modify sandboxes, including the deletion schedule |

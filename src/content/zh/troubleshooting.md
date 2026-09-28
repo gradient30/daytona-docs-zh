@@ -126,15 +126,15 @@ See [organizations](/docs/organizations) and [personal vs collaborative](/docs/o
 
 ### 成员 {#membership}
 
-**Symptom:** You are signed in and the correct organization is selected, but create, delete, or admin actions fail with `403` / `DaytonaForbiddenError`, or the Dashboard keeps resources read-only. A teammate invited you, yet you still cannot create sandboxes or keys in that organization.
+**现象：** 已经登录，也选对了组织，但创建、删除或管理操作返回 `403` / `DaytonaForbiddenError`，或仪表盘里资源一直只读。同事邀请了你，你仍然不能在该组织创建沙箱。
 
-**Cause:** Collaborative organizations use roles and [assignments](/docs/organizations#role-assignments). Owners have full access. Members need assignments such as **Developer** to create sandboxes and keys; **Viewer** alone grants no create or delete permissions, though every member can still run processes and read and write files in the organization's sandboxes. An invitation also does nothing until it is accepted, and access to that organization's quotas requires a new API key issued after you join.
+**原因：** 协作组织用角色和 [分配](/docs/organizations#role-assignments)。Owner 有全部权限。成员需要 **Developer** 才能创建沙箱；**Viewer** 不能创建或删除。创建 API 密钥不再靠 Developer：任何成员都可以给自己建密钥，但不能超出自己已有的权限。邀请未接受之前无效；加入后要用该组织里新发的 API 密钥才能用它的配额。
 
-**Solution:**
+**处理：**
 
-1. Open [Invitations ↗](https://app.daytona.io/dashboard/user/invitations) and accept any pending invitation for the organization
-2. Ask an organization owner to grant the assignments you need (for example **Developer** to create sandboxes and keys)
-3. After joining, create an [API key](/docs/api-keys) in that organization and use it for SDK, CLI, and API calls
+1. 打开 [Invitations](https://app.daytona.io/dashboard/user/invitations)，接受该组织的待处理邀请
+2. 请组织 Owner 授予需要的分配（例如用 **Developer** 创建沙箱）
+3. 加入后在该组织新建 [API 密钥](/docs/api-keys)，再给 SDK、CLI 和 API 使用
 
 See [members](/docs/organizations#members), [invitations](/docs/organizations#invitations), and [authentication](#authentication).
 

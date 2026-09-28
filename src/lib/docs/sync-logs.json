@@ -1,5 +1,101 @@
 [
   {
+    "id": "20260928T0527",
+    "capturedAt": "2026-09-28T05:30:08Z",
+    "summary": "7 处官网正文已重译；404 页补上中文",
+    "llmsHash": "49b6eeb12e91",
+    "changes": [
+      {
+        "kind": "translated",
+        "slug": "sandboxes",
+        "title": "沙箱",
+        "officialUrl": "https://www.daytona.io/docs/en/sandboxes",
+        "handbookHref": "/docs/sandboxes",
+        "location": "侧栏「开始」→「沙箱」· 本站 /docs/sandboxes#nested-virtualization",
+        "prevHash": "3605baabf498",
+        "nextHash": "6b33ce500d7d",
+        "note": "补上 Linux VM 嵌套虚拟化（kvm）。"
+      },
+      {
+        "kind": "translated",
+        "slug": "api-keys",
+        "title": "认证",
+        "officialUrl": "https://www.daytona.io/docs/en/api-keys",
+        "handbookHref": "/docs/api-keys",
+        "location": "侧栏「平台」→「认证」· 本站 /docs/api-keys#permissions-scopes",
+        "prevHash": "1e2742186cd0",
+        "nextHash": "1390fe91123c",
+        "note": "创建密钥不再是可分配权限；write:sandboxes 可挂载任意密钥。"
+      },
+      {
+        "kind": "translated",
+        "slug": "organizations",
+        "title": "组织",
+        "officialUrl": "https://www.daytona.io/docs/en/organizations",
+        "handbookHref": "/docs/organizations",
+        "location": "侧栏「平台」→「组织」· 本站 /docs/organizations#role-assignments",
+        "prevHash": "eaaf557abfd7",
+        "nextHash": "8c4467681810",
+        "note": "Developer 只创建沙箱。"
+      },
+      {
+        "kind": "translated",
+        "slug": "secrets",
+        "title": "密钥",
+        "officialUrl": "https://www.daytona.io/docs/en/secrets",
+        "handbookHref": "/docs/secrets",
+        "location": "侧栏「安全与运维」→「密钥」· 本站 /docs/secrets",
+        "prevHash": "a0cfd1dfe646",
+        "nextHash": "f7e051f44125",
+        "note": "无允许列表会对任意主机替换；挂载只需 write:sandboxes。"
+      },
+      {
+        "kind": "translated",
+        "slug": "tools/cli",
+        "title": "CLI",
+        "officialUrl": "https://www.daytona.io/docs/en/tools/cli",
+        "handbookHref": "/docs/tools/cli",
+        "location": "侧栏「工具」→「CLI」· 本站 /docs/tools/cli#daytona-create",
+        "prevHash": "814b44b2172c",
+        "nextHash": "0a3b0241bddf",
+        "note": "daytona create 增加 --kvm。"
+      },
+      {
+        "kind": "translated",
+        "slug": "tools/api",
+        "title": "API",
+        "officialUrl": "https://www.daytona.io/docs/en/tools/api",
+        "handbookHref": "/docs/tools/api",
+        "location": "侧栏「工具」→「API」· 本站 /docs/tools/api",
+        "prevHash": "07c2e6182b1c",
+        "nextHash": "943cb210269d",
+        "note": "新增列出 WorkOS SSO 连接的接口。"
+      },
+      {
+        "kind": "translated",
+        "slug": "troubleshooting",
+        "title": "故障排查",
+        "officialUrl": "https://www.daytona.io/docs/en/troubleshooting",
+        "handbookHref": "/docs/troubleshooting",
+        "location": "侧栏「平台」→「故障排查」· 本站 /docs/troubleshooting#membership",
+        "prevHash": "c3d2e8731c14",
+        "nextHash": "b93ee4eec16a",
+        "note": "403 说明改为 Developer 只建沙箱。"
+      },
+      {
+        "kind": "translated",
+        "slug": "404",
+        "title": "未找到",
+        "officialUrl": "https://www.daytona.io/docs/en/404",
+        "handbookHref": "/docs/404",
+        "location": "官网 404 · 本站 /docs/404",
+        "prevHash": null,
+        "nextHash": "8e83ecb9f715",
+        "note": "自动建档后补上中文说明。"
+      }
+    ]
+  },
+  {
     "id": "202609261235",
     "capturedAt": "2026-09-26T12:35:35.720Z",
     "summary": "13 处官网变动（新增 0 / 改动 13 / 删除 0）",

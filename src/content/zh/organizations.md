@@ -112,7 +112,7 @@ The list of available role assignments includes:
 | Assignment | Description |
 | -------------------------- | -------------------------------------------------------------------------------------------------- |
 | **`Viewer (required)`** | Grants read access to sandboxes, snapshots, and registries in the organization |
-| **`Developer`** | Grants the ability to create sandboxes and keys in the organization |
+| **`Developer`** | 只能在组织里创建沙箱。创建 API 密钥不再属于这项分配：成员随时可以为自己建密钥，但不能超出自己已有的权限。 |
 | **`Sandboxes Admin`** | Grants admin access to sandboxes in the organization |
 | **`快照 Admin`** | Grants admin access to snapshots in the organization |
 | **`Registries Admin`** | Grants admin access to registries in the organization |

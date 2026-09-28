@@ -15,7 +15,7 @@ A secret never enters the sandbox in plaintext. Daytona uses an opaque placehold
 1. You store a secret in your organization. Daytona encrypts the value at rest and assigns it an opaque placeholder token, for example **`dtn_secret_`**.
 2. When you create a sandbox, you map an environment variable to a secret by name. Daytona sets that environment variable to the placeholder, not to the real value.
 3. When the sandbox makes an outbound HTTPS request, the proxy inspects it. If a request header carries a placeholder and the destination host matches the secret's allowlist, the proxy replaces the placeholder with the decrypted value before the request reaches its destination.
-4. For any other destination, the placeholder is forwarded unchanged. The real value is never sent to a host you did not approve.
+4. 发往其他目的地时，占位符原样转发。真实值不会发给允许列表之外的主机。**没有允许列表的密钥会对每一个主机做替换。**
 
 Because the substitution happens in the proxy, the plaintext value is never present inside the sandbox. The sandbox sees the placeholder in its environment, and any request to a non-allowed host carries the harmless placeholder rather than the secret.
 
@@ -50,7 +50,7 @@ This means echo services cannot confirm substitution: the response always shows 
 
 The host allowlist is the set of hosts a secret may be sent to. Set your allowed hosts using the `hosts` array when [creating a secret](#create-a-secret) or [updating a secret](#update-a-secret). The proxy replaces the placeholder only for requests whose destination host matches an entry in the allowlist; a request to any other host carries the unmodified placeholder.
 
-Omitting `hosts` leaves the secret unrestricted: the proxy replaces the placeholder for requests to any host. Set an allowlist for every secret unless you have a specific reason not to.
+不填 `hosts` 时密钥不受限：代理会对任意主机替换占位符。挂了这种密钥的沙箱里的代码，可以把真实值发到它能连上的任意主机。除非有明确理由，否则每个密钥都应设置允许列表。
 
 - **Hosts only**: use hostnames; omit protocols, paths, ports, or query strings
 - **Wildcards supported**: prefix a host with `*.` to allow the base domain and its subdomains
@@ -846,7 +846,9 @@ Alternatively, store the complete header value `Basic Base64(username:password)`
 
 ## Permissions {#permissions}
 
-Secrets are scoped to an organization. Managing them requires the `manage:secrets` permission, which you can grant to an [organization role](/docs/organizations) or an [API key](/docs/api-keys). [Updating the secrets mounted in a sandbox](#update-secrets-in-a-sandbox) is a sandbox operation and requires the `write:sandboxes` permission instead. Create, update, and delete operations are recorded in the [audit logs](/docs/audit-logs). Secret values are masked in audit entries.
+密钥属于组织。管理密钥需要 `manage:secrets`，可以授给 [组织角色](/docs/organizations) 或 [API 密钥](/docs/api-keys)。创建、更新、删除会记入 [审计日志](/docs/audit-logs)，条目里的密钥值会被打码。
+
+把密钥挂进沙箱（创建、Fork 或更新沙箱时）需要的是 `write:sandboxes`，**不是** `manage:secrets`。持有 `write:sandboxes` 的角色或 API 密钥可以挂载组织里的任意密钥，包括自己不能管理的密钥。
 
 > 英文原文：https://www.daytona.io/docs/en/secrets
 > 本站位置：`/docs/secrets`

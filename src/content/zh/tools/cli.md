@@ -123,6 +123,7 @@ __Flags__
 | `--env` | `-e` | 环境变量 (format: KEY=VALUE) |
 | `--gpu` |  | GPU units allocated to the sandbox |
 | `--label` | `-l` | Labels (format: KEY=VALUE) |
+| `--kvm` |  | 在沙箱内暴露 KVM（`/dev/kvm`），即嵌套虚拟化。仅 linux-vm 快照。组织需开通 sandbox_kvm。 |
 | `--memory` |  | Memory allocated to the sandbox in MB |
 | `--name` |  | Name of the sandbox |
 | `--network-allow-list` |  | Comma-separated list of allowed CIDR network addresses for the sandbox |

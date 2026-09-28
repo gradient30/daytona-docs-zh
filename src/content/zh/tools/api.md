@@ -65,7 +65,8 @@ Daytona AI platform API Docs
 - `POST /regions/{id}/regenerate-proxy-api-key` - Regenerate proxy API key for a region
 - `POST /regions/{id}/regenerate-ssh-gateway-api-key` - Regenerate SSH gateway API key for a region
 - `POST /regions/{id}/regenerate-snapshot-manager-credentials` - Regenerate snapshot manager credentials for a region
-- `POST /organizations/{organizationId}/identity-providers/workos-admin-portal-link` - Generate a WorkOS Admin Portal link for configuring SSO or SCIM directory sync
+- `POST /organizations/{organizationId}/identity-providers/workos-admin-portal-link` - 生成 WorkOS Admin Portal 链接，用来配置 SSO 或 SCIM
+- `GET /organizations/{organizationId}/identity-providers/workos-sso-connections` - 列出该组织在 WorkOS 里已配置的 SSO 连接
 - `GET /organizations/{organizationId}/identity-providers` - List organization 身份提供商s
 - `POST /organizations/{organizationId}/identity-providers` - Create organization 身份提供商
 - `GET /organizations/{organizationId}/identity-providers/{id}` - Get organization 身份提供商
