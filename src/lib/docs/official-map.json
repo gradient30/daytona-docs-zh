@@ -1,7 +1,7 @@
 {
-  "capturedAt": "2026-09-29",
+  "capturedAt": "2026-09-30",
   "officialRef": "docs-site",
-  "docsTreeSha": "195f3aa5ea2f",
+  "docsTreeSha": "da40e447b638",
   "source": "https://www.daytona.io/docs/sitemap-0.xml",
   "docs": [
     {
@@ -109,11 +109,12 @@
       "section": "platform",
       "kind": "official",
       "officialPath": "en/architecture.md",
-      "size": 7929,
-      "lastSeenSha": "990f008585e0",
+      "size": 7937,
+      "lastSeenSha": "1ecb821d331d",
       "translatedAtSha": "990f008585e0",
       "webPath": "/docs/architecture",
-      "officialUrl": "https://www.daytona.io/docs/en/architecture"
+      "officialUrl": "https://www.daytona.io/docs/en/architecture",
+      "contentSha": "1ecb821d331d"
     },
     {
       "slug": "isolation",
@@ -153,12 +154,12 @@
       "section": "platform",
       "kind": "official",
       "officialPath": "en/api-keys.md",
-      "size": 13470,
-      "lastSeenSha": "1390fe91123c",
+      "size": 13516,
+      "lastSeenSha": "5f60f436244e",
       "translatedAtSha": "1390fe91123c",
       "webPath": "/docs/api-keys",
       "officialUrl": "https://www.daytona.io/docs/en/api-keys",
-      "contentSha": "1390fe91123c"
+      "contentSha": "5f60f436244e"
     },
     {
       "slug": "organizations",
@@ -166,11 +167,11 @@
       "kind": "official",
       "officialPath": "en/organizations.md",
       "size": 19962,
-      "lastSeenSha": "8c4467681810",
+      "lastSeenSha": "4307b2634ea4",
       "translatedAtSha": "8c4467681810",
       "webPath": "/docs/organizations",
       "officialUrl": "https://www.daytona.io/docs/en/organizations",
-      "contentSha": "8c4467681810"
+      "contentSha": "4307b2634ea4"
     },
     {
       "slug": "billing",
@@ -421,11 +422,12 @@
       "section": "access",
       "kind": "official",
       "officialPath": "en/sso.md",
-      "size": 19376,
-      "lastSeenSha": "13b0dddc94a1",
+      "size": 23594,
+      "lastSeenSha": "3899975ed873",
       "translatedAtSha": "13b0dddc94a1",
       "webPath": "/docs/sso",
-      "officialUrl": "https://www.daytona.io/docs/en/sso"
+      "officialUrl": "https://www.daytona.io/docs/en/sso",
+      "contentSha": "3899975ed873"
     },
     {
       "slug": "linked-accounts",
@@ -487,11 +489,12 @@
       "section": "ops",
       "kind": "official",
       "officialPath": "en/vpn-connections.md",
-      "size": 40475,
-      "lastSeenSha": "6bb9b92b2ebd",
+      "size": 40476,
+      "lastSeenSha": "3d59956293cd",
       "translatedAtSha": "6bb9b92b2ebd",
       "webPath": "/docs/vpn-connections",
-      "officialUrl": "https://www.daytona.io/docs/en/vpn-connections"
+      "officialUrl": "https://www.daytona.io/docs/en/vpn-connections",
+      "contentSha": "3d59956293cd"
     },
     {
       "slug": "bring-your-own-compute",
@@ -509,24 +512,24 @@
       "section": "tools",
       "kind": "official",
       "officialPath": "en/tools/cli.md",
-      "size": 15502,
-      "lastSeenSha": "0a3b0241bddf",
+      "size": 15647,
+      "lastSeenSha": "f365893af1df",
       "translatedAtSha": "0a3b0241bddf",
       "webPath": "/docs/tools/cli",
       "officialUrl": "https://www.daytona.io/docs/en/tools/cli",
-      "contentSha": "0a3b0241bddf"
+      "contentSha": "f365893af1df"
     },
     {
       "slug": "tools/api",
       "section": "tools",
       "kind": "official",
       "officialPath": "en/tools/api.md",
-      "size": 19979,
-      "lastSeenSha": "943cb210269d",
+      "size": 20084,
+      "lastSeenSha": "24fb2aff47b8",
       "translatedAtSha": "943cb210269d",
       "webPath": "/docs/tools/api",
       "officialUrl": "https://www.daytona.io/docs/en/tools/api",
-      "contentSha": "943cb210269d"
+      "contentSha": "24fb2aff47b8"
     },
     {
       "slug": "typescript-sdk",
@@ -1139,24 +1142,24 @@
       "section": "tools",
       "kind": "official",
       "officialPath": "en/go-sdk/daytona.md",
-      "size": 203069,
-      "lastSeenSha": "8f74c619b17a",
+      "size": 203332,
+      "lastSeenSha": "74cce376a221",
       "translatedAtSha": "stub00000000",
       "webPath": "/docs/go-sdk/daytona",
       "officialUrl": "https://www.daytona.io/docs/en/go-sdk/daytona",
-      "contentSha": "8f74c619b17a"
+      "contentSha": "74cce376a221"
     },
     {
       "slug": "go-sdk/errors",
       "section": "tools",
       "kind": "official",
       "officialPath": "en/go-sdk/errors.md",
-      "size": 17843,
-      "lastSeenSha": "e94764e8b940",
+      "size": 19094,
+      "lastSeenSha": "4b0a0b0db96a",
       "translatedAtSha": "stub00000000",
       "webPath": "/docs/go-sdk/errors",
       "officialUrl": "https://www.daytona.io/docs/en/go-sdk/errors",
-      "contentSha": "e94764e8b940"
+      "contentSha": "4b0a0b0db96a"
     },
     {
       "slug": "go-sdk/options",
@@ -1175,12 +1178,12 @@
       "section": "tools",
       "kind": "official",
       "officialPath": "en/go-sdk/types.md",
-      "size": 24309,
-      "lastSeenSha": "ba03112d6cb5",
+      "size": 24483,
+      "lastSeenSha": "2a58985aa56c",
       "translatedAtSha": "stub00000000",
       "webPath": "/docs/go-sdk/types",
       "officialUrl": "https://www.daytona.io/docs/en/go-sdk/types",
-      "contentSha": "ba03112d6cb5"
+      "contentSha": "2a58985aa56c"
     },
     {
       "slug": "java-sdk/code-interpreter",
@@ -1235,12 +1238,12 @@
       "section": "tools",
       "kind": "official",
       "officialPath": "en/java-sdk/errors.md",
-      "size": 45688,
-      "lastSeenSha": "98c29a31f350",
+      "size": 47731,
+      "lastSeenSha": "1a97517456ca",
       "translatedAtSha": "stub00000000",
       "webPath": "/docs/java-sdk/errors",
       "officialUrl": "https://www.daytona.io/docs/en/java-sdk/errors",
-      "contentSha": "98c29a31f350"
+      "contentSha": "1a97517456ca"
     },
     {
       "slug": "java-sdk/file-system",
@@ -1331,12 +1334,12 @@
       "section": "tools",
       "kind": "official",
       "officialPath": "en/java-sdk/sandbox.md",
-      "size": 25540,
-      "lastSeenSha": "968ac0f783eb",
+      "size": 25881,
+      "lastSeenSha": "85d0136d2a4e",
       "translatedAtSha": "stub00000000",
       "webPath": "/docs/java-sdk/sandbox",
       "officialUrl": "https://www.daytona.io/docs/en/java-sdk/sandbox",
-      "contentSha": "968ac0f783eb"
+      "contentSha": "85d0136d2a4e"
     },
     {
       "slug": "java-sdk/secret-service",
@@ -1403,12 +1406,12 @@
       "section": "tools",
       "kind": "official",
       "officialPath": "en/python-sdk/async/async-daytona.md",
-      "size": 17662,
-      "lastSeenSha": "aa5db260e9fa",
+      "size": 17839,
+      "lastSeenSha": "4bb2a1c296bd",
       "translatedAtSha": "stub00000000",
       "webPath": "/docs/python-sdk/async/async-daytona",
       "officialUrl": "https://www.daytona.io/docs/en/python-sdk/async/async-daytona",
-      "contentSha": "aa5db260e9fa"
+      "contentSha": "4bb2a1c296bd"
     },
     {
       "slug": "python-sdk/async/async-file-system",
@@ -1475,12 +1478,12 @@
       "section": "tools",
       "kind": "official",
       "officialPath": "en/python-sdk/async/async-sandbox.md",
-      "size": 41212,
-      "lastSeenSha": "1303717c1d71",
+      "size": 41435,
+      "lastSeenSha": "b764b8c00fbb",
       "translatedAtSha": "stub00000000",
       "webPath": "/docs/python-sdk/async/async-sandbox",
       "officialUrl": "https://www.daytona.io/docs/en/python-sdk/async/async-sandbox",
-      "contentSha": "1303717c1d71"
+      "contentSha": "b764b8c00fbb"
     },
     {
       "slug": "python-sdk/async/async-secret",
@@ -1535,12 +1538,12 @@
       "section": "tools",
       "kind": "official",
       "officialPath": "en/python-sdk/common/errors.md",
-      "size": 10312,
-      "lastSeenSha": "75819171b7c9",
+      "size": 10662,
+      "lastSeenSha": "cff5999bf495",
       "translatedAtSha": "stub00000000",
       "webPath": "/docs/python-sdk/common/errors",
       "officialUrl": "https://www.daytona.io/docs/en/python-sdk/common/errors",
-      "contentSha": "75819171b7c9"
+      "contentSha": "cff5999bf495"
     },
     {
       "slug": "python-sdk/common/image",
@@ -1583,12 +1586,12 @@
       "section": "tools",
       "kind": "official",
       "officialPath": "en/python-sdk/sync/daytona.md",
-      "size": 16311,
-      "lastSeenSha": "c8797e5b9b3f",
+      "size": 16488,
+      "lastSeenSha": "3d3e233c275d",
       "translatedAtSha": "stub00000000",
       "webPath": "/docs/python-sdk/sync/daytona",
       "officialUrl": "https://www.daytona.io/docs/en/python-sdk/sync/daytona",
-      "contentSha": "c8797e5b9b3f"
+      "contentSha": "3d3e233c275d"
     },
     {
       "slug": "python-sdk/sync/file-system",
@@ -1655,12 +1658,12 @@
       "section": "tools",
       "kind": "official",
       "officialPath": "en/python-sdk/sync/sandbox.md",
-      "size": 40286,
-      "lastSeenSha": "c55f9b83b990",
+      "size": 40509,
+      "lastSeenSha": "495b041c34c8",
       "translatedAtSha": "stub00000000",
       "webPath": "/docs/python-sdk/sync/sandbox",
       "officialUrl": "https://www.daytona.io/docs/en/python-sdk/sync/sandbox",
-      "contentSha": "c55f9b83b990"
+      "contentSha": "495b041c34c8"
     },
     {
       "slug": "python-sdk/sync/secret",
@@ -1739,12 +1742,12 @@
       "section": "tools",
       "kind": "official",
       "officialPath": "en/ruby-sdk/daytona.md",
-      "size": 3203,
-      "lastSeenSha": "2bd87e0a2606",
+      "size": 3247,
+      "lastSeenSha": "e34b1b5016e3",
       "translatedAtSha": "stub00000000",
       "webPath": "/docs/ruby-sdk/daytona",
       "officialUrl": "https://www.daytona.io/docs/en/ruby-sdk/daytona",
-      "contentSha": "2bd87e0a2606"
+      "contentSha": "e34b1b5016e3"
     },
     {
       "slug": "ruby-sdk/file-system",
@@ -1823,12 +1826,12 @@
       "section": "tools",
       "kind": "official",
       "officialPath": "en/ruby-sdk/sandbox.md",
-      "size": 23573,
-      "lastSeenSha": "5d0ea4cebb9c",
+      "size": 23906,
+      "lastSeenSha": "1a331ff989ed",
       "translatedAtSha": "stub00000000",
       "webPath": "/docs/ruby-sdk/sandbox",
       "officialUrl": "https://www.daytona.io/docs/en/ruby-sdk/sandbox",
-      "contentSha": "5d0ea4cebb9c"
+      "contentSha": "1a331ff989ed"
     },
     {
       "slug": "ruby-sdk/secret-service",
@@ -1931,24 +1934,24 @@
       "section": "tools",
       "kind": "official",
       "officialPath": "en/typescript-sdk/daytona.md",
-      "size": 16926,
-      "lastSeenSha": "286910e787c8",
+      "size": 17132,
+      "lastSeenSha": "78cdf0d9eb08",
       "translatedAtSha": "stub00000000",
       "webPath": "/docs/typescript-sdk/daytona",
       "officialUrl": "https://www.daytona.io/docs/en/typescript-sdk/daytona",
-      "contentSha": "286910e787c8"
+      "contentSha": "78cdf0d9eb08"
     },
     {
       "slug": "typescript-sdk/errors",
       "section": "tools",
       "kind": "official",
       "officialPath": "en/typescript-sdk/errors.md",
-      "size": 57228,
-      "lastSeenSha": "e717e8b876e1",
+      "size": 60151,
+      "lastSeenSha": "58f6d5f3aa7f",
       "translatedAtSha": "stub00000000",
       "webPath": "/docs/typescript-sdk/errors",
       "officialUrl": "https://www.daytona.io/docs/en/typescript-sdk/errors",
-      "contentSha": "e717e8b876e1"
+      "contentSha": "58f6d5f3aa7f"
     },
     {
       "slug": "typescript-sdk/execute-response",
@@ -2063,12 +2066,12 @@
       "section": "tools",
       "kind": "official",
       "officialPath": "en/typescript-sdk/sandbox.md",
-      "size": 32203,
-      "lastSeenSha": "e38b6083bd16",
+      "size": 32484,
+      "lastSeenSha": "9b38f2d73a4d",
       "translatedAtSha": "stub00000000",
       "webPath": "/docs/typescript-sdk/sandbox",
       "officialUrl": "https://www.daytona.io/docs/en/typescript-sdk/sandbox",
-      "contentSha": "e38b6083bd16"
+      "contentSha": "9b38f2d73a4d"
     },
     {
       "slug": "typescript-sdk/secret",

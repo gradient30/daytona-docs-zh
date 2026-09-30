@@ -20,6 +20,191 @@ export type UpdateLog = {
 
 export const UPDATE_LOGS: UpdateLog[] = [
   {
+    "id": "2026-09-30-d5725b",
+    "date": "2026-09-30",
+    "title": "官网对照：22 处变动",
+    "summary": "更新 /docs/api-keys；更新 /docs/architecture；更新 /docs/go-sdk/daytona；更新 /docs/go-sdk/errors；更新 /docs/go-sdk/types；更新 /docs/java-sdk/errors；更新 /docs/java-sdk/sandbox；更新 /docs/organizations",
+    "sourceHint": "https://www.daytona.io/docs/llms.txt · https://www.daytona.io/docs/sitemap-0.xml",
+    "changes": [
+      {
+        "kind": "updated",
+        "slug": "api-keys",
+        "title": "api-keys",
+        "webPath": "/docs/api-keys",
+        "officialUrl": "https://www.daytona.io/docs/en/api-keys",
+        "detail": "官网正文 1390fe9 → 5f60f43。中文站：/docs/api-keys。"
+      },
+      {
+        "kind": "updated",
+        "slug": "architecture",
+        "title": "architecture",
+        "webPath": "/docs/architecture",
+        "officialUrl": "https://www.daytona.io/docs/en/architecture",
+        "detail": "官网正文 990f008 → 1ecb821。中文站：/docs/architecture。"
+      },
+      {
+        "kind": "updated",
+        "slug": "go-sdk/daytona",
+        "title": "go-sdk/daytona",
+        "webPath": "/docs/go-sdk/daytona",
+        "officialUrl": "https://www.daytona.io/docs/en/go-sdk/daytona",
+        "detail": "官网正文 8f74c61 → 74cce37。中文站：/docs/go-sdk/daytona。"
+      },
+      {
+        "kind": "updated",
+        "slug": "go-sdk/errors",
+        "title": "go-sdk/errors",
+        "webPath": "/docs/go-sdk/errors",
+        "officialUrl": "https://www.daytona.io/docs/en/go-sdk/errors",
+        "detail": "官网正文 e94764e → 4b0a0b0。中文站：/docs/go-sdk/errors。"
+      },
+      {
+        "kind": "updated",
+        "slug": "go-sdk/types",
+        "title": "go-sdk/types",
+        "webPath": "/docs/go-sdk/types",
+        "officialUrl": "https://www.daytona.io/docs/en/go-sdk/types",
+        "detail": "官网正文 ba03112 → 2a58985。中文站：/docs/go-sdk/types。"
+      },
+      {
+        "kind": "updated",
+        "slug": "java-sdk/errors",
+        "title": "java-sdk/errors",
+        "webPath": "/docs/java-sdk/errors",
+        "officialUrl": "https://www.daytona.io/docs/en/java-sdk/errors",
+        "detail": "官网正文 98c29a3 → 1a97517。中文站：/docs/java-sdk/errors。"
+      },
+      {
+        "kind": "updated",
+        "slug": "java-sdk/sandbox",
+        "title": "java-sdk/sandbox",
+        "webPath": "/docs/java-sdk/sandbox",
+        "officialUrl": "https://www.daytona.io/docs/en/java-sdk/sandbox",
+        "detail": "官网正文 968ac0f → 85d0136。中文站：/docs/java-sdk/sandbox。"
+      },
+      {
+        "kind": "updated",
+        "slug": "organizations",
+        "title": "organizations",
+        "webPath": "/docs/organizations",
+        "officialUrl": "https://www.daytona.io/docs/en/organizations",
+        "detail": "官网正文 8c44676 → 4307b26。中文站：/docs/organizations。"
+      },
+      {
+        "kind": "updated",
+        "slug": "python-sdk/async/async-daytona",
+        "title": "python-sdk/async/async-daytona",
+        "webPath": "/docs/python-sdk/async/async-daytona",
+        "officialUrl": "https://www.daytona.io/docs/en/python-sdk/async/async-daytona",
+        "detail": "官网正文 aa5db26 → 4bb2a1c。中文站：/docs/python-sdk/async/async-daytona。"
+      },
+      {
+        "kind": "updated",
+        "slug": "python-sdk/async/async-sandbox",
+        "title": "python-sdk/async/async-sandbox",
+        "webPath": "/docs/python-sdk/async/async-sandbox",
+        "officialUrl": "https://www.daytona.io/docs/en/python-sdk/async/async-sandbox",
+        "detail": "官网正文 1303717 → b764b8c。中文站：/docs/python-sdk/async/async-sandbox。"
+      },
+      {
+        "kind": "updated",
+        "slug": "python-sdk/common/errors",
+        "title": "python-sdk/common/errors",
+        "webPath": "/docs/python-sdk/common/errors",
+        "officialUrl": "https://www.daytona.io/docs/en/python-sdk/common/errors",
+        "detail": "官网正文 7581917 → cff5999。中文站：/docs/python-sdk/common/errors。"
+      },
+      {
+        "kind": "updated",
+        "slug": "python-sdk/sync/daytona",
+        "title": "python-sdk/sync/daytona",
+        "webPath": "/docs/python-sdk/sync/daytona",
+        "officialUrl": "https://www.daytona.io/docs/en/python-sdk/sync/daytona",
+        "detail": "官网正文 c8797e5 → 3d3e233。中文站：/docs/python-sdk/sync/daytona。"
+      },
+      {
+        "kind": "updated",
+        "slug": "python-sdk/sync/sandbox",
+        "title": "python-sdk/sync/sandbox",
+        "webPath": "/docs/python-sdk/sync/sandbox",
+        "officialUrl": "https://www.daytona.io/docs/en/python-sdk/sync/sandbox",
+        "detail": "官网正文 c55f9b8 → 495b041。中文站：/docs/python-sdk/sync/sandbox。"
+      },
+      {
+        "kind": "updated",
+        "slug": "ruby-sdk/daytona",
+        "title": "ruby-sdk/daytona",
+        "webPath": "/docs/ruby-sdk/daytona",
+        "officialUrl": "https://www.daytona.io/docs/en/ruby-sdk/daytona",
+        "detail": "官网正文 2bd87e0 → e34b1b5。中文站：/docs/ruby-sdk/daytona。"
+      },
+      {
+        "kind": "updated",
+        "slug": "ruby-sdk/sandbox",
+        "title": "ruby-sdk/sandbox",
+        "webPath": "/docs/ruby-sdk/sandbox",
+        "officialUrl": "https://www.daytona.io/docs/en/ruby-sdk/sandbox",
+        "detail": "官网正文 5d0ea4c → 1a331ff。中文站：/docs/ruby-sdk/sandbox。"
+      },
+      {
+        "kind": "updated",
+        "slug": "sso",
+        "title": "sso",
+        "webPath": "/docs/sso",
+        "officialUrl": "https://www.daytona.io/docs/en/sso",
+        "detail": "官网正文 13b0ddd → 3899975。中文站：/docs/sso。"
+      },
+      {
+        "kind": "updated",
+        "slug": "tools/api",
+        "title": "tools/api",
+        "webPath": "/docs/tools/api",
+        "officialUrl": "https://www.daytona.io/docs/en/tools/api",
+        "detail": "官网正文 943cb21 → 24fb2af。中文站：/docs/tools/api。"
+      },
+      {
+        "kind": "updated",
+        "slug": "tools/cli",
+        "title": "tools/cli",
+        "webPath": "/docs/tools/cli",
+        "officialUrl": "https://www.daytona.io/docs/en/tools/cli",
+        "detail": "官网正文 0a3b024 → f365893。中文站：/docs/tools/cli。"
+      },
+      {
+        "kind": "updated",
+        "slug": "typescript-sdk/daytona",
+        "title": "typescript-sdk/daytona",
+        "webPath": "/docs/typescript-sdk/daytona",
+        "officialUrl": "https://www.daytona.io/docs/en/typescript-sdk/daytona",
+        "detail": "官网正文 286910e → 78cdf0d。中文站：/docs/typescript-sdk/daytona。"
+      },
+      {
+        "kind": "updated",
+        "slug": "typescript-sdk/errors",
+        "title": "typescript-sdk/errors",
+        "webPath": "/docs/typescript-sdk/errors",
+        "officialUrl": "https://www.daytona.io/docs/en/typescript-sdk/errors",
+        "detail": "官网正文 e717e8b → 58f6d5f。中文站：/docs/typescript-sdk/errors。"
+      },
+      {
+        "kind": "updated",
+        "slug": "typescript-sdk/sandbox",
+        "title": "typescript-sdk/sandbox",
+        "webPath": "/docs/typescript-sdk/sandbox",
+        "officialUrl": "https://www.daytona.io/docs/en/typescript-sdk/sandbox",
+        "detail": "官网正文 e38b608 → 9b38f2d。中文站：/docs/typescript-sdk/sandbox。"
+      },
+      {
+        "kind": "updated",
+        "slug": "vpn-connections",
+        "title": "vpn-connections",
+        "webPath": "/docs/vpn-connections",
+        "officialUrl": "https://www.daytona.io/docs/en/vpn-connections",
+        "detail": "官网正文 6bb9b92 → 3d59956。中文站：/docs/vpn-connections。"
+      }
+    ]
+  },
+  {
     id: "2026-09-28-sync",
     date: "2026-09-28",
     title: "官网对照：密钥权限与嵌套虚拟化",

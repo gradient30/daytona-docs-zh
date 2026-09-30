@@ -1,5 +1,255 @@
 [
   {
+    "id": "202609300106",
+    "capturedAt": "2026-09-30T01:06:18.575Z",
+    "summary": "22 处官网变动（新增 0 / 改动 22 / 删除 0）",
+    "llmsHash": "69a5fb5dae6e",
+    "changes": [
+      {
+        "kind": "modified",
+        "slug": "api-keys",
+        "title": "api-keys",
+        "officialUrl": "https://www.daytona.io/docs/en/api-keys",
+        "handbookHref": "/docs/api-keys",
+        "location": "侧栏 →「api-keys」· 本站 /docs/api-keys",
+        "prevHash": "1390fe91123c",
+        "nextHash": "5f60f436244e",
+        "note": "官网正文 1390fe9 → 5f60f43。中文站：/docs/api-keys。"
+      },
+      {
+        "kind": "modified",
+        "slug": "architecture",
+        "title": "architecture",
+        "officialUrl": "https://www.daytona.io/docs/en/architecture",
+        "handbookHref": "/docs/architecture",
+        "location": "侧栏 →「architecture」· 本站 /docs/architecture",
+        "prevHash": "990f008585e0",
+        "nextHash": "1ecb821d331d",
+        "note": "官网正文 990f008 → 1ecb821。中文站：/docs/architecture。"
+      },
+      {
+        "kind": "modified",
+        "slug": "go-sdk/daytona",
+        "title": "go-sdk/daytona",
+        "officialUrl": "https://www.daytona.io/docs/en/go-sdk/daytona",
+        "handbookHref": "/docs/go-sdk/daytona",
+        "location": "侧栏「工具」→「go-sdk/daytona」· 本站 /docs/go-sdk/daytona",
+        "prevHash": "8f74c619b17a",
+        "nextHash": "74cce376a221",
+        "note": "官网正文 8f74c61 → 74cce37。中文站：/docs/go-sdk/daytona。"
+      },
+      {
+        "kind": "modified",
+        "slug": "go-sdk/errors",
+        "title": "go-sdk/errors",
+        "officialUrl": "https://www.daytona.io/docs/en/go-sdk/errors",
+        "handbookHref": "/docs/go-sdk/errors",
+        "location": "侧栏「工具」→「go-sdk/errors」· 本站 /docs/go-sdk/errors",
+        "prevHash": "e94764e8b940",
+        "nextHash": "4b0a0b0db96a",
+        "note": "官网正文 e94764e → 4b0a0b0。中文站：/docs/go-sdk/errors。"
+      },
+      {
+        "kind": "modified",
+        "slug": "go-sdk/types",
+        "title": "go-sdk/types",
+        "officialUrl": "https://www.daytona.io/docs/en/go-sdk/types",
+        "handbookHref": "/docs/go-sdk/types",
+        "location": "侧栏「工具」→「go-sdk/types」· 本站 /docs/go-sdk/types",
+        "prevHash": "ba03112d6cb5",
+        "nextHash": "2a58985aa56c",
+        "note": "官网正文 ba03112 → 2a58985。中文站：/docs/go-sdk/types。"
+      },
+      {
+        "kind": "modified",
+        "slug": "java-sdk/errors",
+        "title": "java-sdk/errors",
+        "officialUrl": "https://www.daytona.io/docs/en/java-sdk/errors",
+        "handbookHref": "/docs/java-sdk/errors",
+        "location": "侧栏「工具」→「java-sdk/errors」· 本站 /docs/java-sdk/errors",
+        "prevHash": "98c29a31f350",
+        "nextHash": "1a97517456ca",
+        "note": "官网正文 98c29a3 → 1a97517。中文站：/docs/java-sdk/errors。"
+      },
+      {
+        "kind": "modified",
+        "slug": "java-sdk/sandbox",
+        "title": "java-sdk/sandbox",
+        "officialUrl": "https://www.daytona.io/docs/en/java-sdk/sandbox",
+        "handbookHref": "/docs/java-sdk/sandbox",
+        "location": "侧栏「工具」→「java-sdk/sandbox」· 本站 /docs/java-sdk/sandbox",
+        "prevHash": "968ac0f783eb",
+        "nextHash": "85d0136d2a4e",
+        "note": "官网正文 968ac0f → 85d0136。中文站：/docs/java-sdk/sandbox。"
+      },
+      {
+        "kind": "modified",
+        "slug": "organizations",
+        "title": "organizations",
+        "officialUrl": "https://www.daytona.io/docs/en/organizations",
+        "handbookHref": "/docs/organizations",
+        "location": "侧栏 →「organizations」· 本站 /docs/organizations",
+        "prevHash": "8c4467681810",
+        "nextHash": "4307b2634ea4",
+        "note": "官网正文 8c44676 → 4307b26。中文站：/docs/organizations。"
+      },
+      {
+        "kind": "modified",
+        "slug": "python-sdk/async/async-daytona",
+        "title": "python-sdk/async/async-daytona",
+        "officialUrl": "https://www.daytona.io/docs/en/python-sdk/async/async-daytona",
+        "handbookHref": "/docs/python-sdk/async/async-daytona",
+        "location": "侧栏「工具」→「python-sdk/async/async-daytona」· 本站 /docs/python-sdk/async/async-daytona",
+        "prevHash": "aa5db260e9fa",
+        "nextHash": "4bb2a1c296bd",
+        "note": "官网正文 aa5db26 → 4bb2a1c。中文站：/docs/python-sdk/async/async-daytona。"
+      },
+      {
+        "kind": "modified",
+        "slug": "python-sdk/async/async-sandbox",
+        "title": "python-sdk/async/async-sandbox",
+        "officialUrl": "https://www.daytona.io/docs/en/python-sdk/async/async-sandbox",
+        "handbookHref": "/docs/python-sdk/async/async-sandbox",
+        "location": "侧栏「工具」→「python-sdk/async/async-sandbox」· 本站 /docs/python-sdk/async/async-sandbox",
+        "prevHash": "1303717c1d71",
+        "nextHash": "b764b8c00fbb",
+        "note": "官网正文 1303717 → b764b8c。中文站：/docs/python-sdk/async/async-sandbox。"
+      },
+      {
+        "kind": "modified",
+        "slug": "python-sdk/common/errors",
+        "title": "python-sdk/common/errors",
+        "officialUrl": "https://www.daytona.io/docs/en/python-sdk/common/errors",
+        "handbookHref": "/docs/python-sdk/common/errors",
+        "location": "侧栏「工具」→「python-sdk/common/errors」· 本站 /docs/python-sdk/common/errors",
+        "prevHash": "75819171b7c9",
+        "nextHash": "cff5999bf495",
+        "note": "官网正文 7581917 → cff5999。中文站：/docs/python-sdk/common/errors。"
+      },
+      {
+        "kind": "modified",
+        "slug": "python-sdk/sync/daytona",
+        "title": "python-sdk/sync/daytona",
+        "officialUrl": "https://www.daytona.io/docs/en/python-sdk/sync/daytona",
+        "handbookHref": "/docs/python-sdk/sync/daytona",
+        "location": "侧栏「工具」→「python-sdk/sync/daytona」· 本站 /docs/python-sdk/sync/daytona",
+        "prevHash": "c8797e5b9b3f",
+        "nextHash": "3d3e233c275d",
+        "note": "官网正文 c8797e5 → 3d3e233。中文站：/docs/python-sdk/sync/daytona。"
+      },
+      {
+        "kind": "modified",
+        "slug": "python-sdk/sync/sandbox",
+        "title": "python-sdk/sync/sandbox",
+        "officialUrl": "https://www.daytona.io/docs/en/python-sdk/sync/sandbox",
+        "handbookHref": "/docs/python-sdk/sync/sandbox",
+        "location": "侧栏「工具」→「python-sdk/sync/sandbox」· 本站 /docs/python-sdk/sync/sandbox",
+        "prevHash": "c55f9b83b990",
+        "nextHash": "495b041c34c8",
+        "note": "官网正文 c55f9b8 → 495b041。中文站：/docs/python-sdk/sync/sandbox。"
+      },
+      {
+        "kind": "modified",
+        "slug": "ruby-sdk/daytona",
+        "title": "ruby-sdk/daytona",
+        "officialUrl": "https://www.daytona.io/docs/en/ruby-sdk/daytona",
+        "handbookHref": "/docs/ruby-sdk/daytona",
+        "location": "侧栏「工具」→「ruby-sdk/daytona」· 本站 /docs/ruby-sdk/daytona",
+        "prevHash": "2bd87e0a2606",
+        "nextHash": "e34b1b5016e3",
+        "note": "官网正文 2bd87e0 → e34b1b5。中文站：/docs/ruby-sdk/daytona。"
+      },
+      {
+        "kind": "modified",
+        "slug": "ruby-sdk/sandbox",
+        "title": "ruby-sdk/sandbox",
+        "officialUrl": "https://www.daytona.io/docs/en/ruby-sdk/sandbox",
+        "handbookHref": "/docs/ruby-sdk/sandbox",
+        "location": "侧栏「工具」→「ruby-sdk/sandbox」· 本站 /docs/ruby-sdk/sandbox",
+        "prevHash": "5d0ea4cebb9c",
+        "nextHash": "1a331ff989ed",
+        "note": "官网正文 5d0ea4c → 1a331ff。中文站：/docs/ruby-sdk/sandbox。"
+      },
+      {
+        "kind": "modified",
+        "slug": "sso",
+        "title": "sso",
+        "officialUrl": "https://www.daytona.io/docs/en/sso",
+        "handbookHref": "/docs/sso",
+        "location": "侧栏 →「sso」· 本站 /docs/sso",
+        "prevHash": "13b0dddc94a1",
+        "nextHash": "3899975ed873",
+        "note": "官网正文 13b0ddd → 3899975。中文站：/docs/sso。"
+      },
+      {
+        "kind": "modified",
+        "slug": "tools/api",
+        "title": "tools/api",
+        "officialUrl": "https://www.daytona.io/docs/en/tools/api",
+        "handbookHref": "/docs/tools/api",
+        "location": "侧栏「工具」→「tools/api」· 本站 /docs/tools/api",
+        "prevHash": "943cb210269d",
+        "nextHash": "24fb2aff47b8",
+        "note": "官网正文 943cb21 → 24fb2af。中文站：/docs/tools/api。"
+      },
+      {
+        "kind": "modified",
+        "slug": "tools/cli",
+        "title": "tools/cli",
+        "officialUrl": "https://www.daytona.io/docs/en/tools/cli",
+        "handbookHref": "/docs/tools/cli",
+        "location": "侧栏「工具」→「tools/cli」· 本站 /docs/tools/cli",
+        "prevHash": "0a3b0241bddf",
+        "nextHash": "f365893af1df",
+        "note": "官网正文 0a3b024 → f365893。中文站：/docs/tools/cli。"
+      },
+      {
+        "kind": "modified",
+        "slug": "typescript-sdk/daytona",
+        "title": "typescript-sdk/daytona",
+        "officialUrl": "https://www.daytona.io/docs/en/typescript-sdk/daytona",
+        "handbookHref": "/docs/typescript-sdk/daytona",
+        "location": "侧栏「工具」→「typescript-sdk/daytona」· 本站 /docs/typescript-sdk/daytona",
+        "prevHash": "286910e787c8",
+        "nextHash": "78cdf0d9eb08",
+        "note": "官网正文 286910e → 78cdf0d。中文站：/docs/typescript-sdk/daytona。"
+      },
+      {
+        "kind": "modified",
+        "slug": "typescript-sdk/errors",
+        "title": "typescript-sdk/errors",
+        "officialUrl": "https://www.daytona.io/docs/en/typescript-sdk/errors",
+        "handbookHref": "/docs/typescript-sdk/errors",
+        "location": "侧栏「工具」→「typescript-sdk/errors」· 本站 /docs/typescript-sdk/errors",
+        "prevHash": "e717e8b876e1",
+        "nextHash": "58f6d5f3aa7f",
+        "note": "官网正文 e717e8b → 58f6d5f。中文站：/docs/typescript-sdk/errors。"
+      },
+      {
+        "kind": "modified",
+        "slug": "typescript-sdk/sandbox",
+        "title": "typescript-sdk/sandbox",
+        "officialUrl": "https://www.daytona.io/docs/en/typescript-sdk/sandbox",
+        "handbookHref": "/docs/typescript-sdk/sandbox",
+        "location": "侧栏「工具」→「typescript-sdk/sandbox」· 本站 /docs/typescript-sdk/sandbox",
+        "prevHash": "e38b6083bd16",
+        "nextHash": "9b38f2d73a4d",
+        "note": "官网正文 e38b608 → 9b38f2d。中文站：/docs/typescript-sdk/sandbox。"
+      },
+      {
+        "kind": "modified",
+        "slug": "vpn-connections",
+        "title": "vpn-connections",
+        "officialUrl": "https://www.daytona.io/docs/en/vpn-connections",
+        "handbookHref": "/docs/vpn-connections",
+        "location": "侧栏 →「vpn-connections」· 本站 /docs/vpn-connections",
+        "prevHash": "6bb9b92b2ebd",
+        "nextHash": "3d59956293cd",
+        "note": "官网正文 6bb9b92 → 3d59956。中文站：/docs/vpn-connections。"
+      }
+    ]
+  },
+  {
     "id": "20260928T0527",
     "capturedAt": "2026-09-28T05:30:08Z",
     "summary": "7 处官网正文已重译；404 页补上中文",
