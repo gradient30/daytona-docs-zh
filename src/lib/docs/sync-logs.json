@@ -1,5 +1,24 @@
 [
   {
+    "id": "202609301428",
+    "capturedAt": "2026-09-30T14:28:34.222Z",
+    "summary": "1 处官网变动（新增 1 / 改动 0 / 删除 0）",
+    "llmsHash": "dbdacdc51ef1",
+    "changes": [
+      {
+        "kind": "added",
+        "slug": "guides/convex/convex-ai-app-builder-sandbox",
+        "title": "convex-ai-app-builder-sandbox",
+        "officialUrl": "https://www.daytona.io/docs/en/guides/convex/convex-ai-app-builder-sandbox",
+        "handbookHref": "/docs/guides/convex/convex-ai-app-builder-sandbox",
+        "location": "侧栏「指南」→「convex-ai-app-builder-sandbox」· 本站 /docs/guides/convex/convex-ai-app-builder-sandbox",
+        "prevHash": null,
+        "nextHash": "cddcdf397c21",
+        "note": "官网新增页面（哈希 cddcdf397c21）。中文站位置：/docs/guides/convex/convex-ai-app-builder-sandbox，已自动建档待补译。"
+      }
+    ]
+  },
+  {
     "id": "202609300106",
     "capturedAt": "2026-09-30T01:06:18.575Z",
     "summary": "22 处官网变动（新增 0 / 改动 22 / 删除 0）",

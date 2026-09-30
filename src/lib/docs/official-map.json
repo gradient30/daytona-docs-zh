@@ -1,7 +1,7 @@
 {
   "capturedAt": "2026-09-30",
   "officialRef": "docs-site",
-  "docsTreeSha": "da40e447b638",
+  "docsTreeSha": "2c7ee2ac0cd5",
   "source": "https://www.daytona.io/docs/sitemap-0.xml",
   "docs": [
     {
@@ -2132,6 +2132,18 @@
       "contentSha": "8e83ecb9f715",
       "webPath": "/docs/404",
       "officialUrl": "https://www.daytona.io/docs/en/404"
+    },
+    {
+      "slug": "guides/convex/convex-ai-app-builder-sandbox",
+      "section": "guides",
+      "kind": "official",
+      "officialPath": "en/guides/convex/convex-ai-app-builder-sandbox.md",
+      "size": 18404,
+      "lastSeenSha": "cddcdf397c21",
+      "translatedAtSha": null,
+      "contentSha": "cddcdf397c21",
+      "webPath": "/docs/guides/convex/convex-ai-app-builder-sandbox",
+      "officialUrl": "https://www.daytona.io/docs/en/guides/convex/convex-ai-app-builder-sandbox"
     }
   ],
   "releases": []

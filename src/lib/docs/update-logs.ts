@@ -20,6 +20,23 @@ export type UpdateLog = {
 
 export const UPDATE_LOGS: UpdateLog[] = [
   {
+    "id": "2026-09-30-d892b0",
+    "date": "2026-09-30",
+    "title": "官网对照：1 处变动",
+    "summary": "新增 /docs/guides/convex/convex-ai-app-builder-sandbox",
+    "sourceHint": "https://www.daytona.io/docs/llms.txt · https://www.daytona.io/docs/sitemap-0.xml",
+    "changes": [
+      {
+        "kind": "added",
+        "slug": "guides/convex/convex-ai-app-builder-sandbox",
+        "title": "convex-ai-app-builder-sandbox",
+        "webPath": "/docs/guides/convex/convex-ai-app-builder-sandbox",
+        "officialUrl": "https://www.daytona.io/docs/en/guides/convex/convex-ai-app-builder-sandbox",
+        "detail": "官网新增页面（哈希 cddcdf397c21）。中文站位置：/docs/guides/convex/convex-ai-app-builder-sandbox，已自动建档待补译。"
+      }
+    ]
+  },
+  {
     "id": "2026-09-30-d5725b",
     "date": "2026-09-30",
     "title": "官网对照：22 处变动",
