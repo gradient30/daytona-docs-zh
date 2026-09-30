@@ -37,7 +37,7 @@ API 是基于 NestJS 的 REST 服务，是平台操作的主入口：认证、�
 
 - **Redis**：缓存、会话、分布式锁
 - **PostgreSQL**：元数据与配置的主存储
-- **Auth0 / OIDC**：用 OpenID Connect 认证用户和服务。组织也可以用自己的 OIDC 身份提供商配 [SSO](/docs/sso)。API 按组织做多租户：每个沙箱、快照、卷都属于一个组织，访问控制打在组织边界上
+- **Auth0 / OIDC**：用 OpenID Connect 认证用户和服务。组织也可以用自己的 SAML 或 OIDC 身份提供商配 [SSO](/docs/sso)。API 按组织做多租户：每个沙箱、快照、卷都属于一个组织，访问控制打在组织边界上
 - **SMTP**：组织邀请、账号通知、告警邮件
 - [沙箱管理器](#sandbox-manager)：把沙箱调度到 runner，对账状态，执行生命周期策略
 - **PostHog**：平台分析与用量指标
