@@ -20,6 +20,23 @@ export type UpdateLog = {
 
 export const UPDATE_LOGS: UpdateLog[] = [
   {
+    "id": "2026-10-05-a0cbb0",
+    "date": "2026-10-05",
+    "title": "官网对照：1 处变动",
+    "summary": "更新 /docs/mount-external-storage",
+    "sourceHint": "https://www.daytona.io/docs/llms.txt · https://www.daytona.io/docs/sitemap-0.xml",
+    "changes": [
+      {
+        "kind": "updated",
+        "slug": "mount-external-storage",
+        "title": "mount-external-storage",
+        "webPath": "/docs/mount-external-storage",
+        "officialUrl": "https://www.daytona.io/docs/en/mount-external-storage",
+        "detail": "官网正文 52876ea → a932b3d。中文站：/docs/mount-external-storage。"
+      }
+    ]
+  },
+  {
     "id": "2026-09-30-d892b0",
     "date": "2026-09-30",
     "title": "官网对照：1 处变动",

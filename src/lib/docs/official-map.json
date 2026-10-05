@@ -1,7 +1,7 @@
 {
   "capturedAt": "2026-10-05",
   "officialRef": "docs-site",
-  "docsTreeSha": "2c7ee2ac0cd5",
+  "docsTreeSha": "72caa6153e5b",
   "source": "https://www.daytona.io/docs/sitemap-0.xml",
   "docs": [
     {
@@ -399,11 +399,12 @@
       "section": "runtime",
       "kind": "official",
       "officialPath": "en/mount-external-storage.md",
-      "size": 189088,
-      "lastSeenSha": "52876eaed465",
+      "size": 209025,
+      "lastSeenSha": "a932b3de72f2",
       "translatedAtSha": "52876eaed465",
       "webPath": "/docs/mount-external-storage",
-      "officialUrl": "https://www.daytona.io/docs/en/mount-external-storage"
+      "officialUrl": "https://www.daytona.io/docs/en/mount-external-storage",
+      "contentSha": "a932b3de72f2"
     },
     {
       "slug": "secrets",

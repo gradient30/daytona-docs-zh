@@ -1,5 +1,24 @@
 [
   {
+    "id": "202610051639",
+    "capturedAt": "2026-10-05T16:39:38.173Z",
+    "summary": "1 处官网变动（新增 0 / 改动 1 / 删除 0）",
+    "llmsHash": "fffd67c0e897",
+    "changes": [
+      {
+        "kind": "modified",
+        "slug": "mount-external-storage",
+        "title": "mount-external-storage",
+        "officialUrl": "https://www.daytona.io/docs/en/mount-external-storage",
+        "handbookHref": "/docs/mount-external-storage",
+        "location": "侧栏 →「mount-external-storage」· 本站 /docs/mount-external-storage",
+        "prevHash": "52876eaed465",
+        "nextHash": "a932b3de72f2",
+        "note": "官网正文 52876ea → a932b3d。中文站：/docs/mount-external-storage。"
+      }
+    ]
+  },
+  {
     "id": "202609301428",
     "capturedAt": "2026-09-30T14:28:34.222Z",
     "summary": "1 处官网变动（新增 1 / 改动 0 / 删除 0）",
