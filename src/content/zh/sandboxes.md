@@ -107,7 +107,13 @@ const sandbox = await new Daytona().create({
 
 ## GPU 沙箱 {#gpu-sandboxes}
 
-NVIDIA / AMD GPU，用于推理、微调、vLLM / SGLang 等。可配 [Spot GPU](#spot-gpu-sandboxes)。配额见组织用量。
+NVIDIA / AMD GPU，用于推理、微调、vLLM / SGLang 等。可配 [Spot GPU](#spot-gpu-sandboxes)。
+
+共享区域上的 GPU 沙箱跑在逻辑上的 [Earth 区域](/docs/regions#earth-region)：平台会改选共享区域，并忽略请求里的 target，报错里的区域名是 `earth`。按需 GPU 只计 Earth 的 GPU 配额，vCPU / 内存 / 磁盘不计入等级计算池，不必为了 GPU 升到 Tier 3。Spot GPU 需要 Tier 2 或更高。配额见[限额](/docs/limits)。
+
+## Spot GPU 沙箱 {#spot-gpu-sandboxes}
+
+Spot GPU 用可回收容量换更低成本，可能被回收。需要 Tier 2 或更高，配额同样在 Earth 区域。
 
 ## 临时沙箱 {#ephemeral-sandboxes}
 

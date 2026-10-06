@@ -2,31 +2,31 @@
 
 出站域名、CIDR 与预览鉴权。
 
-Network limits control outbound internet access from sandboxes. Each sandbox runs behind a firewall that restricts which external IP addresses and domains it can reach, preventing untrusted code from exfiltrating data or contacting arbitrary hosts.
+网络限制控制沙箱的出站互联网访问。每个沙箱后面有防火墙，限制能连到哪些外部 IP 和域名，避免不受信任的代码外传数据或随意连主机。
 
-Default network policies are applied automatically based on your organization's tier. You can also configure access per sandbox using these parameters:
+默认网络策略按组织等级自动套用。也可以按沙箱配置：
 
-- **`networkAllowList`** for IPv4 CIDR ranges
-- **`domainAllowList`** for domains and wildcard domains
-- **`networkBlockAll`** to block all outbound traffic
-- **`outboundProxyUrl`** to route sandbox HTTP(S) traffic through an upstream proxy
+- **`networkAllowList`**：IPv4 CIDR
+- **`domainAllowList`**：域名和通配域名
+- **`networkBlockAll`**：阻断全部出站
+- **`outboundProxyUrl`**：把沙箱 HTTP(S) 转到上游代理
 
-Set firewall parameters when [creating a sandbox](#create-sandboxes-with-network-restrictions) or [update them while the sandbox is running](#update-network-settings-while-a-sandbox-is-running). Set [**`outboundProxyUrl`**](#outbound-proxy) only at create time.
+创建沙箱时设置防火墙参数，或在[沙箱运行中更新](#update-network-settings-while-a-sandbox-is-running)。[**`outboundProxyUrl`**](#outbound-proxy) 只能在创建时设置。
 
 ## 按套餐的网络限制 {#tier-based-network-restrictions}
 
-Network limits are automatically applied to sandboxes based on your organization's billing tier. This provides secure and controlled internet access for development environments:
+网络限制按组织计费等级自动套到沙箱上，给开发环境受控的出站访问：
 
-- **Tier 1 & Tier 2**: Network access is restricted and cannot be overridden at the sandbox level. Organization-level network restrictions take precedence over sandbox-level settings. Even with [`networkAllowList`](#create-sandboxes-with-network-restrictions) or [`domainAllowList`](#create-sandboxes-with-network-restrictions) specified when creating a sandbox, the organization's network restrictions still apply. [Essential services](#essential-services) remain reachable.
-- **Tier 3 & Tier 4**: Full internet access is available by default, including [essential services](#essential-services). You can set custom network settings per sandbox. A sandbox-level `networkAllowList`, `domainAllowList`, or `networkBlockAll` replaces the default policy for that sandbox. Enforcement is strict: only destinations you list are allowed (or none, when blocking all). Essential services do not bypass a sandbox allow list or block-all setting.
+- **Tier 1 与 Tier 2**：出站受限，不能在沙箱级覆盖。组织级限制优先于沙箱级设置。即便创建时写了 [`networkAllowList`](#create-sandboxes-with-network-restrictions) 或 [`domainAllowList`](#create-sandboxes-with-network-restrictions)，组织限制仍然生效。[基础服务](#essential-services)仍然可达。
+- **Tier 3 与 Tier 4**：默认全网可达，含[基础服务](#essential-services)。可以按沙箱自定义。沙箱级 `networkAllowList`、`domainAllowList` 或 `networkBlockAll` 会替换该沙箱的默认策略，执行是严格的：只放行你列出的目的地（全阻断则一个都不放）。基础服务不能绕过沙箱允许列表或全阻断。
 
 ## 创建带网络限制的沙箱 {#create-sandboxes-with-network-restrictions}
 
-Create a sandbox with network restrictions.
+创建带网络限制的沙箱。
 
-Set `networkAllowList`, `domainAllowList`, or `networkBlockAll` when creating a sandbox to control which external hosts the sandbox can reach. The options are mutually exclusive. Set at most one non-empty value. Sending a conflicting combination returns a `400` error. Empty-string allow lists count as unset and never conflict.
+创建时设置 `networkAllowList`、`domainAllowList` 或 `networkBlockAll`，控制沙箱能连哪些外部主机。三者互斥，最多设一个非空值。冲突组合返回 `400`。空字符串允许列表视为未设置，不会冲突。
 
-On Tier 3 and Tier 4, setting an allow list or `networkBlockAll` at create time applies that policy for the sandbox. Destinations not on the allow list are blocked, including [essential services](#essential-services) such as GitHub, npm, and PyPI, unless you add those domains or CIDRs yourself.
+在 Tier 3 和 Tier 4，创建时设置允许列表或 `networkBlockAll` 会对该沙箱生效。不在列表上的目的地会被拦，包括 GitHub、npm、PyPI 等[基础服务](#essential-services)，除非你自己把这些域名或 CIDR 加进去。
 
 ```python
 from daytona import CreateSandboxFromSnapshotParams, Daytona

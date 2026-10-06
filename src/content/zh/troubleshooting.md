@@ -863,3 +863,6 @@ sandbox.start(60);
 
 > 英文原文：https://www.daytona.io/docs/en/troubleshooting
 > 本站位置：`/docs/troubleshooting`
+
+> 2026-10-06 对照：创建 GPU 沙箱若返回 `400` / `DaytonaBadRequestError`，或提示 GPU 上限（有时 `Maximum allowed: 0`），或一直停在 `Pending Build`，或已启动沙箱里 CUDA 报设备不可用（如错误 `999`）：共享区域的 GPU 沙箱在 [Earth 区域](/docs/regions#earth-region)，报错区域名是 `earth`。组织在 Earth 没有 GPU 配额，或已有/排队中的 GPU 沙箱已占满配额。`Pending Build` 是在等对应型号的 GPU 容量。已启动沙箱也可能落在对 CUDA 不健康的 GPU 上。到 [Limits ↗](https://app.daytona.io/dashboard/limits) 核对 Earth GPU 配额，或换型号 / 联系 support@daytona.io。
+

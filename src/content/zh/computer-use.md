@@ -2,17 +2,17 @@
 
 鼠标、键盘、截图与桌面自动化。
 
-Computer Use enables programmatic control of desktop environments within sandboxes. It provides mouse, keyboard, screenshot, screen recording, and display operations for automating GUI interactions and testing desktop applications.
+Computer Use 用程序控制沙箱里的桌面：鼠标、键盘、截图、录屏和显示操作，用来自动化 GUI、测试桌面应用。
 
-Computer Use and [VNC](/docs/vnc-access) work together to enable both manual and automated desktop interactions. VNC provides the visual interface for users to manually interact with the desktop, while Computer Use provides the programmatic API for AI agents to automate operations.
+Computer Use 与 [VNC](/docs/vnc-access) 配合。VNC 给人看桌面，Computer Use 给智能体自动化 API。
 
-Computer Use is available for **Linux** and **Windows** through Daytona. For **macOS** sandboxes and Computer Use, use [use.computer ↗](https://use.computer).
+Daytona 上的 Computer Use 覆盖 **Linux** 和 **Windows**。**macOS** 沙箱与 Computer Use 见[macOS 沙箱](/docs/sandboxes#macos-sandboxes)。
 
-> macOS sandboxes are available at [use.computer ↗](https://use.computer). See the [use.computer API documentation ↗](https://use.computer/docs) to create and control a macOS sandbox.
+> 默认快照已带 Computer Use 所需软件包。自定义镜像或自定义快照（含自定义 [Linux VM 快照](/docs/snapshots#vm-snapshots)）需要在镜像里安装 [VNC 与桌面软件包](/docs/vnc-access#required-packages)。
 
 ## 启动计算机使用 {#start-computer-use}
 
-Start all computer use processes (Xvfb, xfce4, x11vnc, novnc) in the Sandbox.
+启动沙箱里全部 Computer Use 进程（Xvfb、xfce4、x11vnc、novnc）。
 
 ```python
 result = sandbox.computer_use.start()

@@ -20,6 +20,71 @@ export type UpdateLog = {
 
 export const UPDATE_LOGS: UpdateLog[] = [
   {
+    "id": "2026-10-06-fabffd",
+    "date": "2026-10-06",
+    "title": "官网对照：7 处变动",
+    "summary": "更新 /docs/computer-use；更新 /docs/limits；更新 /docs/network-limits；更新 /docs/sandboxes；更新 /docs/troubleshooting；更新 /docs/vnc-access；更新 /docs/web-terminal",
+    "sourceHint": "https://www.daytona.io/docs/llms.txt · https://www.daytona.io/docs/sitemap-0.xml",
+    "changes": [
+      {
+        "kind": "updated",
+        "slug": "computer-use",
+        "title": "计算机使用",
+        "webPath": "/docs/computer-use",
+        "officialUrl": "https://www.daytona.io/docs/en/computer-use",
+        "detail": "macOS 入口改为沙箱文档锚点；自定义镜像/自定义快照（含 Linux VM 快照）需自行安装 VNC 与桌面软件包。官网正文 e4e9489 → 6a26c05。中文站：/docs/computer-use。"
+      },
+      {
+        "kind": "updated",
+        "slug": "limits",
+        "title": "限额",
+        "webPath": "/docs/limits",
+        "officialUrl": "https://www.daytona.io/docs/en/limits",
+        "detail": "GPU 沙箱改计 Earth 区域单独配额，vCPU/内存/磁盘不占等级计算池；Spot GPU 需要 Tier 2+；按需 GPU 不必升到 Tier 3。官网正文 2d2a821 → 4bd0118。中文站：/docs/limits。"
+      },
+      {
+        "kind": "updated",
+        "slug": "network-limits",
+        "title": "网络限额",
+        "webPath": "/docs/network-limits",
+        "officialUrl": "https://www.daytona.io/docs/en/network-limits",
+        "detail": "重译出站防火墙参数与等级策略：Tier 1/2 不能在沙箱级覆盖；Tier 3/4 允许列表或全阻断会挡住基础服务，除非自己列入。outboundProxyUrl 仍只能创建时设置。官网正文 bc1fc63 → ac1dd8f。中文站：/docs/network-limits。"
+      },
+      {
+        "kind": "updated",
+        "slug": "sandboxes",
+        "title": "沙箱",
+        "webPath": "/docs/sandboxes",
+        "officialUrl": "https://www.daytona.io/docs/en/sandboxes",
+        "detail": "补上 Earth 区域 GPU 配额说明，以及 Spot GPU 需要 Tier 2 或更高。官网正文 6b33ce5 → c152a0c。中文站：/docs/sandboxes。"
+      },
+      {
+        "kind": "updated",
+        "slug": "troubleshooting",
+        "title": "故障排查",
+        "webPath": "/docs/troubleshooting",
+        "officialUrl": "https://www.daytona.io/docs/en/troubleshooting",
+        "detail": "补 GPU 创建 400、配额为 0、Pending Build 与 CUDA 999：共享区域报错区域名为 earth。官网正文 b93ee4e → 86aa5de。中文站：/docs/troubleshooting。"
+      },
+      {
+        "kind": "updated",
+        "slug": "vnc-access",
+        "title": "VNC 访问",
+        "webPath": "/docs/vnc-access",
+        "officialUrl": "https://www.daytona.io/docs/en/vnc-access",
+        "detail": "要求改为默认快照；自定义镜像和自定义 Linux VM 快照需装包。Linux VM 快照不支持 Dockerfile，可在运行中的 VM 里装包再做快照。官网正文 ea8511a → 0919b87。中文站：/docs/vnc-access。"
+      },
+      {
+        "kind": "updated",
+        "slug": "web-terminal",
+        "title": "Web 终端",
+        "webPath": "/docs/web-terminal",
+        "officialUrl": "https://www.daytona.io/docs/en/web-terminal",
+        "detail": "安全模型改为凭证制：public 不作用于终端。签名预览 URL 把令牌放在 URL 里；标准预览 URL 用 x-daytona-preview-token，且令牌不可撤销。官网正文 28c85c5 → 9b06d80。中文站：/docs/web-terminal。"
+      }
+    ]
+  },
+  {
     "id": "2026-10-05-a0cbb0",
     "date": "2026-10-05",
     "title": "官网对照：1 处变动",

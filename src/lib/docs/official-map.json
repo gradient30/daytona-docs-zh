@@ -1,7 +1,7 @@
 {
-  "capturedAt": "2026-10-05",
+  "capturedAt": "2026-10-06",
   "officialRef": "docs-site",
-  "docsTreeSha": "72caa6153e5b",
+  "docsTreeSha": "fabffd9bf6b4",
   "source": "https://www.daytona.io/docs/sitemap-0.xml",
   "docs": [
     {
@@ -64,12 +64,12 @@
       "section": "start",
       "kind": "official",
       "officialPath": "en/sandboxes.md",
-      "size": 104819,
-      "lastSeenSha": "6b33ce500d7d",
-      "translatedAtSha": "6b33ce500d7d",
+      "size": 104945,
+      "lastSeenSha": "c152a0c43dd9",
+      "translatedAtSha": "c152a0c43dd9",
       "webPath": "/docs/sandboxes",
       "officialUrl": "https://www.daytona.io/docs/en/sandboxes",
-      "contentSha": "6b33ce500d7d"
+      "contentSha": "c152a0c43dd9"
     },
     {
       "slug": "snapshots",
@@ -189,9 +189,9 @@
       "section": "platform",
       "kind": "official",
       "officialPath": "en/limits.md",
-      "size": 12678,
-      "lastSeenSha": "2d2a8211004b",
-      "translatedAtSha": "2d2a8211004b",
+      "size": 13325,
+      "lastSeenSha": "4bd01188b4d5",
+      "translatedAtSha": "4bd01188b4d5",
       "webPath": "/docs/limits",
       "officialUrl": "https://www.daytona.io/docs/en/limits"
     },
@@ -200,12 +200,12 @@
       "section": "platform",
       "kind": "official",
       "officialPath": "en/troubleshooting.md",
-      "size": 47673,
-      "lastSeenSha": "b93ee4eec16a",
-      "translatedAtSha": "b93ee4eec16a",
+      "size": 47788,
+      "lastSeenSha": "86aa5deaa35f",
+      "translatedAtSha": "86aa5deaa35f",
       "webPath": "/docs/troubleshooting",
       "officialUrl": "https://www.daytona.io/docs/en/troubleshooting",
-      "contentSha": "b93ee4eec16a"
+      "contentSha": "86aa5deaa35f"
     },
     {
       "slug": "playground",
@@ -278,9 +278,9 @@
       "section": "runtime",
       "kind": "official",
       "officialPath": "en/computer-use.md",
-      "size": 53544,
-      "lastSeenSha": "e4e9489fd881",
-      "translatedAtSha": "e4e9489fd881",
+      "size": 53742,
+      "lastSeenSha": "6a26c05de9c8",
+      "translatedAtSha": "6a26c05de9c8",
       "webPath": "/docs/computer-use",
       "officialUrl": "https://www.daytona.io/docs/en/computer-use"
     },
@@ -333,9 +333,9 @@
       "section": "runtime",
       "kind": "official",
       "officialPath": "en/web-terminal.md",
-      "size": 2766,
-      "lastSeenSha": "28c85c51ee81",
-      "translatedAtSha": "28c85c51ee81",
+      "size": 3401,
+      "lastSeenSha": "9b06d802217a",
+      "translatedAtSha": "9b06d802217a",
       "webPath": "/docs/web-terminal",
       "officialUrl": "https://www.daytona.io/docs/en/web-terminal"
     },
@@ -344,9 +344,9 @@
       "section": "runtime",
       "kind": "official",
       "officialPath": "en/vnc-access.md",
-      "size": 8049,
-      "lastSeenSha": "ea8511a9760c",
-      "translatedAtSha": "ea8511a9760c",
+      "size": 8603,
+      "lastSeenSha": "0919b8726178",
+      "translatedAtSha": "0919b8726178",
       "webPath": "/docs/vnc-access",
       "officialUrl": "https://www.daytona.io/docs/en/vnc-access"
     },
@@ -479,9 +479,9 @@
       "section": "ops",
       "kind": "official",
       "officialPath": "en/network-limits.md",
-      "size": 54075,
-      "lastSeenSha": "bc1fc632e2f1",
-      "translatedAtSha": "bc1fc632e2f1",
+      "size": 55975,
+      "lastSeenSha": "ac1dd8f1a377",
+      "translatedAtSha": "ac1dd8f1a377",
       "webPath": "/docs/network-limits",
       "officialUrl": "https://www.daytona.io/docs/en/network-limits"
     },
