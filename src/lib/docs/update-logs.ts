@@ -20,6 +20,159 @@ export type UpdateLog = {
 
 export const UPDATE_LOGS: UpdateLog[] = [
   {
+    "id": "2026-10-07-a549ad",
+    "date": "2026-10-07",
+    "title": "官网对照：18 处变动",
+    "summary": "更新 /；新增 /docs/acceptable-use；更新 /docs/audit-logs；更新 /docs/computer-use；更新 /docs/declarative-builder；更新 /docs/file-system-operations；更新 /docs/language-server-protocol；更新 /docs/limits",
+    "sourceHint": "https://www.daytona.io/docs/llms.txt · https://www.daytona.io/docs/sitemap-0.xml",
+    "changes": [
+      {
+        "kind": "updated",
+        "slug": "index",
+        "title": "index",
+        "webPath": "/",
+        "officialUrl": "https://www.daytona.io/docs/",
+        "detail": "官网正文 f1a498f → 8f2d385。中文站：/。"
+      },
+      {
+        "kind": "added",
+        "slug": "acceptable-use",
+        "title": "acceptable-use",
+        "webPath": "/docs/acceptable-use",
+        "officialUrl": "https://www.daytona.io/docs/en/acceptable-use",
+        "detail": "官网新增页面（哈希 e01e5d18b057）。中文站位置：/docs/acceptable-use，已自动建档待补译。"
+      },
+      {
+        "kind": "updated",
+        "slug": "audit-logs",
+        "title": "audit-logs",
+        "webPath": "/docs/audit-logs",
+        "officialUrl": "https://www.daytona.io/docs/en/audit-logs",
+        "detail": "官网正文 2fa6176 → 00007d0。中文站：/docs/audit-logs。"
+      },
+      {
+        "kind": "updated",
+        "slug": "computer-use",
+        "title": "computer-use",
+        "webPath": "/docs/computer-use",
+        "officialUrl": "https://www.daytona.io/docs/en/computer-use",
+        "detail": "官网正文 6a26c05 → 7a5ba7c。中文站：/docs/computer-use。"
+      },
+      {
+        "kind": "updated",
+        "slug": "declarative-builder",
+        "title": "declarative-builder",
+        "webPath": "/docs/declarative-builder",
+        "officialUrl": "https://www.daytona.io/docs/en/declarative-builder",
+        "detail": "官网正文 4b83f68 → 978332d。中文站：/docs/declarative-builder。"
+      },
+      {
+        "kind": "updated",
+        "slug": "file-system-operations",
+        "title": "file-system-operations",
+        "webPath": "/docs/file-system-operations",
+        "officialUrl": "https://www.daytona.io/docs/en/file-system-operations",
+        "detail": "官网正文 80fe075 → c546686。中文站：/docs/file-system-operations。"
+      },
+      {
+        "kind": "updated",
+        "slug": "language-server-protocol",
+        "title": "language-server-protocol",
+        "webPath": "/docs/language-server-protocol",
+        "officialUrl": "https://www.daytona.io/docs/en/language-server-protocol",
+        "detail": "官网正文 9dffc9d → 7fa62a8。中文站：/docs/language-server-protocol。"
+      },
+      {
+        "kind": "updated",
+        "slug": "limits",
+        "title": "limits",
+        "webPath": "/docs/limits",
+        "officialUrl": "https://www.daytona.io/docs/en/limits",
+        "detail": "官网正文 4bd0118 → ecda79d。中文站：/docs/limits。"
+      },
+      {
+        "kind": "updated",
+        "slug": "observability/otel-collection",
+        "title": "observability/otel-collection",
+        "webPath": "/docs/observability/otel-collection",
+        "officialUrl": "https://www.daytona.io/docs/en/observability/otel-collection",
+        "detail": "官网正文 6a7f646 → 2c75120。中文站：/docs/observability/otel-collection。"
+      },
+      {
+        "kind": "updated",
+        "slug": "organizations",
+        "title": "organizations",
+        "webPath": "/docs/organizations",
+        "officialUrl": "https://www.daytona.io/docs/en/organizations",
+        "detail": "官网正文 4307b26 → e9b6526。中文站：/docs/organizations。"
+      },
+      {
+        "kind": "updated",
+        "slug": "persistence",
+        "title": "persistence",
+        "webPath": "/docs/persistence",
+        "officialUrl": "https://www.daytona.io/docs/en/persistence",
+        "detail": "官网正文 298711f → 02ca563。中文站：/docs/persistence。"
+      },
+      {
+        "kind": "updated",
+        "slug": "process-code-execution",
+        "title": "process-code-execution",
+        "webPath": "/docs/process-code-execution",
+        "officialUrl": "https://www.daytona.io/docs/en/process-code-execution",
+        "detail": "官网正文 d6ee219 → 1a2fd79。中文站：/docs/process-code-execution。"
+      },
+      {
+        "kind": "updated",
+        "slug": "pty",
+        "title": "pty",
+        "webPath": "/docs/pty",
+        "officialUrl": "https://www.daytona.io/docs/en/pty",
+        "detail": "官网正文 081df58 → 12a57f0。中文站：/docs/pty。"
+      },
+      {
+        "kind": "updated",
+        "slug": "sandboxes",
+        "title": "sandboxes",
+        "webPath": "/docs/sandboxes",
+        "officialUrl": "https://www.daytona.io/docs/en/sandboxes",
+        "detail": "官网正文 c152a0c → 46a0344。中文站：/docs/sandboxes。"
+      },
+      {
+        "kind": "updated",
+        "slug": "scale",
+        "title": "scale",
+        "webPath": "/docs/scale",
+        "officialUrl": "https://www.daytona.io/docs/en/scale",
+        "detail": "官网正文 f6c7762 → 20dd685。中文站：/docs/scale。"
+      },
+      {
+        "kind": "updated",
+        "slug": "snapshots",
+        "title": "snapshots",
+        "webPath": "/docs/snapshots",
+        "officialUrl": "https://www.daytona.io/docs/en/snapshots",
+        "detail": "官网正文 1ebe7b1 → 19e20c2。中文站：/docs/snapshots。"
+      },
+      {
+        "kind": "updated",
+        "slug": "troubleshooting",
+        "title": "troubleshooting",
+        "webPath": "/docs/troubleshooting",
+        "officialUrl": "https://www.daytona.io/docs/en/troubleshooting",
+        "detail": "官网正文 86aa5de → fc858c0。中文站：/docs/troubleshooting。"
+      },
+      {
+        "kind": "updated",
+        "slug": "vpn-connections",
+        "title": "vpn-connections",
+        "webPath": "/docs/vpn-connections",
+        "officialUrl": "https://www.daytona.io/docs/en/vpn-connections",
+        "detail": "官网正文 3d59956 → c89f8ee。中文站：/docs/vpn-connections。"
+      }
+    ]
+  },
+  {
     "id": "2026-10-06-fabffd",
     "date": "2026-10-06",
     "title": "官网对照：7 处变动",

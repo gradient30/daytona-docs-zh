@@ -1,5 +1,211 @@
 [
   {
+    "id": "202610071457",
+    "capturedAt": "2026-10-07T14:57:19.091Z",
+    "summary": "18 处官网变动（新增 1 / 改动 17 / 删除 0）",
+    "llmsHash": "c63ffbc535f7",
+    "changes": [
+      {
+        "kind": "modified",
+        "slug": "index",
+        "title": "index",
+        "officialUrl": "https://www.daytona.io/docs/",
+        "handbookHref": "/",
+        "location": "侧栏 →「index」· 本站 /",
+        "prevHash": "f1a498fdf300",
+        "nextHash": "8f2d38522f6a",
+        "note": "官网正文 f1a498f → 8f2d385。中文站：/。"
+      },
+      {
+        "kind": "added",
+        "slug": "acceptable-use",
+        "title": "acceptable-use",
+        "officialUrl": "https://www.daytona.io/docs/en/acceptable-use",
+        "handbookHref": "/docs/acceptable-use",
+        "location": "侧栏 →「acceptable-use」· 本站 /docs/acceptable-use",
+        "prevHash": null,
+        "nextHash": "e01e5d18b057",
+        "note": "官网新增页面（哈希 e01e5d18b057）。中文站位置：/docs/acceptable-use，已自动建档待补译。"
+      },
+      {
+        "kind": "modified",
+        "slug": "audit-logs",
+        "title": "audit-logs",
+        "officialUrl": "https://www.daytona.io/docs/en/audit-logs",
+        "handbookHref": "/docs/audit-logs",
+        "location": "侧栏 →「audit-logs」· 本站 /docs/audit-logs",
+        "prevHash": "2fa617611b0d",
+        "nextHash": "00007d0ba1bb",
+        "note": "官网正文 2fa6176 → 00007d0。中文站：/docs/audit-logs。"
+      },
+      {
+        "kind": "modified",
+        "slug": "computer-use",
+        "title": "computer-use",
+        "officialUrl": "https://www.daytona.io/docs/en/computer-use",
+        "handbookHref": "/docs/computer-use",
+        "location": "侧栏 →「computer-use」· 本站 /docs/computer-use",
+        "prevHash": "6a26c05de9c8",
+        "nextHash": "7a5ba7cdaed8",
+        "note": "官网正文 6a26c05 → 7a5ba7c。中文站：/docs/computer-use。"
+      },
+      {
+        "kind": "modified",
+        "slug": "declarative-builder",
+        "title": "declarative-builder",
+        "officialUrl": "https://www.daytona.io/docs/en/declarative-builder",
+        "handbookHref": "/docs/declarative-builder",
+        "location": "侧栏 →「declarative-builder」· 本站 /docs/declarative-builder",
+        "prevHash": "4b83f6881b92",
+        "nextHash": "978332d7d4d5",
+        "note": "官网正文 4b83f68 → 978332d。中文站：/docs/declarative-builder。"
+      },
+      {
+        "kind": "modified",
+        "slug": "file-system-operations",
+        "title": "file-system-operations",
+        "officialUrl": "https://www.daytona.io/docs/en/file-system-operations",
+        "handbookHref": "/docs/file-system-operations",
+        "location": "侧栏 →「file-system-operations」· 本站 /docs/file-system-operations",
+        "prevHash": "80fe07521b48",
+        "nextHash": "c5466863cfd0",
+        "note": "官网正文 80fe075 → c546686。中文站：/docs/file-system-operations。"
+      },
+      {
+        "kind": "modified",
+        "slug": "language-server-protocol",
+        "title": "language-server-protocol",
+        "officialUrl": "https://www.daytona.io/docs/en/language-server-protocol",
+        "handbookHref": "/docs/language-server-protocol",
+        "location": "侧栏 →「language-server-protocol」· 本站 /docs/language-server-protocol",
+        "prevHash": "9dffc9d1d77c",
+        "nextHash": "7fa62a87ebc1",
+        "note": "官网正文 9dffc9d → 7fa62a8。中文站：/docs/language-server-protocol。"
+      },
+      {
+        "kind": "modified",
+        "slug": "limits",
+        "title": "limits",
+        "officialUrl": "https://www.daytona.io/docs/en/limits",
+        "handbookHref": "/docs/limits",
+        "location": "侧栏 →「limits」· 本站 /docs/limits",
+        "prevHash": "4bd01188b4d5",
+        "nextHash": "ecda79ddf887",
+        "note": "官网正文 4bd0118 → ecda79d。中文站：/docs/limits。"
+      },
+      {
+        "kind": "modified",
+        "slug": "observability/otel-collection",
+        "title": "observability/otel-collection",
+        "officialUrl": "https://www.daytona.io/docs/en/observability/otel-collection",
+        "handbookHref": "/docs/observability/otel-collection",
+        "location": "侧栏 →「observability/otel-collection」· 本站 /docs/observability/otel-collection",
+        "prevHash": "6a7f64656bba",
+        "nextHash": "2c751207acc8",
+        "note": "官网正文 6a7f646 → 2c75120。中文站：/docs/observability/otel-collection。"
+      },
+      {
+        "kind": "modified",
+        "slug": "organizations",
+        "title": "organizations",
+        "officialUrl": "https://www.daytona.io/docs/en/organizations",
+        "handbookHref": "/docs/organizations",
+        "location": "侧栏 →「organizations」· 本站 /docs/organizations",
+        "prevHash": "4307b2634ea4",
+        "nextHash": "e9b65261c978",
+        "note": "官网正文 4307b26 → e9b6526。中文站：/docs/organizations。"
+      },
+      {
+        "kind": "modified",
+        "slug": "persistence",
+        "title": "persistence",
+        "officialUrl": "https://www.daytona.io/docs/en/persistence",
+        "handbookHref": "/docs/persistence",
+        "location": "侧栏 →「persistence」· 本站 /docs/persistence",
+        "prevHash": "298711f21a23",
+        "nextHash": "02ca5630b3c3",
+        "note": "官网正文 298711f → 02ca563。中文站：/docs/persistence。"
+      },
+      {
+        "kind": "modified",
+        "slug": "process-code-execution",
+        "title": "process-code-execution",
+        "officialUrl": "https://www.daytona.io/docs/en/process-code-execution",
+        "handbookHref": "/docs/process-code-execution",
+        "location": "侧栏 →「process-code-execution」· 本站 /docs/process-code-execution",
+        "prevHash": "d6ee21948ae5",
+        "nextHash": "1a2fd79328f4",
+        "note": "官网正文 d6ee219 → 1a2fd79。中文站：/docs/process-code-execution。"
+      },
+      {
+        "kind": "modified",
+        "slug": "pty",
+        "title": "pty",
+        "officialUrl": "https://www.daytona.io/docs/en/pty",
+        "handbookHref": "/docs/pty",
+        "location": "侧栏 →「pty」· 本站 /docs/pty",
+        "prevHash": "081df58c3fec",
+        "nextHash": "12a57f068c4a",
+        "note": "官网正文 081df58 → 12a57f0。中文站：/docs/pty。"
+      },
+      {
+        "kind": "modified",
+        "slug": "sandboxes",
+        "title": "sandboxes",
+        "officialUrl": "https://www.daytona.io/docs/en/sandboxes",
+        "handbookHref": "/docs/sandboxes",
+        "location": "侧栏 →「sandboxes」· 本站 /docs/sandboxes",
+        "prevHash": "c152a0c43dd9",
+        "nextHash": "46a0344965e7",
+        "note": "官网正文 c152a0c → 46a0344。中文站：/docs/sandboxes。"
+      },
+      {
+        "kind": "modified",
+        "slug": "scale",
+        "title": "scale",
+        "officialUrl": "https://www.daytona.io/docs/en/scale",
+        "handbookHref": "/docs/scale",
+        "location": "侧栏 →「scale」· 本站 /docs/scale",
+        "prevHash": "f6c776235021",
+        "nextHash": "20dd6853e59a",
+        "note": "官网正文 f6c7762 → 20dd685。中文站：/docs/scale。"
+      },
+      {
+        "kind": "modified",
+        "slug": "snapshots",
+        "title": "snapshots",
+        "officialUrl": "https://www.daytona.io/docs/en/snapshots",
+        "handbookHref": "/docs/snapshots",
+        "location": "侧栏 →「snapshots」· 本站 /docs/snapshots",
+        "prevHash": "1ebe7b19e88d",
+        "nextHash": "19e20c2b683c",
+        "note": "官网正文 1ebe7b1 → 19e20c2。中文站：/docs/snapshots。"
+      },
+      {
+        "kind": "modified",
+        "slug": "troubleshooting",
+        "title": "troubleshooting",
+        "officialUrl": "https://www.daytona.io/docs/en/troubleshooting",
+        "handbookHref": "/docs/troubleshooting",
+        "location": "侧栏 →「troubleshooting」· 本站 /docs/troubleshooting",
+        "prevHash": "86aa5deaa35f",
+        "nextHash": "fc858c0bd3c0",
+        "note": "官网正文 86aa5de → fc858c0。中文站：/docs/troubleshooting。"
+      },
+      {
+        "kind": "modified",
+        "slug": "vpn-connections",
+        "title": "vpn-connections",
+        "officialUrl": "https://www.daytona.io/docs/en/vpn-connections",
+        "handbookHref": "/docs/vpn-connections",
+        "location": "侧栏 →「vpn-connections」· 本站 /docs/vpn-connections",
+        "prevHash": "3d59956293cd",
+        "nextHash": "c89f8ee842c7",
+        "note": "官网正文 3d59956 → c89f8ee。中文站：/docs/vpn-connections。"
+      }
+    ]
+  },
+  {
     "id": "202610060107",
     "capturedAt": "2026-10-06T01:07:31.047Z",
     "summary": "7 处官网变动（新增 0 / 改动 7 / 删除 0）",

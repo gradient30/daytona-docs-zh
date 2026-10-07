@@ -1,7 +1,7 @@
 {
   "capturedAt": "2026-10-07",
   "officialRef": "docs-site",
-  "docsTreeSha": "2f0553b939a8",
+  "docsTreeSha": "5f5699d13b47",
   "source": "https://www.daytona.io/docs/sitemap-0.xml",
   "docs": [
     {
@@ -53,34 +53,36 @@
       "section": "start",
       "kind": "official",
       "officialPath": "en.md",
-      "size": 7852,
-      "lastSeenSha": "f1a498fdf300",
+      "size": 7880,
+      "lastSeenSha": "8f2d38522f6a",
       "translatedAtSha": "f1a498fdf300",
       "webPath": "/",
-      "officialUrl": "https://www.daytona.io/docs/"
+      "officialUrl": "https://www.daytona.io/docs/",
+      "contentSha": "8f2d38522f6a"
     },
     {
       "slug": "sandboxes",
       "section": "start",
       "kind": "official",
       "officialPath": "en/sandboxes.md",
-      "size": 104945,
-      "lastSeenSha": "c152a0c43dd9",
+      "size": 105626,
+      "lastSeenSha": "46a0344965e7",
       "translatedAtSha": "c152a0c43dd9",
       "webPath": "/docs/sandboxes",
       "officialUrl": "https://www.daytona.io/docs/en/sandboxes",
-      "contentSha": "c152a0c43dd9"
+      "contentSha": "46a0344965e7"
     },
     {
       "slug": "snapshots",
       "section": "start",
       "kind": "official",
       "officialPath": "en/snapshots.md",
-      "size": 48190,
-      "lastSeenSha": "1ebe7b19e88d",
+      "size": 46583,
+      "lastSeenSha": "19e20c2b683c",
       "translatedAtSha": "1ebe7b19e88d",
       "webPath": "/docs/snapshots",
-      "officialUrl": "https://www.daytona.io/docs/en/snapshots"
+      "officialUrl": "https://www.daytona.io/docs/en/snapshots",
+      "contentSha": "19e20c2b683c"
     },
     {
       "slug": "volumes",
@@ -132,22 +134,24 @@
       "section": "platform",
       "kind": "official",
       "officialPath": "en/persistence.md",
-      "size": 22834,
-      "lastSeenSha": "298711f21a23",
+      "size": 23614,
+      "lastSeenSha": "02ca5630b3c3",
       "translatedAtSha": "298711f21a23",
       "webPath": "/docs/persistence",
-      "officialUrl": "https://www.daytona.io/docs/en/persistence"
+      "officialUrl": "https://www.daytona.io/docs/en/persistence",
+      "contentSha": "02ca5630b3c3"
     },
     {
       "slug": "scale",
       "section": "platform",
       "kind": "official",
       "officialPath": "en/scale.md",
-      "size": 36876,
-      "lastSeenSha": "f6c776235021",
+      "size": 36918,
+      "lastSeenSha": "20dd6853e59a",
       "translatedAtSha": "f6c776235021",
       "webPath": "/docs/scale",
-      "officialUrl": "https://www.daytona.io/docs/en/scale"
+      "officialUrl": "https://www.daytona.io/docs/en/scale",
+      "contentSha": "20dd6853e59a"
     },
     {
       "slug": "api-keys",
@@ -166,12 +170,12 @@
       "section": "platform",
       "kind": "official",
       "officialPath": "en/organizations.md",
-      "size": 19962,
-      "lastSeenSha": "4307b2634ea4",
+      "size": 17291,
+      "lastSeenSha": "e9b65261c978",
       "translatedAtSha": "8c4467681810",
       "webPath": "/docs/organizations",
       "officialUrl": "https://www.daytona.io/docs/en/organizations",
-      "contentSha": "4307b2634ea4"
+      "contentSha": "e9b65261c978"
     },
     {
       "slug": "billing",
@@ -189,23 +193,24 @@
       "section": "platform",
       "kind": "official",
       "officialPath": "en/limits.md",
-      "size": 13325,
-      "lastSeenSha": "4bd01188b4d5",
+      "size": 13678,
+      "lastSeenSha": "ecda79ddf887",
       "translatedAtSha": "4bd01188b4d5",
       "webPath": "/docs/limits",
-      "officialUrl": "https://www.daytona.io/docs/en/limits"
+      "officialUrl": "https://www.daytona.io/docs/en/limits",
+      "contentSha": "ecda79ddf887"
     },
     {
       "slug": "troubleshooting",
       "section": "platform",
       "kind": "official",
       "officialPath": "en/troubleshooting.md",
-      "size": 47788,
-      "lastSeenSha": "86aa5deaa35f",
+      "size": 47881,
+      "lastSeenSha": "fc858c0bd3c0",
       "translatedAtSha": "86aa5deaa35f",
       "webPath": "/docs/troubleshooting",
       "officialUrl": "https://www.daytona.io/docs/en/troubleshooting",
-      "contentSha": "86aa5deaa35f"
+      "contentSha": "fc858c0bd3c0"
     },
     {
       "slug": "playground",
@@ -223,11 +228,12 @@
       "section": "runtime",
       "kind": "official",
       "officialPath": "en/file-system-operations.md",
-      "size": 25938,
-      "lastSeenSha": "80fe07521b48",
+      "size": 26294,
+      "lastSeenSha": "c5466863cfd0",
       "translatedAtSha": "80fe07521b48",
       "webPath": "/docs/file-system-operations",
-      "officialUrl": "https://www.daytona.io/docs/en/file-system-operations"
+      "officialUrl": "https://www.daytona.io/docs/en/file-system-operations",
+      "contentSha": "c5466863cfd0"
     },
     {
       "slug": "git-operations",
@@ -245,55 +251,60 @@
       "section": "runtime",
       "kind": "official",
       "officialPath": "en/process-code-execution.md",
-      "size": 33634,
-      "lastSeenSha": "d6ee21948ae5",
+      "size": 33961,
+      "lastSeenSha": "1a2fd79328f4",
       "translatedAtSha": "d6ee21948ae5",
       "webPath": "/docs/process-code-execution",
-      "officialUrl": "https://www.daytona.io/docs/en/process-code-execution"
+      "officialUrl": "https://www.daytona.io/docs/en/process-code-execution",
+      "contentSha": "1a2fd79328f4"
     },
     {
       "slug": "pty",
       "section": "runtime",
       "kind": "official",
       "officialPath": "en/pty.md",
-      "size": 35410,
-      "lastSeenSha": "081df58c3fec",
+      "size": 35529,
+      "lastSeenSha": "12a57f068c4a",
       "translatedAtSha": "081df58c3fec",
       "webPath": "/docs/pty",
-      "officialUrl": "https://www.daytona.io/docs/en/pty"
+      "officialUrl": "https://www.daytona.io/docs/en/pty",
+      "contentSha": "12a57f068c4a"
     },
     {
       "slug": "language-server-protocol",
       "section": "runtime",
       "kind": "official",
       "officialPath": "en/language-server-protocol.md",
-      "size": 11287,
-      "lastSeenSha": "9dffc9d1d77c",
+      "size": 11426,
+      "lastSeenSha": "7fa62a87ebc1",
       "translatedAtSha": "9dffc9d1d77c",
       "webPath": "/docs/language-server-protocol",
-      "officialUrl": "https://www.daytona.io/docs/en/language-server-protocol"
+      "officialUrl": "https://www.daytona.io/docs/en/language-server-protocol",
+      "contentSha": "7fa62a87ebc1"
     },
     {
       "slug": "computer-use",
       "section": "runtime",
       "kind": "official",
       "officialPath": "en/computer-use.md",
-      "size": 53742,
-      "lastSeenSha": "6a26c05de9c8",
+      "size": 53702,
+      "lastSeenSha": "7a5ba7cdaed8",
       "translatedAtSha": "6a26c05de9c8",
       "webPath": "/docs/computer-use",
-      "officialUrl": "https://www.daytona.io/docs/en/computer-use"
+      "officialUrl": "https://www.daytona.io/docs/en/computer-use",
+      "contentSha": "7a5ba7cdaed8"
     },
     {
       "slug": "declarative-builder",
       "section": "runtime",
       "kind": "official",
       "officialPath": "en/declarative-builder.md",
-      "size": 21160,
-      "lastSeenSha": "4b83f6881b92",
+      "size": 21727,
+      "lastSeenSha": "978332d7d4d5",
       "translatedAtSha": "4b83f6881b92",
       "webPath": "/docs/declarative-builder",
-      "officialUrl": "https://www.daytona.io/docs/en/declarative-builder"
+      "officialUrl": "https://www.daytona.io/docs/en/declarative-builder",
+      "contentSha": "978332d7d4d5"
     },
     {
       "slug": "log-streaming",
@@ -446,11 +457,12 @@
       "section": "ops",
       "kind": "official",
       "officialPath": "en/audit-logs.md",
-      "size": 7049,
-      "lastSeenSha": "2fa617611b0d",
+      "size": 6900,
+      "lastSeenSha": "00007d0ba1bb",
       "translatedAtSha": "2fa617611b0d",
       "webPath": "/docs/audit-logs",
-      "officialUrl": "https://www.daytona.io/docs/en/audit-logs"
+      "officialUrl": "https://www.daytona.io/docs/en/audit-logs",
+      "contentSha": "00007d0ba1bb"
     },
     {
       "slug": "webhooks",
@@ -468,11 +480,12 @@
       "section": "ops",
       "kind": "official",
       "officialPath": "en/observability/otel-collection.md",
-      "size": 23149,
-      "lastSeenSha": "6a7f64656bba",
+      "size": 23263,
+      "lastSeenSha": "2c751207acc8",
       "translatedAtSha": "6a7f64656bba",
       "webPath": "/docs/observability/otel-collection",
-      "officialUrl": "https://www.daytona.io/docs/en/observability/otel-collection"
+      "officialUrl": "https://www.daytona.io/docs/en/observability/otel-collection",
+      "contentSha": "2c751207acc8"
     },
     {
       "slug": "network-limits",
@@ -490,12 +503,12 @@
       "section": "ops",
       "kind": "official",
       "officialPath": "en/vpn-connections.md",
-      "size": 40476,
-      "lastSeenSha": "3d59956293cd",
+      "size": 40588,
+      "lastSeenSha": "c89f8ee842c7",
       "translatedAtSha": "6bb9b92b2ebd",
       "webPath": "/docs/vpn-connections",
       "officialUrl": "https://www.daytona.io/docs/en/vpn-connections",
-      "contentSha": "3d59956293cd"
+      "contentSha": "c89f8ee842c7"
     },
     {
       "slug": "bring-your-own-compute",
@@ -2145,6 +2158,18 @@
       "contentSha": "cddcdf397c21",
       "webPath": "/docs/guides/convex/convex-ai-app-builder-sandbox",
       "officialUrl": "https://www.daytona.io/docs/en/guides/convex/convex-ai-app-builder-sandbox"
+    },
+    {
+      "slug": "acceptable-use",
+      "section": "runtime",
+      "kind": "official",
+      "officialPath": "en/acceptable-use.md",
+      "size": 5928,
+      "lastSeenSha": "e01e5d18b057",
+      "translatedAtSha": null,
+      "contentSha": "e01e5d18b057",
+      "webPath": "/docs/acceptable-use",
+      "officialUrl": "https://www.daytona.io/docs/en/acceptable-use"
     }
   ],
   "releases": []
