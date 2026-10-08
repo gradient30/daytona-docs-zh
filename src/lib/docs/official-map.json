@@ -1,7 +1,7 @@
 {
-  "capturedAt": "2026-10-07",
+  "capturedAt": "2026-10-08",
   "officialRef": "docs-site",
-  "docsTreeSha": "5f5699d13b47",
+  "docsTreeSha": "5ddd86b885e4",
   "source": "https://www.daytona.io/docs/sitemap-0.xml",
   "docs": [
     {
@@ -65,24 +65,24 @@
       "section": "start",
       "kind": "official",
       "officialPath": "en/sandboxes.md",
-      "size": 105626,
-      "lastSeenSha": "46a0344965e7",
+      "size": 105521,
+      "lastSeenSha": "f08df2fbbb7a",
       "translatedAtSha": "c152a0c43dd9",
       "webPath": "/docs/sandboxes",
       "officialUrl": "https://www.daytona.io/docs/en/sandboxes",
-      "contentSha": "46a0344965e7"
+      "contentSha": "f08df2fbbb7a"
     },
     {
       "slug": "snapshots",
       "section": "start",
       "kind": "official",
       "officialPath": "en/snapshots.md",
-      "size": 46583,
-      "lastSeenSha": "19e20c2b683c",
+      "size": 46532,
+      "lastSeenSha": "c399a89a8a41",
       "translatedAtSha": "1ebe7b19e88d",
       "webPath": "/docs/snapshots",
       "officialUrl": "https://www.daytona.io/docs/en/snapshots",
-      "contentSha": "19e20c2b683c"
+      "contentSha": "c399a89a8a41"
     },
     {
       "slug": "volumes",
@@ -228,35 +228,36 @@
       "section": "runtime",
       "kind": "official",
       "officialPath": "en/file-system-operations.md",
-      "size": 26294,
-      "lastSeenSha": "c5466863cfd0",
+      "size": 26290,
+      "lastSeenSha": "c436af89b7b9",
       "translatedAtSha": "80fe07521b48",
       "webPath": "/docs/file-system-operations",
       "officialUrl": "https://www.daytona.io/docs/en/file-system-operations",
-      "contentSha": "c5466863cfd0"
+      "contentSha": "c436af89b7b9"
     },
     {
       "slug": "git-operations",
       "section": "runtime",
       "kind": "official",
       "officialPath": "en/git-operations.md",
-      "size": 28671,
-      "lastSeenSha": "22deb8e658c3",
+      "size": 28738,
+      "lastSeenSha": "c59492322921",
       "translatedAtSha": "22deb8e658c3",
       "webPath": "/docs/git-operations",
-      "officialUrl": "https://www.daytona.io/docs/en/git-operations"
+      "officialUrl": "https://www.daytona.io/docs/en/git-operations",
+      "contentSha": "c59492322921"
     },
     {
       "slug": "process-code-execution",
       "section": "runtime",
       "kind": "official",
       "officialPath": "en/process-code-execution.md",
-      "size": 33961,
-      "lastSeenSha": "1a2fd79328f4",
+      "size": 33983,
+      "lastSeenSha": "e5ce666cebd5",
       "translatedAtSha": "d6ee21948ae5",
       "webPath": "/docs/process-code-execution",
       "officialUrl": "https://www.daytona.io/docs/en/process-code-execution",
-      "contentSha": "1a2fd79328f4"
+      "contentSha": "e5ce666cebd5"
     },
     {
       "slug": "pty",
@@ -264,11 +265,11 @@
       "kind": "official",
       "officialPath": "en/pty.md",
       "size": 35529,
-      "lastSeenSha": "12a57f068c4a",
+      "lastSeenSha": "b49f06da90c8",
       "translatedAtSha": "081df58c3fec",
       "webPath": "/docs/pty",
       "officialUrl": "https://www.daytona.io/docs/en/pty",
-      "contentSha": "12a57f068c4a"
+      "contentSha": "b49f06da90c8"
     },
     {
       "slug": "language-server-protocol",
@@ -287,24 +288,24 @@
       "section": "runtime",
       "kind": "official",
       "officialPath": "en/computer-use.md",
-      "size": 53702,
-      "lastSeenSha": "7a5ba7cdaed8",
+      "size": 59349,
+      "lastSeenSha": "74d5d9468f8b",
       "translatedAtSha": "6a26c05de9c8",
       "webPath": "/docs/computer-use",
       "officialUrl": "https://www.daytona.io/docs/en/computer-use",
-      "contentSha": "7a5ba7cdaed8"
+      "contentSha": "74d5d9468f8b"
     },
     {
       "slug": "declarative-builder",
       "section": "runtime",
       "kind": "official",
       "officialPath": "en/declarative-builder.md",
-      "size": 21727,
-      "lastSeenSha": "978332d7d4d5",
+      "size": 21739,
+      "lastSeenSha": "9e45c33a291d",
       "translatedAtSha": "4b83f6881b92",
       "webPath": "/docs/declarative-builder",
       "officialUrl": "https://www.daytona.io/docs/en/declarative-builder",
-      "contentSha": "978332d7d4d5"
+      "contentSha": "9e45c33a291d"
     },
     {
       "slug": "log-streaming",
@@ -480,12 +481,12 @@
       "section": "ops",
       "kind": "official",
       "officialPath": "en/observability/otel-collection.md",
-      "size": 23263,
-      "lastSeenSha": "2c751207acc8",
+      "size": 23213,
+      "lastSeenSha": "6c80fba854ac",
       "translatedAtSha": "6a7f64656bba",
       "webPath": "/docs/observability/otel-collection",
       "officialUrl": "https://www.daytona.io/docs/en/observability/otel-collection",
-      "contentSha": "2c751207acc8"
+      "contentSha": "6c80fba854ac"
     },
     {
       "slug": "network-limits",
@@ -538,12 +539,12 @@
       "section": "tools",
       "kind": "official",
       "officialPath": "en/tools/api.md",
-      "size": 20084,
-      "lastSeenSha": "24fb2aff47b8",
+      "size": 20324,
+      "lastSeenSha": "59895e336621",
       "translatedAtSha": "943cb210269d",
       "webPath": "/docs/tools/api",
       "officialUrl": "https://www.daytona.io/docs/en/tools/api",
-      "contentSha": "24fb2aff47b8"
+      "contentSha": "59895e336621"
     },
     {
       "slug": "typescript-sdk",
@@ -616,11 +617,12 @@
       "section": "guides",
       "kind": "official",
       "officialPath": "en/guides/claude.md",
-      "size": 94,
-      "lastSeenSha": "249e49bb72e2",
+      "size": 204,
+      "lastSeenSha": "ffd0e81a4678",
       "translatedAtSha": "249e49bb72e2",
       "webPath": "/docs/guides/claude",
-      "officialUrl": "https://www.daytona.io/docs/en/guides/claude"
+      "officialUrl": "https://www.daytona.io/docs/en/guides/claude",
+      "contentSha": "ffd0e81a4678"
     },
     {
       "slug": "guides/openai",
@@ -1156,12 +1158,12 @@
       "section": "tools",
       "kind": "official",
       "officialPath": "en/go-sdk/daytona.md",
-      "size": 203332,
-      "lastSeenSha": "74cce376a221",
+      "size": 211323,
+      "lastSeenSha": "d36b08658091",
       "translatedAtSha": "stub00000000",
       "webPath": "/docs/go-sdk/daytona",
       "officialUrl": "https://www.daytona.io/docs/en/go-sdk/daytona",
-      "contentSha": "74cce376a221"
+      "contentSha": "d36b08658091"
     },
     {
       "slug": "go-sdk/errors",
@@ -1216,12 +1218,12 @@
       "section": "tools",
       "kind": "official",
       "officialPath": "en/java-sdk/computer-use.md",
-      "size": 9913,
-      "lastSeenSha": "e096be5880d6",
+      "size": 16775,
+      "lastSeenSha": "bae633933e6f",
       "translatedAtSha": "stub00000000",
       "webPath": "/docs/java-sdk/computer-use",
       "officialUrl": "https://www.daytona.io/docs/en/java-sdk/computer-use",
-      "contentSha": "e096be5880d6"
+      "contentSha": "bae633933e6f"
     },
     {
       "slug": "java-sdk/config",
@@ -1408,12 +1410,12 @@
       "section": "tools",
       "kind": "official",
       "officialPath": "en/python-sdk/async/async-computer-use.md",
-      "size": 36470,
-      "lastSeenSha": "167681075f02",
+      "size": 43791,
+      "lastSeenSha": "ab3e318531af",
       "translatedAtSha": "stub00000000",
       "webPath": "/docs/python-sdk/async/async-computer-use",
       "officialUrl": "https://www.daytona.io/docs/en/python-sdk/async/async-computer-use",
-      "contentSha": "167681075f02"
+      "contentSha": "ab3e318531af"
     },
     {
       "slug": "python-sdk/async/async-daytona",
@@ -1588,12 +1590,12 @@
       "section": "tools",
       "kind": "official",
       "officialPath": "en/python-sdk/sync/computer-use.md",
-      "size": 35518,
-      "lastSeenSha": "36c3e761c66f",
+      "size": 42603,
+      "lastSeenSha": "802819c37ea7",
       "translatedAtSha": "stub00000000",
       "webPath": "/docs/python-sdk/sync/computer-use",
       "officialUrl": "https://www.daytona.io/docs/en/python-sdk/sync/computer-use",
-      "contentSha": "36c3e761c66f"
+      "contentSha": "802819c37ea7"
     },
     {
       "slug": "python-sdk/sync/daytona",
@@ -1936,12 +1938,12 @@
       "section": "tools",
       "kind": "official",
       "officialPath": "en/typescript-sdk/computer-use.md",
-      "size": 21301,
-      "lastSeenSha": "5d5b1ec0cf61",
+      "size": 25740,
+      "lastSeenSha": "869f14192e9b",
       "translatedAtSha": "stub00000000",
       "webPath": "/docs/typescript-sdk/computer-use",
       "officialUrl": "https://www.daytona.io/docs/en/typescript-sdk/computer-use",
-      "contentSha": "5d5b1ec0cf61"
+      "contentSha": "869f14192e9b"
     },
     {
       "slug": "typescript-sdk/daytona",
@@ -2170,6 +2172,18 @@
       "contentSha": "e01e5d18b057",
       "webPath": "/docs/acceptable-use",
       "officialUrl": "https://www.daytona.io/docs/en/acceptable-use"
+    },
+    {
+      "slug": "guides/claude/claude-draws-daytona-sandbox",
+      "section": "guides",
+      "kind": "official",
+      "officialPath": "en/guides/claude/claude-draws-daytona-sandbox.md",
+      "size": 16418,
+      "lastSeenSha": "732b8bf71a4d",
+      "translatedAtSha": null,
+      "contentSha": "732b8bf71a4d",
+      "webPath": "/docs/guides/claude/claude-draws-daytona-sandbox",
+      "officialUrl": "https://www.daytona.io/docs/en/guides/claude/claude-draws-daytona-sandbox"
     }
   ],
   "releases": []

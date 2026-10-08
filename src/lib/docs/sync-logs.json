@@ -1,5 +1,200 @@
 [
   {
+    "id": "202610080110",
+    "capturedAt": "2026-10-08T01:10:24.637Z",
+    "summary": "17 处官网变动（新增 1 / 改动 16 / 删除 0）",
+    "llmsHash": "6ffb6febb3cd",
+    "changes": [
+      {
+        "kind": "modified",
+        "slug": "computer-use",
+        "title": "computer-use",
+        "officialUrl": "https://www.daytona.io/docs/en/computer-use",
+        "handbookHref": "/docs/computer-use",
+        "location": "侧栏 →「computer-use」· 本站 /docs/computer-use",
+        "prevHash": "7a5ba7cdaed8",
+        "nextHash": "74d5d9468f8b",
+        "note": "官网正文 7a5ba7c → 74d5d94。中文站：/docs/computer-use。"
+      },
+      {
+        "kind": "modified",
+        "slug": "declarative-builder",
+        "title": "declarative-builder",
+        "officialUrl": "https://www.daytona.io/docs/en/declarative-builder",
+        "handbookHref": "/docs/declarative-builder",
+        "location": "侧栏 →「declarative-builder」· 本站 /docs/declarative-builder",
+        "prevHash": "978332d7d4d5",
+        "nextHash": "9e45c33a291d",
+        "note": "官网正文 978332d → 9e45c33。中文站：/docs/declarative-builder。"
+      },
+      {
+        "kind": "modified",
+        "slug": "file-system-operations",
+        "title": "file-system-operations",
+        "officialUrl": "https://www.daytona.io/docs/en/file-system-operations",
+        "handbookHref": "/docs/file-system-operations",
+        "location": "侧栏 →「file-system-operations」· 本站 /docs/file-system-operations",
+        "prevHash": "c5466863cfd0",
+        "nextHash": "c436af89b7b9",
+        "note": "官网正文 c546686 → c436af8。中文站：/docs/file-system-operations。"
+      },
+      {
+        "kind": "modified",
+        "slug": "git-operations",
+        "title": "git-operations",
+        "officialUrl": "https://www.daytona.io/docs/en/git-operations",
+        "handbookHref": "/docs/git-operations",
+        "location": "侧栏 →「git-operations」· 本站 /docs/git-operations",
+        "prevHash": "22deb8e658c3",
+        "nextHash": "c59492322921",
+        "note": "官网正文 22deb8e → c594923。中文站：/docs/git-operations。"
+      },
+      {
+        "kind": "modified",
+        "slug": "go-sdk/daytona",
+        "title": "go-sdk/daytona",
+        "officialUrl": "https://www.daytona.io/docs/en/go-sdk/daytona",
+        "handbookHref": "/docs/go-sdk/daytona",
+        "location": "侧栏「工具」→「go-sdk/daytona」· 本站 /docs/go-sdk/daytona",
+        "prevHash": "74cce376a221",
+        "nextHash": "d36b08658091",
+        "note": "官网正文 74cce37 → d36b086。中文站：/docs/go-sdk/daytona。"
+      },
+      {
+        "kind": "modified",
+        "slug": "guides/claude",
+        "title": "guides/claude",
+        "officialUrl": "https://www.daytona.io/docs/en/guides/claude",
+        "handbookHref": "/docs/guides/claude",
+        "location": "侧栏「指南」→「guides/claude」· 本站 /docs/guides/claude",
+        "prevHash": "249e49bb72e2",
+        "nextHash": "ffd0e81a4678",
+        "note": "官网正文 249e49b → ffd0e81。中文站：/docs/guides/claude。"
+      },
+      {
+        "kind": "added",
+        "slug": "guides/claude/claude-draws-daytona-sandbox",
+        "title": "claude-draws-daytona-sandbox",
+        "officialUrl": "https://www.daytona.io/docs/en/guides/claude/claude-draws-daytona-sandbox",
+        "handbookHref": "/docs/guides/claude/claude-draws-daytona-sandbox",
+        "location": "侧栏「指南」→「claude-draws-daytona-sandbox」· 本站 /docs/guides/claude/claude-draws-daytona-sandbox",
+        "prevHash": null,
+        "nextHash": "732b8bf71a4d",
+        "note": "官网新增页面（哈希 732b8bf71a4d）。中文站位置：/docs/guides/claude/claude-draws-daytona-sandbox，已自动建档待补译。"
+      },
+      {
+        "kind": "modified",
+        "slug": "java-sdk/computer-use",
+        "title": "java-sdk/computer-use",
+        "officialUrl": "https://www.daytona.io/docs/en/java-sdk/computer-use",
+        "handbookHref": "/docs/java-sdk/computer-use",
+        "location": "侧栏「工具」→「java-sdk/computer-use」· 本站 /docs/java-sdk/computer-use",
+        "prevHash": "e096be5880d6",
+        "nextHash": "bae633933e6f",
+        "note": "官网正文 e096be5 → bae6339。中文站：/docs/java-sdk/computer-use。"
+      },
+      {
+        "kind": "modified",
+        "slug": "observability/otel-collection",
+        "title": "observability/otel-collection",
+        "officialUrl": "https://www.daytona.io/docs/en/observability/otel-collection",
+        "handbookHref": "/docs/observability/otel-collection",
+        "location": "侧栏 →「observability/otel-collection」· 本站 /docs/observability/otel-collection",
+        "prevHash": "2c751207acc8",
+        "nextHash": "6c80fba854ac",
+        "note": "官网正文 2c75120 → 6c80fba。中文站：/docs/observability/otel-collection。"
+      },
+      {
+        "kind": "modified",
+        "slug": "process-code-execution",
+        "title": "process-code-execution",
+        "officialUrl": "https://www.daytona.io/docs/en/process-code-execution",
+        "handbookHref": "/docs/process-code-execution",
+        "location": "侧栏 →「process-code-execution」· 本站 /docs/process-code-execution",
+        "prevHash": "1a2fd79328f4",
+        "nextHash": "e5ce666cebd5",
+        "note": "官网正文 1a2fd79 → e5ce666。中文站：/docs/process-code-execution。"
+      },
+      {
+        "kind": "modified",
+        "slug": "pty",
+        "title": "pty",
+        "officialUrl": "https://www.daytona.io/docs/en/pty",
+        "handbookHref": "/docs/pty",
+        "location": "侧栏 →「pty」· 本站 /docs/pty",
+        "prevHash": "12a57f068c4a",
+        "nextHash": "b49f06da90c8",
+        "note": "官网正文 12a57f0 → b49f06d。中文站：/docs/pty。"
+      },
+      {
+        "kind": "modified",
+        "slug": "python-sdk/async/async-computer-use",
+        "title": "python-sdk/async/async-computer-use",
+        "officialUrl": "https://www.daytona.io/docs/en/python-sdk/async/async-computer-use",
+        "handbookHref": "/docs/python-sdk/async/async-computer-use",
+        "location": "侧栏「工具」→「python-sdk/async/async-computer-use」· 本站 /docs/python-sdk/async/async-computer-use",
+        "prevHash": "167681075f02",
+        "nextHash": "ab3e318531af",
+        "note": "官网正文 1676810 → ab3e318。中文站：/docs/python-sdk/async/async-computer-use。"
+      },
+      {
+        "kind": "modified",
+        "slug": "python-sdk/sync/computer-use",
+        "title": "python-sdk/sync/computer-use",
+        "officialUrl": "https://www.daytona.io/docs/en/python-sdk/sync/computer-use",
+        "handbookHref": "/docs/python-sdk/sync/computer-use",
+        "location": "侧栏「工具」→「python-sdk/sync/computer-use」· 本站 /docs/python-sdk/sync/computer-use",
+        "prevHash": "36c3e761c66f",
+        "nextHash": "802819c37ea7",
+        "note": "官网正文 36c3e76 → 802819c。中文站：/docs/python-sdk/sync/computer-use。"
+      },
+      {
+        "kind": "modified",
+        "slug": "sandboxes",
+        "title": "sandboxes",
+        "officialUrl": "https://www.daytona.io/docs/en/sandboxes",
+        "handbookHref": "/docs/sandboxes",
+        "location": "侧栏 →「sandboxes」· 本站 /docs/sandboxes",
+        "prevHash": "46a0344965e7",
+        "nextHash": "f08df2fbbb7a",
+        "note": "官网正文 46a0344 → f08df2f。中文站：/docs/sandboxes。"
+      },
+      {
+        "kind": "modified",
+        "slug": "snapshots",
+        "title": "snapshots",
+        "officialUrl": "https://www.daytona.io/docs/en/snapshots",
+        "handbookHref": "/docs/snapshots",
+        "location": "侧栏 →「snapshots」· 本站 /docs/snapshots",
+        "prevHash": "19e20c2b683c",
+        "nextHash": "c399a89a8a41",
+        "note": "官网正文 19e20c2 → c399a89。中文站：/docs/snapshots。"
+      },
+      {
+        "kind": "modified",
+        "slug": "tools/api",
+        "title": "tools/api",
+        "officialUrl": "https://www.daytona.io/docs/en/tools/api",
+        "handbookHref": "/docs/tools/api",
+        "location": "侧栏「工具」→「tools/api」· 本站 /docs/tools/api",
+        "prevHash": "24fb2aff47b8",
+        "nextHash": "59895e336621",
+        "note": "官网正文 24fb2af → 59895e3。中文站：/docs/tools/api。"
+      },
+      {
+        "kind": "modified",
+        "slug": "typescript-sdk/computer-use",
+        "title": "typescript-sdk/computer-use",
+        "officialUrl": "https://www.daytona.io/docs/en/typescript-sdk/computer-use",
+        "handbookHref": "/docs/typescript-sdk/computer-use",
+        "location": "侧栏「工具」→「typescript-sdk/computer-use」· 本站 /docs/typescript-sdk/computer-use",
+        "prevHash": "5d5b1ec0cf61",
+        "nextHash": "869f14192e9b",
+        "note": "官网正文 5d5b1ec → 869f141。中文站：/docs/typescript-sdk/computer-use。"
+      }
+    ]
+  },
+  {
     "id": "202610071457",
     "capturedAt": "2026-10-07T14:57:19.091Z",
     "summary": "18 处官网变动（新增 1 / 改动 17 / 删除 0）",

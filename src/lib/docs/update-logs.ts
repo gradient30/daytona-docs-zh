@@ -20,6 +20,151 @@ export type UpdateLog = {
 
 export const UPDATE_LOGS: UpdateLog[] = [
   {
+    "id": "2026-10-08-e93a76",
+    "date": "2026-10-08",
+    "title": "官网对照：17 处变动",
+    "summary": "更新 /docs/computer-use；更新 /docs/declarative-builder；更新 /docs/file-system-operations；更新 /docs/git-operations；更新 /docs/go-sdk/daytona；更新 /docs/guides/claude；新增 /docs/guides/claude/claude-draws-daytona-sandbox；更新 /docs/java-sdk/computer-use",
+    "sourceHint": "https://www.daytona.io/docs/llms.txt · https://www.daytona.io/docs/sitemap-0.xml",
+    "changes": [
+      {
+        "kind": "updated",
+        "slug": "computer-use",
+        "title": "computer-use",
+        "webPath": "/docs/computer-use",
+        "officialUrl": "https://www.daytona.io/docs/en/computer-use",
+        "detail": "官网正文 7a5ba7c → 74d5d94。中文站：/docs/computer-use。"
+      },
+      {
+        "kind": "updated",
+        "slug": "declarative-builder",
+        "title": "declarative-builder",
+        "webPath": "/docs/declarative-builder",
+        "officialUrl": "https://www.daytona.io/docs/en/declarative-builder",
+        "detail": "官网正文 978332d → 9e45c33。中文站：/docs/declarative-builder。"
+      },
+      {
+        "kind": "updated",
+        "slug": "file-system-operations",
+        "title": "file-system-operations",
+        "webPath": "/docs/file-system-operations",
+        "officialUrl": "https://www.daytona.io/docs/en/file-system-operations",
+        "detail": "官网正文 c546686 → c436af8。中文站：/docs/file-system-operations。"
+      },
+      {
+        "kind": "updated",
+        "slug": "git-operations",
+        "title": "git-operations",
+        "webPath": "/docs/git-operations",
+        "officialUrl": "https://www.daytona.io/docs/en/git-operations",
+        "detail": "官网正文 22deb8e → c594923。中文站：/docs/git-operations。"
+      },
+      {
+        "kind": "updated",
+        "slug": "go-sdk/daytona",
+        "title": "go-sdk/daytona",
+        "webPath": "/docs/go-sdk/daytona",
+        "officialUrl": "https://www.daytona.io/docs/en/go-sdk/daytona",
+        "detail": "官网正文 74cce37 → d36b086。中文站：/docs/go-sdk/daytona。"
+      },
+      {
+        "kind": "updated",
+        "slug": "guides/claude",
+        "title": "guides/claude",
+        "webPath": "/docs/guides/claude",
+        "officialUrl": "https://www.daytona.io/docs/en/guides/claude",
+        "detail": "官网正文 249e49b → ffd0e81。中文站：/docs/guides/claude。"
+      },
+      {
+        "kind": "added",
+        "slug": "guides/claude/claude-draws-daytona-sandbox",
+        "title": "claude-draws-daytona-sandbox",
+        "webPath": "/docs/guides/claude/claude-draws-daytona-sandbox",
+        "officialUrl": "https://www.daytona.io/docs/en/guides/claude/claude-draws-daytona-sandbox",
+        "detail": "官网新增页面（哈希 732b8bf71a4d）。中文站位置：/docs/guides/claude/claude-draws-daytona-sandbox，已自动建档待补译。"
+      },
+      {
+        "kind": "updated",
+        "slug": "java-sdk/computer-use",
+        "title": "java-sdk/computer-use",
+        "webPath": "/docs/java-sdk/computer-use",
+        "officialUrl": "https://www.daytona.io/docs/en/java-sdk/computer-use",
+        "detail": "官网正文 e096be5 → bae6339。中文站：/docs/java-sdk/computer-use。"
+      },
+      {
+        "kind": "updated",
+        "slug": "observability/otel-collection",
+        "title": "observability/otel-collection",
+        "webPath": "/docs/observability/otel-collection",
+        "officialUrl": "https://www.daytona.io/docs/en/observability/otel-collection",
+        "detail": "官网正文 2c75120 → 6c80fba。中文站：/docs/observability/otel-collection。"
+      },
+      {
+        "kind": "updated",
+        "slug": "process-code-execution",
+        "title": "process-code-execution",
+        "webPath": "/docs/process-code-execution",
+        "officialUrl": "https://www.daytona.io/docs/en/process-code-execution",
+        "detail": "官网正文 1a2fd79 → e5ce666。中文站：/docs/process-code-execution。"
+      },
+      {
+        "kind": "updated",
+        "slug": "pty",
+        "title": "pty",
+        "webPath": "/docs/pty",
+        "officialUrl": "https://www.daytona.io/docs/en/pty",
+        "detail": "官网正文 12a57f0 → b49f06d。中文站：/docs/pty。"
+      },
+      {
+        "kind": "updated",
+        "slug": "python-sdk/async/async-computer-use",
+        "title": "python-sdk/async/async-computer-use",
+        "webPath": "/docs/python-sdk/async/async-computer-use",
+        "officialUrl": "https://www.daytona.io/docs/en/python-sdk/async/async-computer-use",
+        "detail": "官网正文 1676810 → ab3e318。中文站：/docs/python-sdk/async/async-computer-use。"
+      },
+      {
+        "kind": "updated",
+        "slug": "python-sdk/sync/computer-use",
+        "title": "python-sdk/sync/computer-use",
+        "webPath": "/docs/python-sdk/sync/computer-use",
+        "officialUrl": "https://www.daytona.io/docs/en/python-sdk/sync/computer-use",
+        "detail": "官网正文 36c3e76 → 802819c。中文站：/docs/python-sdk/sync/computer-use。"
+      },
+      {
+        "kind": "updated",
+        "slug": "sandboxes",
+        "title": "sandboxes",
+        "webPath": "/docs/sandboxes",
+        "officialUrl": "https://www.daytona.io/docs/en/sandboxes",
+        "detail": "官网正文 46a0344 → f08df2f。中文站：/docs/sandboxes。"
+      },
+      {
+        "kind": "updated",
+        "slug": "snapshots",
+        "title": "snapshots",
+        "webPath": "/docs/snapshots",
+        "officialUrl": "https://www.daytona.io/docs/en/snapshots",
+        "detail": "官网正文 19e20c2 → c399a89。中文站：/docs/snapshots。"
+      },
+      {
+        "kind": "updated",
+        "slug": "tools/api",
+        "title": "tools/api",
+        "webPath": "/docs/tools/api",
+        "officialUrl": "https://www.daytona.io/docs/en/tools/api",
+        "detail": "官网正文 24fb2af → 59895e3。中文站：/docs/tools/api。"
+      },
+      {
+        "kind": "updated",
+        "slug": "typescript-sdk/computer-use",
+        "title": "typescript-sdk/computer-use",
+        "webPath": "/docs/typescript-sdk/computer-use",
+        "officialUrl": "https://www.daytona.io/docs/en/typescript-sdk/computer-use",
+        "detail": "官网正文 5d5b1ec → 869f141。中文站：/docs/typescript-sdk/computer-use。"
+      }
+    ]
+  },
+  {
     "id": "2026-10-07-a549ad",
     "date": "2026-10-07",
     "title": "官网对照：18 处变动",
