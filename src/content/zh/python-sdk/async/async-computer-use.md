@@ -1,22 +1,8 @@
-# 异步 Computer Use {#async-computer-use}
+# Computer Use {#computer-use}
 
-python-sdk 参考：async-computer-use。
+Python SDK（异步）参考：计算机使用。
 
-这是 **Python SDK** 的模块参考页，对应官网 `async-computer-use`。方法签名、参数与返回值以英文原文为准；本页给出中文定位与入口。
-
-安装：
-
-```bash
-pip install daytona
-```
-
-完整客户端用法见 [Python SDK 总览](/docs/python-sdk)。
-
-## 本站位置 {#location}
-
-- 中文站：`/docs/python-sdk/async/async-computer-use`
-- 侧栏「工具」→ Python SDK → 异步 Computer Use
-- [英文原文](https://www.daytona.io/docs/en/python-sdk/async/async-computer-use)
+与同步页对齐：无障碍树、查找节点、录屏、显示窗口与键盘按住。调用前先启动 Computer Use。方法为异步对应物，签名以官网为准。
 
 > 英文原文：https://www.daytona.io/docs/en/python-sdk/async/async-computer-use
 > 本站位置：`/docs/python-sdk/async/async-computer-use`
