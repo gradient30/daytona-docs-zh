@@ -1,1 +1,1 @@
-PLACEHOLDER
+$(cat /tmp/new-official-map.json)

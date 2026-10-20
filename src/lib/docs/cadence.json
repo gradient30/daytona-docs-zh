@@ -1,11 +1,1 @@
-{
-  "title": "每日例行汉化",
-  "timezone": "Asia/Shanghai",
-  "timeOfDay": "09:00",
-  "fingerprint": "GitHub Actions 每日对照官网 sitemap 与 .md 指纹",
-  "translate": "每天 09:00（北京时间）重译变动页，写入同步日志并推送到仓库",
-  "lastCheckAt": "2026-10-19T01:04:11.000Z",
-  "lastChangeAt": "2026-10-17T01:03:34.000Z",
-  "llmsHash": "1ea285e43d2d",
-  "status": "current"
-}
+$(cat /tmp/new-cadence.json)

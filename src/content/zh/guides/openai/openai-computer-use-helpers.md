@@ -1,0 +1,1 @@
+$(cat /tmp/zh-updates/guides/openai/openai-computer-use-helpers.md)

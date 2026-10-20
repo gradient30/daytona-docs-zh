@@ -1,1 +1,1 @@
-PLACEHOLDER
+$(cat /tmp/new-update-logs.ts)

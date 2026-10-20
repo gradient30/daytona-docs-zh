@@ -1,1 +1,1 @@
-PLACEHOLDER
+$(cat /tmp/new-sync-logs.json)
