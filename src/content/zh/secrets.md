@@ -546,11 +546,11 @@ curl 'https://app.daytona.io/api/secret/paginated' \
   --header 'Authorization: Bearer YOUR_API_KEY'
 ```
 
-## Get a secret {#get-a-secret}
+## 获取密钥 {#get-a-secret}
 
-Daytona provides methods to get a single secret by its ID. 
+Daytona 提供按 ID 获取单个密钥的方法。
 
-Get operations return metadata only. Secret values are never returned after creation.
+获取操作只返回元数据。密钥值在创建之后永远不会再返回。
 
 ```python
 secret = daytona.secret.get(secret_id)
@@ -577,11 +577,11 @@ curl 'https://app.daytona.io/api/secret/SECRET_ID' \
   --header 'Authorization: Bearer YOUR_API_KEY'
 ```
 
-## Update a secret {#update-a-secret}
+## 更新密钥 {#update-a-secret}
 
-Daytona provides methods to update a secret's value, description, or host allowlist. 
+Daytona 提供更新密钥值、描述或主机允许列表的方法。
 
-Updating the value rotates the credential. The placeholder stays the same, so existing sandboxes that reference the secret pick up the new value on subsequent requests without recreation. The change takes effect in all sandboxes that use the secret within 15 seconds. Send only the fields you want to change. Omitting a field leaves it unchanged.
+更新密钥值即轮换凭据。占位符保持不变，因此已引用该密钥的沙箱无需重建，后续请求就会使用新值。变更会在 15 秒内对所有使用该密钥的沙箱生效。只需发送要修改的字段，省略的字段保持不变。
 
 ```python
 from daytona import UpdateSecretParams
@@ -638,11 +638,11 @@ curl 'https://app.daytona.io/api/secret/SECRET_ID' \
 }'
 ```
 
-## Delete a secret {#delete-a-secret}
+## 删除密钥 {#delete-a-secret}
 
-Daytona provides methods to delete a secret. 
+Daytona 提供删除密钥的方法。
 
-Deleted secrets cannot be recovered, and sandboxes that reference a deleted secret can no longer resolve its value.
+已删除的密钥无法恢复，引用它的沙箱也将无法再解析其值。
 
 ```python
 daytona.secret.delete(secret_id)
@@ -670,17 +670,17 @@ curl 'https://app.daytona.io/api/secret/SECRET_ID' \
   --header 'Authorization: Bearer YOUR_API_KEY'
 ```
 
-## HTTP Basic Auth {#http-basic-auth}
+## HTTP Basic 认证 {#http-basic-auth}
 
-Standard Basic Auth helpers such as `curl --user` and Python's `requests.auth.HTTPBasicAuth` do not work with a secret that holds a raw password. These helpers Base64-encode the credential inside the sandbox, so the outbound `Authorization` header carries `Basic Base64(username:placeholder)`. The encoded header no longer contains the placeholder, the proxy cannot substitute the real value, and the upstream service rejects the request with a `401` status code.
+`curl --user`、Python 的 `requests.auth.HTTPBasicAuth` 等标准 Basic Auth 辅助工具，不能配合存放原始密码的密钥使用。这些工具会在沙箱内对凭据做 Base64 编码，出站的 `Authorization` 头里带的是 `Basic Base64(username:placeholder)`。编码后的请求头不再包含占位符，代理无法替换成真实值，上游服务会以 `401` 状态码拒绝请求。
 
-To authenticate with Basic Auth, store the Base64-encoded `username:password` pair as the secret value and set the `Authorization` header directly:
+要使用 Basic Auth 认证，请把 Base64 编码后的 `username:password` 作为密钥值存储，并直接设置 `Authorization` 头：
 
-1. Encode the credential outside the sandbox: **`printf '%s' 'username:password' | base64`**
-2. Store the encoded value as a secret
-3. In the sandbox, set the header directly: **`Authorization: Basic $MY_SECRET`**
+1. 在沙箱外编码凭据：**`printf '%s' 'username:password' | base64`**
+2. 把编码后的值存为密钥
+3. 在沙箱内直接设置请求头：**`Authorization: Basic $MY_SECRET`**
 
-The placeholder then appears unmodified in the header, and the proxy substitutes the encoded credential for requests to the secret's allowed hosts. Do not pass the mounted variable through `curl --user` or another helper that encodes it again.
+这样占位符会原样出现在请求头中，代理在请求发往该密钥允许的主机时替换为编码后的凭据。不要把挂载的变量再交给 `curl --user` 或其他会再次编码的辅助工具。
 
 ```python
 import base64
@@ -842,9 +842,9 @@ public class App {
 }
 ```
 
-Alternatively, store the complete header value `Basic Base64(username:password)` as the secret and send `Authorization: $MY_SECRET`. Both forms keep the placeholder unmodified in the outbound header.
+或者，把完整的请求头值 `Basic Base64(username:password)` 存为密钥，并发送 `Authorization: $MY_SECRET`。两种方式都能让出站请求头中的占位符保持原样。
 
-## Permissions {#permissions}
+## 权限 {#permissions}
 
 密钥属于组织。管理密钥需要 `manage:secrets`，可以授给 [组织角色](/docs/organizations) 或 [API 密钥](/docs/api-keys)。创建、更新、删除会记入 [审计日志](/docs/audit-logs)，条目里的密钥值会被打码。
 
