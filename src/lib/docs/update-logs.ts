@@ -20,6 +20,127 @@ export type UpdateLog = {
 
 export const UPDATE_LOGS: UpdateLog[] = [
   {
+    "id": "2026-10-20-8e8921",
+    "date": "2026-10-20",
+    "title": "官网对照：14 处变动",
+    "summary": "更新 /；更新 /docs/api-keys；新增 /docs/authentication；更新 /docs/bring-your-own-compute；新增 /docs/gpu-sandboxes；更新 /docs/limits；新增 /docs/linux-sandboxes；新增 /docs/macos-sandboxes",
+    "sourceHint": "https://www.daytona.io/docs/llms.txt · https://www.daytona.io/docs/sitemap-0.xml",
+    "changes": [
+      {
+        "kind": "updated",
+        "slug": "index",
+        "title": "index",
+        "webPath": "/",
+        "officialUrl": "https://www.daytona.io/docs/",
+        "detail": "官网正文 8f2d385 → 368d63f。中文站：/。"
+      },
+      {
+        "kind": "updated",
+        "slug": "api-keys",
+        "title": "api-keys",
+        "webPath": "/docs/api-keys",
+        "officialUrl": "https://www.daytona.io/docs/en/api-keys",
+        "detail": "官网正文 5172b3b → 9fddd29。中文站：/docs/api-keys。"
+      },
+      {
+        "kind": "added",
+        "slug": "authentication",
+        "title": "authentication",
+        "webPath": "/docs/authentication",
+        "officialUrl": "https://www.daytona.io/docs/en/authentication",
+        "detail": "官网新增页面（哈希 6ae0c3b6a2f3）。中文站位置：/docs/authentication，已自动建档待补译。"
+      },
+      {
+        "kind": "updated",
+        "slug": "bring-your-own-compute",
+        "title": "bring-your-own-compute",
+        "webPath": "/docs/bring-your-own-compute",
+        "officialUrl": "https://www.daytona.io/docs/en/bring-your-own-compute",
+        "detail": "官网正文 1b989cd → 3d67220。中文站：/docs/bring-your-own-compute。"
+      },
+      {
+        "kind": "added",
+        "slug": "gpu-sandboxes",
+        "title": "gpu-sandboxes",
+        "webPath": "/docs/gpu-sandboxes",
+        "officialUrl": "https://www.daytona.io/docs/en/gpu-sandboxes",
+        "detail": "官网新增页面（哈希 379f10a62d90）。中文站位置：/docs/gpu-sandboxes，已自动建档待补译。"
+      },
+      {
+        "kind": "updated",
+        "slug": "limits",
+        "title": "limits",
+        "webPath": "/docs/limits",
+        "officialUrl": "https://www.daytona.io/docs/en/limits",
+        "detail": "官网正文 ecda79d → c454f42。中文站：/docs/limits。"
+      },
+      {
+        "kind": "added",
+        "slug": "linux-sandboxes",
+        "title": "linux-sandboxes",
+        "webPath": "/docs/linux-sandboxes",
+        "officialUrl": "https://www.daytona.io/docs/en/linux-sandboxes",
+        "detail": "官网新增页面（哈希 1f3206da1fee）。中文站位置：/docs/linux-sandboxes，已自动建档待补译。"
+      },
+      {
+        "kind": "added",
+        "slug": "macos-sandboxes",
+        "title": "macos-sandboxes",
+        "webPath": "/docs/macos-sandboxes",
+        "officialUrl": "https://www.daytona.io/docs/en/macos-sandboxes",
+        "detail": "官网新增页面（哈希 4866b57f59ee）。中文站位置：/docs/macos-sandboxes，已自动建档待补译。"
+      },
+      {
+        "kind": "updated",
+        "slug": "observability/otel-collection",
+        "title": "observability/otel-collection",
+        "webPath": "/docs/observability/otel-collection",
+        "officialUrl": "https://www.daytona.io/docs/en/observability/otel-collection",
+        "detail": "官网正文 6c80fba → d11dbe7。中文站：/docs/observability/otel-collection。"
+      },
+      {
+        "kind": "updated",
+        "slug": "regions",
+        "title": "regions",
+        "webPath": "/docs/regions",
+        "officialUrl": "https://www.daytona.io/docs/en/regions",
+        "detail": "官网正文 a4a4600 → 5f6c3a4。中文站：/docs/regions。"
+      },
+      {
+        "kind": "updated",
+        "slug": "sandboxes",
+        "title": "sandboxes",
+        "webPath": "/docs/sandboxes",
+        "officialUrl": "https://www.daytona.io/docs/en/sandboxes",
+        "detail": "官网正文 27bc40e → 50250ea。中文站：/docs/sandboxes。"
+      },
+      {
+        "kind": "updated",
+        "slug": "snapshots",
+        "title": "snapshots",
+        "webPath": "/docs/snapshots",
+        "officialUrl": "https://www.daytona.io/docs/en/snapshots",
+        "detail": "官网正文 8a2a0e9 → 1ffb0dd。中文站：/docs/snapshots。"
+      },
+      {
+        "kind": "updated",
+        "slug": "troubleshooting",
+        "title": "troubleshooting",
+        "webPath": "/docs/troubleshooting",
+        "officialUrl": "https://www.daytona.io/docs/en/troubleshooting",
+        "detail": "官网正文 fc858c0 → 655ab5f。中文站：/docs/troubleshooting。"
+      },
+      {
+        "kind": "added",
+        "slug": "windows-sandboxes",
+        "title": "windows-sandboxes",
+        "webPath": "/docs/windows-sandboxes",
+        "officialUrl": "https://www.daytona.io/docs/en/windows-sandboxes",
+        "detail": "官网新增页面（哈希 66756fdabfb6）。中文站位置：/docs/windows-sandboxes，已自动建档待补译。"
+      }
+    ]
+  },
+  {
     "id": "2026-10-20-7ba66e",
     "date": "2026-10-20",
     "title": "每日例行汉化：28 处官网变动（修复日志/目录数据）",
