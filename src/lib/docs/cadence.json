@@ -1,1 +1,11 @@
-$(cat /tmp/new-cadence.json)
+{
+  "title": "每日例行汉化",
+  "timezone": "Asia/Shanghai",
+  "timeOfDay": "09:00",
+  "fingerprint": "GitHub Actions 每日对照官网 sitemap 与 .md 指纹",
+  "translate": "每天 09:00（北京时间）重译变动页，写入同步日志并推送到仓库",
+  "lastCheckAt": "2026-10-20T01:06:15.464Z",
+  "lastChangeAt": "2026-10-20T01:06:15.465Z",
+  "llmsHash": "1ea285e43d2d",
+  "status": "current"
+}
