@@ -38,3 +38,41 @@ snapshot = sandbox.snapshot(hot=True)
 ## 在沙箱里跑 Docker {#run-docker-in-a-sandbox}
 
 可用 DinD 快照，在沙箱内 `docker compose up`。适合评测需要容器的任务。
+
+## 在沙箱里跑 Kubernetes {#run-kubernetes-in-a-sandbox}
+
+沙箱内可以运行完整的 Kubernetes 集群。Kubernetes 完全跑在沙箱里，沙箱删除时一并移除，环境安全且可复现。
+
+1. 创建沙箱
+2. 在沙箱内安装并启动 k3s 集群
+
+```python
+from daytona import Daytona, SessionExecuteRequest
+import time
+
+daytona = Daytona()
+sandbox = daytona.create()
+
+# 运行 k3s 安装脚本
+response = sandbox.process.exec('curl -sfL https://get.k3s.io | sh -')
+
+# 启动 k3s
+session_name = 'k3s-server'
+sandbox.process.create_session(session_name)
+sandbox.process.execute_session_command(
+    session_name,
+    SessionExecuteRequest(
+        command='sudo /usr/local/bin/k3s server',
+        run_async=True,
+    ),
+)
+
+# 等待 k3s 完全启动
+time.sleep(30)
+
+# 查看所有 Pod
+pods = sandbox.process.exec('sudo /usr/local/bin/kubectl get pod -A')
+print(pods.result)
+```
+
+TypeScript、Ruby 等其他语言示例见[英文原文](https://www.daytona.io/docs/en/snapshots#run-kubernetes-in-a-sandbox)。

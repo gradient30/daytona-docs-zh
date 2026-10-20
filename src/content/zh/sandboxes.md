@@ -115,6 +115,36 @@ NVIDIA / AMD GPU，用于推理、微调、vLLM / SGLang 等。可配 [Spot GPU]
 
 Spot GPU 用可回收容量换更低成本，可能被回收。需要 Tier 2 或更高，配额同样在 Earth 区域。
 
+## GPU 容量 {#gpu-capacity}
+
+查询当前可用的 GPU 容量。响应按 GPU 型号列出可用单元，分为按需（on-demand）与 Spot 两类。容量汇总自 [Earth 区域](/docs/regions#earth-region)内所有共享区域，会随沙箱的创建和删除而变化。该接口不预留容量，也不套用组织的 GPU 配额：按需 GPU 沙箱仍受配额限制，Spot GPU 沙箱只受可用容量限制。
+
+```bash
+curl 'https://app.daytona.io/api/organizations/ORGANIZATION_ID/gpu-capacity' \
+  --header 'Authorization: Bearer YOUR_API_KEY'
+```
+
+响应示例：
+
+```json
+{
+  "observedAt": "2026-09-14T17:31:05.412Z",
+  "capacity": [
+    { "gpuType": "H100", "availableOnDemand": 12, "availableSpot": 4 },
+    { "gpuType": "H200", "availableOnDemand": 0, "availableSpot": 0 },
+    { "gpuType": "RTX-PRO-6000", "availableOnDemand": 6, "availableSpot": 6 }
+  ]
+}
+```
+
+| **字段** | **说明** |
+| --- | --- |
+| **`observedAt`** | 容量的计算时间。响应最多缓存 5 秒。 |
+| **`capacity`** | 每种 GPU 型号一条记录。 |
+| **`gpuType`** | **`H100`**、**`H200`**、**`B200`**、**`B300`**、**`RTX-PRO-6000`**、**`RTX-4090`**、**`RTX-5090`** 或 **`MI355X`**。 |
+| **`availableOnDemand`** | 按需 GPU 沙箱可用的 GPU 单元，包含 Daytona 可以从 Spot GPU 沙箱回收的单元。 |
+| **`availableSpot`** | 当前可供 Spot GPU 沙箱使用的空闲 GPU 单元。 |
+
 ## 临时沙箱 {#ephemeral-sandboxes}
 
 用完即删，不进入持久化路径。适合一次性评测。
