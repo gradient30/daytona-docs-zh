@@ -1,5 +1,46 @@
 [
   {
+    "id": "202610211320",
+    "capturedAt": "2026-10-21T13:20:43.741Z",
+    "summary": "3 处官网变动（新增 0 / 改动 3 / 删除 0）",
+    "llmsHash": "e024c2913794",
+    "changes": [
+      {
+        "kind": "modified",
+        "slug": "index",
+        "title": "index",
+        "officialUrl": "https://www.daytona.io/docs/",
+        "handbookHref": "/",
+        "location": "侧栏 →「index」· 本站 /",
+        "prevHash": "368d63f13e89",
+        "nextHash": "8957e9646fb9",
+        "note": "官网正文 368d63f → 8957e96。中文站：/。"
+      },
+      {
+        "kind": "modified",
+        "slug": "custom-preview-proxy",
+        "title": "custom-preview-proxy",
+        "officialUrl": "https://www.daytona.io/docs/en/custom-preview-proxy",
+        "handbookHref": "/docs/custom-preview-proxy",
+        "location": "侧栏 →「custom-preview-proxy」· 本站 /docs/custom-preview-proxy",
+        "prevHash": "fa701575dfd2",
+        "nextHash": "cb3826460419",
+        "note": "官网正文 fa70157 → cb38264。中文站：/docs/custom-preview-proxy。"
+      },
+      {
+        "kind": "modified",
+        "slug": "sandboxes",
+        "title": "sandboxes",
+        "officialUrl": "https://www.daytona.io/docs/en/sandboxes",
+        "handbookHref": "/docs/sandboxes",
+        "location": "侧栏 →「sandboxes」· 本站 /docs/sandboxes",
+        "prevHash": "50250eaca6e8",
+        "nextHash": "67c4d07e4b56",
+        "note": "官网正文 50250ea → 67c4d07。中文站：/docs/sandboxes。"
+      }
+    ]
+  },
+  {
     "id": "202610201311",
     "capturedAt": "2026-10-20T13:11:07.383Z",
     "summary": "14 处官网变动（新增 5 / 改动 9 / 删除 0）",

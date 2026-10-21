@@ -20,6 +20,39 @@ export type UpdateLog = {
 
 export const UPDATE_LOGS: UpdateLog[] = [
   {
+    "id": "2026-10-21-5e0d91",
+    "date": "2026-10-21",
+    "title": "官网对照：3 处变动",
+    "summary": "更新 /；更新 /docs/custom-preview-proxy；更新 /docs/sandboxes",
+    "sourceHint": "https://www.daytona.io/docs/llms.txt · https://www.daytona.io/docs/sitemap-0.xml",
+    "changes": [
+      {
+        "kind": "updated",
+        "slug": "index",
+        "title": "index",
+        "webPath": "/",
+        "officialUrl": "https://www.daytona.io/docs/",
+        "detail": "官网正文 368d63f → 8957e96。中文站：/。"
+      },
+      {
+        "kind": "updated",
+        "slug": "custom-preview-proxy",
+        "title": "custom-preview-proxy",
+        "webPath": "/docs/custom-preview-proxy",
+        "officialUrl": "https://www.daytona.io/docs/en/custom-preview-proxy",
+        "detail": "官网正文 fa70157 → cb38264。中文站：/docs/custom-preview-proxy。"
+      },
+      {
+        "kind": "updated",
+        "slug": "sandboxes",
+        "title": "sandboxes",
+        "webPath": "/docs/sandboxes",
+        "officialUrl": "https://www.daytona.io/docs/en/sandboxes",
+        "detail": "官网正文 50250ea → 67c4d07。中文站：/docs/sandboxes。"
+      }
+    ]
+  },
+  {
     "id": "2026-10-20-8e8921",
     "date": "2026-10-20",
     "title": "官网对照：14 处变动",

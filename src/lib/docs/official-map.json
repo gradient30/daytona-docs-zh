@@ -1,7 +1,7 @@
 {
-  "capturedAt": "2026-10-20",
+  "capturedAt": "2026-10-21",
   "officialRef": "docs-site",
-  "docsTreeSha": "85093f794606",
+  "docsTreeSha": "5e5ecb9dd711",
   "source": "https://www.daytona.io/docs/sitemap-0.xml",
   "docs": [
     {
@@ -53,24 +53,24 @@
       "section": "start",
       "kind": "official",
       "officialPath": "en.md",
-      "size": 7886,
-      "lastSeenSha": "368d63f13e89",
+      "size": 7756,
+      "lastSeenSha": "8957e9646fb9",
       "translatedAtSha": "f1a498fdf300",
       "webPath": "/",
       "officialUrl": "https://www.daytona.io/docs/",
-      "contentSha": "368d63f13e89"
+      "contentSha": "8957e9646fb9"
     },
     {
       "slug": "sandboxes",
       "section": "start",
       "kind": "official",
       "officialPath": "en/sandboxes.md",
-      "size": 105811,
-      "lastSeenSha": "50250eaca6e8",
+      "size": 105982,
+      "lastSeenSha": "67c4d07e4b56",
       "translatedAtSha": "27bc40ef05d9",
       "webPath": "/docs/sandboxes",
       "officialUrl": "https://www.daytona.io/docs/en/sandboxes",
-      "contentSha": "50250eaca6e8"
+      "contentSha": "67c4d07e4b56"
     },
     {
       "slug": "snapshots",
@@ -336,11 +336,12 @@
       "section": "runtime",
       "kind": "official",
       "officialPath": "en/custom-preview-proxy.md",
-      "size": 4653,
-      "lastSeenSha": "fa701575dfd2",
+      "size": 5024,
+      "lastSeenSha": "cb3826460419",
       "translatedAtSha": "fa701575dfd2",
       "webPath": "/docs/custom-preview-proxy",
-      "officialUrl": "https://www.daytona.io/docs/en/custom-preview-proxy"
+      "officialUrl": "https://www.daytona.io/docs/en/custom-preview-proxy",
+      "contentSha": "cb3826460419"
     },
     {
       "slug": "web-terminal",
@@ -2218,10 +2219,10 @@
       "section": "runtime",
       "kind": "official",
       "officialPath": "en/gpu-sandboxes.md",
-      "size": 31440,
-      "lastSeenSha": "379f10a62d90",
+      "size": 36980,
+      "lastSeenSha": "af8d5bff5805",
       "translatedAtSha": null,
-      "contentSha": "379f10a62d90",
+      "contentSha": "af8d5bff5805",
       "webPath": "/docs/gpu-sandboxes",
       "officialUrl": "https://www.daytona.io/docs/en/gpu-sandboxes"
     },
@@ -2230,10 +2231,10 @@
       "section": "runtime",
       "kind": "official",
       "officialPath": "en/linux-sandboxes.md",
-      "size": 65694,
-      "lastSeenSha": "1f3206da1fee",
+      "size": 69756,
+      "lastSeenSha": "8a58b99855eb",
       "translatedAtSha": null,
-      "contentSha": "1f3206da1fee",
+      "contentSha": "8a58b99855eb",
       "webPath": "/docs/linux-sandboxes",
       "officialUrl": "https://www.daytona.io/docs/en/linux-sandboxes"
     },
@@ -2242,10 +2243,10 @@
       "section": "runtime",
       "kind": "official",
       "officialPath": "en/macos-sandboxes.md",
-      "size": 2741,
-      "lastSeenSha": "4866b57f59ee",
+      "size": 2619,
+      "lastSeenSha": "fb4e75b2790b",
       "translatedAtSha": null,
-      "contentSha": "4866b57f59ee",
+      "contentSha": "fb4e75b2790b",
       "webPath": "/docs/macos-sandboxes",
       "officialUrl": "https://www.daytona.io/docs/en/macos-sandboxes"
     },
@@ -2254,10 +2255,10 @@
       "section": "runtime",
       "kind": "official",
       "officialPath": "en/windows-sandboxes.md",
-      "size": 42083,
-      "lastSeenSha": "66756fdabfb6",
+      "size": 46485,
+      "lastSeenSha": "b29d9ab78cab",
       "translatedAtSha": null,
-      "contentSha": "66756fdabfb6",
+      "contentSha": "b29d9ab78cab",
       "webPath": "/docs/windows-sandboxes",
       "officialUrl": "https://www.daytona.io/docs/en/windows-sandboxes"
     }
