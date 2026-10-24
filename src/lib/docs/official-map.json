@@ -1,7 +1,7 @@
 {
-  "capturedAt": "2026-10-23",
+  "capturedAt": "2026-10-24",
   "officialRef": "docs-site",
-  "docsTreeSha": "5e5ecb9dd711",
+  "docsTreeSha": "65b4d4d2f59c",
   "source": "https://www.daytona.io/docs/sitemap-0.xml",
   "docs": [
     {
@@ -2183,10 +2183,10 @@
       "section": "guides",
       "kind": "official",
       "officialPath": "en/guides/claude/claude-draws-daytona-sandbox.md",
-      "size": 16418,
-      "lastSeenSha": "732b8bf71a4d",
+      "size": 19859,
+      "lastSeenSha": "af6dfcf27d60",
       "translatedAtSha": null,
-      "contentSha": "732b8bf71a4d",
+      "contentSha": "af6dfcf27d60",
       "webPath": "/docs/guides/claude/claude-draws-daytona-sandbox",
       "officialUrl": "https://www.daytona.io/docs/en/guides/claude/claude-draws-daytona-sandbox"
     },
@@ -2231,10 +2231,10 @@
       "section": "runtime",
       "kind": "official",
       "officialPath": "en/linux-sandboxes.md",
-      "size": 69756,
-      "lastSeenSha": "8a58b99855eb",
+      "size": 70129,
+      "lastSeenSha": "cf3730035d13",
       "translatedAtSha": null,
-      "contentSha": "8a58b99855eb",
+      "contentSha": "cf3730035d13",
       "webPath": "/docs/linux-sandboxes",
       "officialUrl": "https://www.daytona.io/docs/en/linux-sandboxes"
     },
