@@ -4,7 +4,7 @@
   "timeOfDay": "09:00",
   "fingerprint": "GitHub Actions 每日对照官网 sitemap 与 .md 指纹",
   "translate": "每天 09:00（北京时间）重译变动页，写入同步日志并推送到仓库",
-  "lastCheckAt": "2026-10-24T12:22:57.780Z",
+  "lastCheckAt": "2026-10-25T12:53:09.478Z",
   "lastChangeAt": "2026-10-21T13:20:43.741Z",
   "llmsHash": "e024c2913794",
   "status": "current"
