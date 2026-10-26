@@ -20,6 +20,727 @@ export type UpdateLog = {
 
 export const UPDATE_LOGS: UpdateLog[] = [
   {
+    "id": "2026-10-26-b3dfc3",
+    "date": "2026-10-26",
+    "title": "官网对照：89 处变动",
+    "summary": "更新 /；更新 /docs/network-limits；新增 /docs/v2；新增 /docs/v2/api-keys；新增 /docs/v2/api；新增 /docs/v2/architecture；新增 /docs/v2/audit-logs；新增 /docs/v2/authentication",
+    "sourceHint": "https://www.daytona.io/docs/llms.txt · https://www.daytona.io/docs/sitemap-0.xml",
+    "changes": [
+      {
+        "kind": "updated",
+        "slug": "index",
+        "title": "index",
+        "webPath": "/",
+        "officialUrl": "https://www.daytona.io/docs/",
+        "detail": "官网正文 8957e96 → 6dbeb19。中文站：/。"
+      },
+      {
+        "kind": "updated",
+        "slug": "network-limits",
+        "title": "network-limits",
+        "webPath": "/docs/network-limits",
+        "officialUrl": "https://www.daytona.io/docs/en/network-limits",
+        "detail": "官网正文 ac1dd8f → dfcf732。中文站：/docs/network-limits。"
+      },
+      {
+        "kind": "added",
+        "slug": "v2",
+        "title": "v2",
+        "webPath": "/docs/v2",
+        "officialUrl": "https://www.daytona.io/docs/en/v2",
+        "detail": "官网新增页面（哈希 d06f9977f511）。中文站位置：/docs/v2，已自动建档待补译。"
+      },
+      {
+        "kind": "added",
+        "slug": "v2/api-keys",
+        "title": "api-keys",
+        "webPath": "/docs/v2/api-keys",
+        "officialUrl": "https://www.daytona.io/docs/en/v2/api-keys",
+        "detail": "官网新增页面（哈希 9c43639d7681）。中文站位置：/docs/v2/api-keys，已自动建档待补译。"
+      },
+      {
+        "kind": "added",
+        "slug": "v2/api",
+        "title": "api",
+        "webPath": "/docs/v2/api",
+        "officialUrl": "https://www.daytona.io/docs/en/v2/api",
+        "detail": "官网新增页面（哈希 94ec53190ed1）。中文站位置：/docs/v2/api，已自动建档待补译。"
+      },
+      {
+        "kind": "added",
+        "slug": "v2/architecture",
+        "title": "architecture",
+        "webPath": "/docs/v2/architecture",
+        "officialUrl": "https://www.daytona.io/docs/en/v2/architecture",
+        "detail": "官网新增页面（哈希 9b156b46e223）。中文站位置：/docs/v2/architecture，已自动建档待补译。"
+      },
+      {
+        "kind": "added",
+        "slug": "v2/audit-logs",
+        "title": "audit-logs",
+        "webPath": "/docs/v2/audit-logs",
+        "officialUrl": "https://www.daytona.io/docs/en/v2/audit-logs",
+        "detail": "官网新增页面（哈希 d90f709936b2）。中文站位置：/docs/v2/audit-logs，已自动建档待补译。"
+      },
+      {
+        "kind": "added",
+        "slug": "v2/authentication",
+        "title": "authentication",
+        "webPath": "/docs/v2/authentication",
+        "officialUrl": "https://www.daytona.io/docs/en/v2/authentication",
+        "detail": "官网新增页面（哈希 c97117fc1242）。中文站位置：/docs/v2/authentication，已自动建档待补译。"
+      },
+      {
+        "kind": "added",
+        "slug": "v2/billing",
+        "title": "billing",
+        "webPath": "/docs/v2/billing",
+        "officialUrl": "https://www.daytona.io/docs/en/v2/billing",
+        "detail": "官网新增页面（哈希 ba8868f3b67c）。中文站位置：/docs/v2/billing，已自动建档待补译。"
+      },
+      {
+        "kind": "added",
+        "slug": "v2/bring-your-own-compute",
+        "title": "bring-your-own-compute",
+        "webPath": "/docs/v2/bring-your-own-compute",
+        "officialUrl": "https://www.daytona.io/docs/en/v2/bring-your-own-compute",
+        "detail": "官网新增页面（哈希 e7dedbf8494d）。中文站位置：/docs/v2/bring-your-own-compute，已自动建档待补译。"
+      },
+      {
+        "kind": "added",
+        "slug": "v2/cli",
+        "title": "cli",
+        "webPath": "/docs/v2/cli",
+        "officialUrl": "https://www.daytona.io/docs/en/v2/cli",
+        "detail": "官网新增页面（哈希 f0fd350e7e56）。中文站位置：/docs/v2/cli，已自动建档待补译。"
+      },
+      {
+        "kind": "added",
+        "slug": "v2/cli/login-and-context",
+        "title": "login-and-context",
+        "webPath": "/docs/v2/cli/login-and-context",
+        "officialUrl": "https://www.daytona.io/docs/en/v2/cli/login-and-context",
+        "detail": "官网新增页面（哈希 b9aa91c2a041）。中文站位置：/docs/v2/cli/login-and-context，已自动建档待补译。"
+      },
+      {
+        "kind": "added",
+        "slug": "v2/cli/organization-management",
+        "title": "organization-management",
+        "webPath": "/docs/v2/cli/organization-management",
+        "officialUrl": "https://www.daytona.io/docs/en/v2/cli/organization-management",
+        "detail": "官网新增页面（哈希 91f774989b37）。中文站位置：/docs/v2/cli/organization-management，已自动建档待补译。"
+      },
+      {
+        "kind": "added",
+        "slug": "v2/cli/other",
+        "title": "other",
+        "webPath": "/docs/v2/cli/other",
+        "officialUrl": "https://www.daytona.io/docs/en/v2/cli/other",
+        "detail": "官网新增页面（哈希 8902d51e8311）。中文站位置：/docs/v2/cli/other，已自动建档待补译。"
+      },
+      {
+        "kind": "added",
+        "slug": "v2/cli/sandboxes-and-resources",
+        "title": "sandboxes-and-resources",
+        "webPath": "/docs/v2/cli/sandboxes-and-resources",
+        "officialUrl": "https://www.daytona.io/docs/en/v2/cli/sandboxes-and-resources",
+        "detail": "官网新增页面（哈希 42a3ef1a1bb9）。中文站位置：/docs/v2/cli/sandboxes-and-resources，已自动建档待补译。"
+      },
+      {
+        "kind": "added",
+        "slug": "v2/code-execution",
+        "title": "code-execution",
+        "webPath": "/docs/v2/code-execution",
+        "officialUrl": "https://www.daytona.io/docs/en/v2/code-execution",
+        "detail": "官网新增页面（哈希 1d1822d6bf25）。中文站位置：/docs/v2/code-execution，已自动建档待补译。"
+      },
+      {
+        "kind": "added",
+        "slug": "v2/computer-use",
+        "title": "computer-use",
+        "webPath": "/docs/v2/computer-use",
+        "officialUrl": "https://www.daytona.io/docs/en/v2/computer-use",
+        "detail": "官网新增页面（哈希 527484ef6a5b）。中文站位置：/docs/v2/computer-use，已自动建档待补译。"
+      },
+      {
+        "kind": "added",
+        "slug": "v2/docker",
+        "title": "docker",
+        "webPath": "/docs/v2/docker",
+        "officialUrl": "https://www.daytona.io/docs/en/v2/docker",
+        "detail": "官网新增页面（哈希 d326b411163f）。中文站位置：/docs/v2/docker，已自动建档待补译。"
+      },
+      {
+        "kind": "added",
+        "slug": "v2/file-system-operations",
+        "title": "file-system-operations",
+        "webPath": "/docs/v2/file-system-operations",
+        "officialUrl": "https://www.daytona.io/docs/en/v2/file-system-operations",
+        "detail": "官网新增页面（哈希 590c279042d5）。中文站位置：/docs/v2/file-system-operations，已自动建档待补译。"
+      },
+      {
+        "kind": "added",
+        "slug": "v2/git-operations",
+        "title": "git-operations",
+        "webPath": "/docs/v2/git-operations",
+        "officialUrl": "https://www.daytona.io/docs/en/v2/git-operations",
+        "detail": "官网新增页面（哈希 b36742b3b415）。中文站位置：/docs/v2/git-operations，已自动建档待补译。"
+      },
+      {
+        "kind": "added",
+        "slug": "v2/gpu-sandboxes",
+        "title": "gpu-sandboxes",
+        "webPath": "/docs/v2/gpu-sandboxes",
+        "officialUrl": "https://www.daytona.io/docs/en/v2/gpu-sandboxes",
+        "detail": "官网新增页面（哈希 1da3a6f95643）。中文站位置：/docs/v2/gpu-sandboxes，已自动建档待补译。"
+      },
+      {
+        "kind": "added",
+        "slug": "v2/images",
+        "title": "images",
+        "webPath": "/docs/v2/images",
+        "officialUrl": "https://www.daytona.io/docs/en/v2/images",
+        "detail": "官网新增页面（哈希 c9c0ca7a16a7）。中文站位置：/docs/v2/images，已自动建档待补译。"
+      },
+      {
+        "kind": "added",
+        "slug": "v2/isolation",
+        "title": "isolation",
+        "webPath": "/docs/v2/isolation",
+        "officialUrl": "https://www.daytona.io/docs/en/v2/isolation",
+        "detail": "官网新增页面（哈希 828bcda379b4）。中文站位置：/docs/v2/isolation，已自动建档待补译。"
+      },
+      {
+        "kind": "added",
+        "slug": "v2/language-server-protocol",
+        "title": "language-server-protocol",
+        "webPath": "/docs/v2/language-server-protocol",
+        "officialUrl": "https://www.daytona.io/docs/en/v2/language-server-protocol",
+        "detail": "官网新增页面（哈希 1337673ece80）。中文站位置：/docs/v2/language-server-protocol，已自动建档待补译。"
+      },
+      {
+        "kind": "added",
+        "slug": "v2/limits",
+        "title": "limits",
+        "webPath": "/docs/v2/limits",
+        "officialUrl": "https://www.daytona.io/docs/en/v2/limits",
+        "detail": "官网新增页面（哈希 d31a61968905）。中文站位置：/docs/v2/limits，已自动建档待补译。"
+      },
+      {
+        "kind": "added",
+        "slug": "v2/linux-sandboxes",
+        "title": "linux-sandboxes",
+        "webPath": "/docs/v2/linux-sandboxes",
+        "officialUrl": "https://www.daytona.io/docs/en/v2/linux-sandboxes",
+        "detail": "官网新增页面（哈希 cb87116a3960）。中文站位置：/docs/v2/linux-sandboxes，已自动建档待补译。"
+      },
+      {
+        "kind": "added",
+        "slug": "v2/log-streaming",
+        "title": "log-streaming",
+        "webPath": "/docs/v2/log-streaming",
+        "officialUrl": "https://www.daytona.io/docs/en/v2/log-streaming",
+        "detail": "官网新增页面（哈希 df9d1b578042）。中文站位置：/docs/v2/log-streaming，已自动建档待补译。"
+      },
+      {
+        "kind": "added",
+        "slug": "v2/macos-sandboxes",
+        "title": "macos-sandboxes",
+        "webPath": "/docs/v2/macos-sandboxes",
+        "officialUrl": "https://www.daytona.io/docs/en/v2/macos-sandboxes",
+        "detail": "官网新增页面（哈希 544e3adbce6d）。中文站位置：/docs/v2/macos-sandboxes，已自动建档待补译。"
+      },
+      {
+        "kind": "added",
+        "slug": "v2/mcp",
+        "title": "mcp",
+        "webPath": "/docs/v2/mcp",
+        "officialUrl": "https://www.daytona.io/docs/en/v2/mcp",
+        "detail": "官网新增页面（哈希 187970788a86）。中文站位置：/docs/v2/mcp，已自动建档待补译。"
+      },
+      {
+        "kind": "added",
+        "slug": "v2/network-limits",
+        "title": "network-limits",
+        "webPath": "/docs/v2/network-limits",
+        "officialUrl": "https://www.daytona.io/docs/en/v2/network-limits",
+        "detail": "官网新增页面（哈希 e54e205380b7）。中文站位置：/docs/v2/network-limits，已自动建档待补译。"
+      },
+      {
+        "kind": "added",
+        "slug": "v2/organizations",
+        "title": "organizations",
+        "webPath": "/docs/v2/organizations",
+        "officialUrl": "https://www.daytona.io/docs/en/v2/organizations",
+        "detail": "官网新增页面（哈希 3dd17746a005）。中文站位置：/docs/v2/organizations，已自动建档待补译。"
+      },
+      {
+        "kind": "added",
+        "slug": "v2/persistence",
+        "title": "persistence",
+        "webPath": "/docs/v2/persistence",
+        "officialUrl": "https://www.daytona.io/docs/en/v2/persistence",
+        "detail": "官网新增页面（哈希 c30bdbba57db）。中文站位置：/docs/v2/persistence，已自动建档待补译。"
+      },
+      {
+        "kind": "added",
+        "slug": "v2/playground",
+        "title": "playground",
+        "webPath": "/docs/v2/playground",
+        "officialUrl": "https://www.daytona.io/docs/en/v2/playground",
+        "detail": "官网新增页面（哈希 a35fc57621ee）。中文站位置：/docs/v2/playground，已自动建档待补译。"
+      },
+      {
+        "kind": "added",
+        "slug": "v2/preemption",
+        "title": "preemption",
+        "webPath": "/docs/v2/preemption",
+        "officialUrl": "https://www.daytona.io/docs/en/v2/preemption",
+        "detail": "官网新增页面（哈希 f27e47ffa91e）。中文站位置：/docs/v2/preemption，已自动建档待补译。"
+      },
+      {
+        "kind": "added",
+        "slug": "v2/preview",
+        "title": "preview",
+        "webPath": "/docs/v2/preview",
+        "officialUrl": "https://www.daytona.io/docs/en/v2/preview",
+        "detail": "官网新增页面（哈希 f2ea6df94d54）。中文站位置：/docs/v2/preview，已自动建档待补译。"
+      },
+      {
+        "kind": "added",
+        "slug": "v2/process-execution",
+        "title": "process-execution",
+        "webPath": "/docs/v2/process-execution",
+        "officialUrl": "https://www.daytona.io/docs/en/v2/process-execution",
+        "detail": "官网新增页面（哈希 4579d94b292e）。中文站位置：/docs/v2/process-execution，已自动建档待补译。"
+      },
+      {
+        "kind": "added",
+        "slug": "v2/projects",
+        "title": "projects",
+        "webPath": "/docs/v2/projects",
+        "officialUrl": "https://www.daytona.io/docs/en/v2/projects",
+        "detail": "官网新增页面（哈希 4be4e76878be）。中文站位置：/docs/v2/projects，已自动建档待补译。"
+      },
+      {
+        "kind": "added",
+        "slug": "v2/pty",
+        "title": "pty",
+        "webPath": "/docs/v2/pty",
+        "officialUrl": "https://www.daytona.io/docs/en/v2/pty",
+        "detail": "官网新增页面（哈希 f56728e8171b）。中文站位置：/docs/v2/pty，已自动建档待补译。"
+      },
+      {
+        "kind": "added",
+        "slug": "v2/python-sdk",
+        "title": "python-sdk",
+        "webPath": "/docs/v2/python-sdk",
+        "officialUrl": "https://www.daytona.io/docs/en/v2/python-sdk",
+        "detail": "官网新增页面（哈希 1540cfb7c918）。中文站位置：/docs/v2/python-sdk，已自动建档待补译。"
+      },
+      {
+        "kind": "added",
+        "slug": "v2/python-sdk/computer-use",
+        "title": "computer-use",
+        "webPath": "/docs/v2/python-sdk/computer-use",
+        "officialUrl": "https://www.daytona.io/docs/en/v2/python-sdk/computer-use",
+        "detail": "官网新增页面（哈希 6aa71495bb07）。中文站位置：/docs/v2/python-sdk/computer-use，已自动建档待补译。"
+      },
+      {
+        "kind": "added",
+        "slug": "v2/python-sdk/daytona",
+        "title": "daytona",
+        "webPath": "/docs/v2/python-sdk/daytona",
+        "officialUrl": "https://www.daytona.io/docs/en/v2/python-sdk/daytona",
+        "detail": "官网新增页面（哈希 fa794a3773bf）。中文站位置：/docs/v2/python-sdk/daytona，已自动建档待补译。"
+      },
+      {
+        "kind": "added",
+        "slug": "v2/python-sdk/docker",
+        "title": "docker",
+        "webPath": "/docs/v2/python-sdk/docker",
+        "officialUrl": "https://www.daytona.io/docs/en/v2/python-sdk/docker",
+        "detail": "官网新增页面（哈希 d404426aa7e8）。中文站位置：/docs/v2/python-sdk/docker，已自动建档待补译。"
+      },
+      {
+        "kind": "added",
+        "slug": "v2/python-sdk/errors",
+        "title": "errors",
+        "webPath": "/docs/v2/python-sdk/errors",
+        "officialUrl": "https://www.daytona.io/docs/en/v2/python-sdk/errors",
+        "detail": "官网新增页面（哈希 c1037f4b4b43）。中文站位置：/docs/v2/python-sdk/errors，已自动建档待补译。"
+      },
+      {
+        "kind": "added",
+        "slug": "v2/python-sdk/file-system",
+        "title": "file-system",
+        "webPath": "/docs/v2/python-sdk/file-system",
+        "officialUrl": "https://www.daytona.io/docs/en/v2/python-sdk/file-system",
+        "detail": "官网新增页面（哈希 1ac4b5e82259）。中文站位置：/docs/v2/python-sdk/file-system，已自动建档待补译。"
+      },
+      {
+        "kind": "added",
+        "slug": "v2/python-sdk/git",
+        "title": "git",
+        "webPath": "/docs/v2/python-sdk/git",
+        "officialUrl": "https://www.daytona.io/docs/en/v2/python-sdk/git",
+        "detail": "官网新增页面（哈希 7821dadfae86）。中文站位置：/docs/v2/python-sdk/git，已自动建档待补译。"
+      },
+      {
+        "kind": "added",
+        "slug": "v2/python-sdk/image",
+        "title": "image",
+        "webPath": "/docs/v2/python-sdk/image",
+        "officialUrl": "https://www.daytona.io/docs/en/v2/python-sdk/image",
+        "detail": "官网新增页面（哈希 00dc535a9502）。中文站位置：/docs/v2/python-sdk/image，已自动建档待补译。"
+      },
+      {
+        "kind": "added",
+        "slug": "v2/python-sdk/interpreter",
+        "title": "interpreter",
+        "webPath": "/docs/v2/python-sdk/interpreter",
+        "officialUrl": "https://www.daytona.io/docs/en/v2/python-sdk/interpreter",
+        "detail": "官网新增页面（哈希 6ce7ae9943b9）。中文站位置：/docs/v2/python-sdk/interpreter，已自动建档待补译。"
+      },
+      {
+        "kind": "added",
+        "slug": "v2/python-sdk/lsp",
+        "title": "lsp",
+        "webPath": "/docs/v2/python-sdk/lsp",
+        "officialUrl": "https://www.daytona.io/docs/en/v2/python-sdk/lsp",
+        "detail": "官网新增页面（哈希 758b3538953f）。中文站位置：/docs/v2/python-sdk/lsp，已自动建档待补译。"
+      },
+      {
+        "kind": "added",
+        "slug": "v2/python-sdk/mac-models",
+        "title": "mac-models",
+        "webPath": "/docs/v2/python-sdk/mac-models",
+        "officialUrl": "https://www.daytona.io/docs/en/v2/python-sdk/mac-models",
+        "detail": "官网新增页面（哈希 ad0f2fd45d0e）。中文站位置：/docs/v2/python-sdk/mac-models，已自动建档待补译。"
+      },
+      {
+        "kind": "added",
+        "slug": "v2/python-sdk/ports",
+        "title": "ports",
+        "webPath": "/docs/v2/python-sdk/ports",
+        "officialUrl": "https://www.daytona.io/docs/en/v2/python-sdk/ports",
+        "detail": "官网新增页面（哈希 a3d2f26a115e）。中文站位置：/docs/v2/python-sdk/ports，已自动建档待补译。"
+      },
+      {
+        "kind": "added",
+        "slug": "v2/python-sdk/process",
+        "title": "process",
+        "webPath": "/docs/v2/python-sdk/process",
+        "officialUrl": "https://www.daytona.io/docs/en/v2/python-sdk/process",
+        "detail": "官网新增页面（哈希 b9902c18f2e7）。中文站位置：/docs/v2/python-sdk/process，已自动建档待补译。"
+      },
+      {
+        "kind": "added",
+        "slug": "v2/python-sdk/reservations",
+        "title": "reservations",
+        "webPath": "/docs/v2/python-sdk/reservations",
+        "officialUrl": "https://www.daytona.io/docs/en/v2/python-sdk/reservations",
+        "detail": "官网新增页面（哈希 4ead69ad1f21）。中文站位置：/docs/v2/python-sdk/reservations，已自动建档待补译。"
+      },
+      {
+        "kind": "added",
+        "slug": "v2/python-sdk/sandbox",
+        "title": "sandbox",
+        "webPath": "/docs/v2/python-sdk/sandbox",
+        "officialUrl": "https://www.daytona.io/docs/en/v2/python-sdk/sandbox",
+        "detail": "官网新增页面（哈希 f99ab1aece84）。中文站位置：/docs/v2/python-sdk/sandbox，已自动建档待补译。"
+      },
+      {
+        "kind": "added",
+        "slug": "v2/python-sdk/secret",
+        "title": "secret",
+        "webPath": "/docs/v2/python-sdk/secret",
+        "officialUrl": "https://www.daytona.io/docs/en/v2/python-sdk/secret",
+        "detail": "官网新增页面（哈希 e6c1c8c710f2）。中文站位置：/docs/v2/python-sdk/secret，已自动建档待补译。"
+      },
+      {
+        "kind": "added",
+        "slug": "v2/python-sdk/shared-errors",
+        "title": "shared-errors",
+        "webPath": "/docs/v2/python-sdk/shared-errors",
+        "officialUrl": "https://www.daytona.io/docs/en/v2/python-sdk/shared-errors",
+        "detail": "官网新增页面（哈希 ccd86a2fb786）。中文站位置：/docs/v2/python-sdk/shared-errors，已自动建档待补译。"
+      },
+      {
+        "kind": "added",
+        "slug": "v2/python-sdk/snapshot",
+        "title": "snapshot",
+        "webPath": "/docs/v2/python-sdk/snapshot",
+        "officialUrl": "https://www.daytona.io/docs/en/v2/python-sdk/snapshot",
+        "detail": "官网新增页面（哈希 0335a3438e73）。中文站位置：/docs/v2/python-sdk/snapshot，已自动建档待补译。"
+      },
+      {
+        "kind": "added",
+        "slug": "v2/python-sdk/types",
+        "title": "types",
+        "webPath": "/docs/v2/python-sdk/types",
+        "officialUrl": "https://www.daytona.io/docs/en/v2/python-sdk/types",
+        "detail": "官网新增页面（哈希 7ab71d8b6cd7）。中文站位置：/docs/v2/python-sdk/types，已自动建档待补译。"
+      },
+      {
+        "kind": "added",
+        "slug": "v2/regions",
+        "title": "regions",
+        "webPath": "/docs/v2/regions",
+        "officialUrl": "https://www.daytona.io/docs/en/v2/regions",
+        "detail": "官网新增页面（哈希 077d33d68c3f）。中文站位置：/docs/v2/regions，已自动建档待补译。"
+      },
+      {
+        "kind": "added",
+        "slug": "v2/registries",
+        "title": "registries",
+        "webPath": "/docs/v2/registries",
+        "officialUrl": "https://www.daytona.io/docs/en/v2/registries",
+        "detail": "官网新增页面（哈希 4a32271e4f04）。中文站位置：/docs/v2/registries，已自动建档待补译。"
+      },
+      {
+        "kind": "added",
+        "slug": "v2/sandboxes",
+        "title": "sandboxes",
+        "webPath": "/docs/v2/sandboxes",
+        "officialUrl": "https://www.daytona.io/docs/en/v2/sandboxes",
+        "detail": "官网新增页面（哈希 2d1cb51836f3）。中文站位置：/docs/v2/sandboxes，已自动建档待补译。"
+      },
+      {
+        "kind": "added",
+        "slug": "v2/scale",
+        "title": "scale",
+        "webPath": "/docs/v2/scale",
+        "officialUrl": "https://www.daytona.io/docs/en/v2/scale",
+        "detail": "官网新增页面（哈希 fa77859d2a97）。中文站位置：/docs/v2/scale，已自动建档待补译。"
+      },
+      {
+        "kind": "added",
+        "slug": "v2/secrets",
+        "title": "secrets",
+        "webPath": "/docs/v2/secrets",
+        "officialUrl": "https://www.daytona.io/docs/en/v2/secrets",
+        "detail": "官网新增页面（哈希 9e73d8a26acf）。中文站位置：/docs/v2/secrets，已自动建档待补译。"
+      },
+      {
+        "kind": "added",
+        "slug": "v2/snapshots",
+        "title": "snapshots",
+        "webPath": "/docs/v2/snapshots",
+        "officialUrl": "https://www.daytona.io/docs/en/v2/snapshots",
+        "detail": "官网新增页面（哈希 2477cf2b673f）。中文站位置：/docs/v2/snapshots，已自动建档待补译。"
+      },
+      {
+        "kind": "added",
+        "slug": "v2/ssh-access",
+        "title": "ssh-access",
+        "webPath": "/docs/v2/ssh-access",
+        "officialUrl": "https://www.daytona.io/docs/en/v2/ssh-access",
+        "detail": "官网新增页面（哈希 6791a76b5780）。中文站位置：/docs/v2/ssh-access，已自动建档待补译。"
+      },
+      {
+        "kind": "added",
+        "slug": "v2/sso",
+        "title": "sso",
+        "webPath": "/docs/v2/sso",
+        "officialUrl": "https://www.daytona.io/docs/en/v2/sso",
+        "detail": "官网新增页面（哈希 a369dc8987b1）。中文站位置：/docs/v2/sso，已自动建档待补译。"
+      },
+      {
+        "kind": "added",
+        "slug": "v2/tools",
+        "title": "tools",
+        "webPath": "/docs/v2/tools",
+        "officialUrl": "https://www.daytona.io/docs/en/v2/tools",
+        "detail": "官网新增页面（哈希 10cd58f7f0d4）。中文站位置：/docs/v2/tools，已自动建档待补译。"
+      },
+      {
+        "kind": "added",
+        "slug": "v2/typescript-sdk",
+        "title": "typescript-sdk",
+        "webPath": "/docs/v2/typescript-sdk",
+        "officialUrl": "https://www.daytona.io/docs/en/v2/typescript-sdk",
+        "detail": "官网新增页面（哈希 995c2ad32c56）。中文站位置：/docs/v2/typescript-sdk，已自动建档待补译。"
+      },
+      {
+        "kind": "added",
+        "slug": "v2/typescript-sdk/computer-use",
+        "title": "computer-use",
+        "webPath": "/docs/v2/typescript-sdk/computer-use",
+        "officialUrl": "https://www.daytona.io/docs/en/v2/typescript-sdk/computer-use",
+        "detail": "官网新增页面（哈希 1b4e4888c586）。中文站位置：/docs/v2/typescript-sdk/computer-use，已自动建档待补译。"
+      },
+      {
+        "kind": "added",
+        "slug": "v2/typescript-sdk/daytona",
+        "title": "daytona",
+        "webPath": "/docs/v2/typescript-sdk/daytona",
+        "officialUrl": "https://www.daytona.io/docs/en/v2/typescript-sdk/daytona",
+        "detail": "官网新增页面（哈希 5ebfe44e5516）。中文站位置：/docs/v2/typescript-sdk/daytona，已自动建档待补译。"
+      },
+      {
+        "kind": "added",
+        "slug": "v2/typescript-sdk/docker",
+        "title": "docker",
+        "webPath": "/docs/v2/typescript-sdk/docker",
+        "officialUrl": "https://www.daytona.io/docs/en/v2/typescript-sdk/docker",
+        "detail": "官网新增页面（哈希 ce65f99804f9）。中文站位置：/docs/v2/typescript-sdk/docker，已自动建档待补译。"
+      },
+      {
+        "kind": "added",
+        "slug": "v2/typescript-sdk/errors",
+        "title": "errors",
+        "webPath": "/docs/v2/typescript-sdk/errors",
+        "officialUrl": "https://www.daytona.io/docs/en/v2/typescript-sdk/errors",
+        "detail": "官网新增页面（哈希 a647feed321f）。中文站位置：/docs/v2/typescript-sdk/errors，已自动建档待补译。"
+      },
+      {
+        "kind": "added",
+        "slug": "v2/typescript-sdk/file-system",
+        "title": "file-system",
+        "webPath": "/docs/v2/typescript-sdk/file-system",
+        "officialUrl": "https://www.daytona.io/docs/en/v2/typescript-sdk/file-system",
+        "detail": "官网新增页面（哈希 2e47ed202a2b）。中文站位置：/docs/v2/typescript-sdk/file-system，已自动建档待补译。"
+      },
+      {
+        "kind": "added",
+        "slug": "v2/typescript-sdk/git",
+        "title": "git",
+        "webPath": "/docs/v2/typescript-sdk/git",
+        "officialUrl": "https://www.daytona.io/docs/en/v2/typescript-sdk/git",
+        "detail": "官网新增页面（哈希 399f1dc67aab）。中文站位置：/docs/v2/typescript-sdk/git，已自动建档待补译。"
+      },
+      {
+        "kind": "added",
+        "slug": "v2/typescript-sdk/image",
+        "title": "image",
+        "webPath": "/docs/v2/typescript-sdk/image",
+        "officialUrl": "https://www.daytona.io/docs/en/v2/typescript-sdk/image",
+        "detail": "官网新增页面（哈希 c848ecf6c1a2）。中文站位置：/docs/v2/typescript-sdk/image，已自动建档待补译。"
+      },
+      {
+        "kind": "added",
+        "slug": "v2/typescript-sdk/interpreter",
+        "title": "interpreter",
+        "webPath": "/docs/v2/typescript-sdk/interpreter",
+        "officialUrl": "https://www.daytona.io/docs/en/v2/typescript-sdk/interpreter",
+        "detail": "官网新增页面（哈希 1b68bf2c2eba）。中文站位置：/docs/v2/typescript-sdk/interpreter，已自动建档待补译。"
+      },
+      {
+        "kind": "added",
+        "slug": "v2/typescript-sdk/lsp",
+        "title": "lsp",
+        "webPath": "/docs/v2/typescript-sdk/lsp",
+        "officialUrl": "https://www.daytona.io/docs/en/v2/typescript-sdk/lsp",
+        "detail": "官网新增页面（哈希 cdaf8cfa9888）。中文站位置：/docs/v2/typescript-sdk/lsp，已自动建档待补译。"
+      },
+      {
+        "kind": "added",
+        "slug": "v2/typescript-sdk/mac-models",
+        "title": "mac-models",
+        "webPath": "/docs/v2/typescript-sdk/mac-models",
+        "officialUrl": "https://www.daytona.io/docs/en/v2/typescript-sdk/mac-models",
+        "detail": "官网新增页面（哈希 92c7b1403abf）。中文站位置：/docs/v2/typescript-sdk/mac-models，已自动建档待补译。"
+      },
+      {
+        "kind": "added",
+        "slug": "v2/typescript-sdk/ports",
+        "title": "ports",
+        "webPath": "/docs/v2/typescript-sdk/ports",
+        "officialUrl": "https://www.daytona.io/docs/en/v2/typescript-sdk/ports",
+        "detail": "官网新增页面（哈希 5f167346a426）。中文站位置：/docs/v2/typescript-sdk/ports，已自动建档待补译。"
+      },
+      {
+        "kind": "added",
+        "slug": "v2/typescript-sdk/process",
+        "title": "process",
+        "webPath": "/docs/v2/typescript-sdk/process",
+        "officialUrl": "https://www.daytona.io/docs/en/v2/typescript-sdk/process",
+        "detail": "官网新增页面（哈希 1ac420f446e2）。中文站位置：/docs/v2/typescript-sdk/process，已自动建档待补译。"
+      },
+      {
+        "kind": "added",
+        "slug": "v2/typescript-sdk/reservations",
+        "title": "reservations",
+        "webPath": "/docs/v2/typescript-sdk/reservations",
+        "officialUrl": "https://www.daytona.io/docs/en/v2/typescript-sdk/reservations",
+        "detail": "官网新增页面（哈希 6994392d0d21）。中文站位置：/docs/v2/typescript-sdk/reservations，已自动建档待补译。"
+      },
+      {
+        "kind": "added",
+        "slug": "v2/typescript-sdk/sandbox",
+        "title": "sandbox",
+        "webPath": "/docs/v2/typescript-sdk/sandbox",
+        "officialUrl": "https://www.daytona.io/docs/en/v2/typescript-sdk/sandbox",
+        "detail": "官网新增页面（哈希 aeaad5b75761）。中文站位置：/docs/v2/typescript-sdk/sandbox，已自动建档待补译。"
+      },
+      {
+        "kind": "added",
+        "slug": "v2/typescript-sdk/secret",
+        "title": "secret",
+        "webPath": "/docs/v2/typescript-sdk/secret",
+        "officialUrl": "https://www.daytona.io/docs/en/v2/typescript-sdk/secret",
+        "detail": "官网新增页面（哈希 c894577376f4）。中文站位置：/docs/v2/typescript-sdk/secret，已自动建档待补译。"
+      },
+      {
+        "kind": "added",
+        "slug": "v2/typescript-sdk/shared-errors",
+        "title": "shared-errors",
+        "webPath": "/docs/v2/typescript-sdk/shared-errors",
+        "officialUrl": "https://www.daytona.io/docs/en/v2/typescript-sdk/shared-errors",
+        "detail": "官网新增页面（哈希 d48acf4144af）。中文站位置：/docs/v2/typescript-sdk/shared-errors，已自动建档待补译。"
+      },
+      {
+        "kind": "added",
+        "slug": "v2/typescript-sdk/snapshot",
+        "title": "snapshot",
+        "webPath": "/docs/v2/typescript-sdk/snapshot",
+        "officialUrl": "https://www.daytona.io/docs/en/v2/typescript-sdk/snapshot",
+        "detail": "官网新增页面（哈希 d817fb6319b1）。中文站位置：/docs/v2/typescript-sdk/snapshot，已自动建档待补译。"
+      },
+      {
+        "kind": "added",
+        "slug": "v2/vnc-access",
+        "title": "vnc-access",
+        "webPath": "/docs/v2/vnc-access",
+        "officialUrl": "https://www.daytona.io/docs/en/v2/vnc-access",
+        "detail": "官网新增页面（哈希 b84c4fc77fad）。中文站位置：/docs/v2/vnc-access，已自动建档待补译。"
+      },
+      {
+        "kind": "added",
+        "slug": "v2/volumes",
+        "title": "volumes",
+        "webPath": "/docs/v2/volumes",
+        "officialUrl": "https://www.daytona.io/docs/en/v2/volumes",
+        "detail": "官网新增页面（哈希 06c0cf580250）。中文站位置：/docs/v2/volumes，已自动建档待补译。"
+      },
+      {
+        "kind": "added",
+        "slug": "v2/vpn-connections",
+        "title": "vpn-connections",
+        "webPath": "/docs/v2/vpn-connections",
+        "officialUrl": "https://www.daytona.io/docs/en/v2/vpn-connections",
+        "detail": "官网新增页面（哈希 ac49bd0463b6）。中文站位置：/docs/v2/vpn-connections，已自动建档待补译。"
+      },
+      {
+        "kind": "added",
+        "slug": "v2/web-terminal",
+        "title": "web-terminal",
+        "webPath": "/docs/v2/web-terminal",
+        "officialUrl": "https://www.daytona.io/docs/en/v2/web-terminal",
+        "detail": "官网新增页面（哈希 56e5a6b6a60e）。中文站位置：/docs/v2/web-terminal，已自动建档待补译。"
+      },
+      {
+        "kind": "added",
+        "slug": "v2/windows-sandboxes",
+        "title": "windows-sandboxes",
+        "webPath": "/docs/v2/windows-sandboxes",
+        "officialUrl": "https://www.daytona.io/docs/en/v2/windows-sandboxes",
+        "detail": "官网新增页面（哈希 fab953f53a2d）。中文站位置：/docs/v2/windows-sandboxes，已自动建档待补译。"
+      }
+    ]
+  },
+  {
     "id": "2026-10-21-5e0d91",
     "date": "2026-10-21",
     "title": "官网对照：3 处变动",
