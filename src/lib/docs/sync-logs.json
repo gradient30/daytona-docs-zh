@@ -1,5 +1,112 @@
 [
   {
+    "id": "202610271350",
+    "capturedAt": "2026-10-27T13:50:18.719Z",
+    "summary": "9 处官网变动（新增 1 / 改动 7 / 删除 1）",
+    "llmsHash": "a580c1bd95b6",
+    "changes": [
+      {
+        "kind": "modified",
+        "slug": "index",
+        "title": "index",
+        "officialUrl": "https://www.daytona.io/docs/",
+        "handbookHref": "/",
+        "location": "侧栏 →「index」· 本站 /",
+        "prevHash": "6dbeb1942f07",
+        "nextHash": "1dc69988de33",
+        "note": "官网正文 6dbeb19 → 1dc6998。中文站：/。"
+      },
+      {
+        "kind": "modified",
+        "slug": "go-sdk/daytona",
+        "title": "go-sdk/daytona",
+        "officialUrl": "https://www.daytona.io/docs/en/go-sdk/daytona",
+        "handbookHref": "/docs/go-sdk/daytona",
+        "location": "侧栏「工具」→「go-sdk/daytona」· 本站 /docs/go-sdk/daytona",
+        "prevHash": "d9b50a68da8b",
+        "nextHash": "e121969a3c3d",
+        "note": "官网正文 d9b50a6 → e121969。中文站：/docs/go-sdk/daytona。"
+      },
+      {
+        "kind": "modified",
+        "slug": "go-sdk/errors",
+        "title": "go-sdk/errors",
+        "officialUrl": "https://www.daytona.io/docs/en/go-sdk/errors",
+        "handbookHref": "/docs/go-sdk/errors",
+        "location": "侧栏「工具」→「go-sdk/errors」· 本站 /docs/go-sdk/errors",
+        "prevHash": "4b0a0b0db96a",
+        "nextHash": "a25d226ff58d",
+        "note": "官网正文 4b0a0b0 → a25d226。中文站：/docs/go-sdk/errors。"
+      },
+      {
+        "kind": "modified",
+        "slug": "go-sdk/types",
+        "title": "go-sdk/types",
+        "officialUrl": "https://www.daytona.io/docs/en/go-sdk/types",
+        "handbookHref": "/docs/go-sdk/types",
+        "location": "侧栏「工具」→「go-sdk/types」· 本站 /docs/go-sdk/types",
+        "prevHash": "3fde4cb55938",
+        "nextHash": "e3da6bf22929",
+        "note": "官网正文 3fde4cb → e3da6bf。中文站：/docs/go-sdk/types。"
+      },
+      {
+        "kind": "added",
+        "slug": "guides/fireworks/fireworks-coding-agent",
+        "title": "fireworks-coding-agent",
+        "officialUrl": "https://www.daytona.io/docs/en/guides/fireworks/fireworks-coding-agent",
+        "handbookHref": "/docs/guides/fireworks/fireworks-coding-agent",
+        "location": "侧栏「指南」→「fireworks-coding-agent」· 本站 /docs/guides/fireworks/fireworks-coding-agent",
+        "prevHash": null,
+        "nextHash": "3da90c772d2d",
+        "note": "官网新增页面（哈希 3da90c772d2d）。中文站位置：/docs/guides/fireworks/fireworks-coding-agent，已自动建档待补译。"
+      },
+      {
+        "kind": "modified",
+        "slug": "python-sdk/common/errors",
+        "title": "python-sdk/common/errors",
+        "officialUrl": "https://www.daytona.io/docs/en/python-sdk/common/errors",
+        "handbookHref": "/docs/python-sdk/common/errors",
+        "location": "侧栏「工具」→「python-sdk/common/errors」· 本站 /docs/python-sdk/common/errors",
+        "prevHash": "cff5999bf495",
+        "nextHash": "5e93c15521e9",
+        "note": "官网正文 cff5999 → 5e93c15。中文站：/docs/python-sdk/common/errors。"
+      },
+      {
+        "kind": "modified",
+        "slug": "tools/api",
+        "title": "tools/api",
+        "officialUrl": "https://www.daytona.io/docs/en/tools/api",
+        "handbookHref": "/docs/tools/api",
+        "location": "侧栏「工具」→「tools/api」· 本站 /docs/tools/api",
+        "prevHash": "59895e336621",
+        "nextHash": "bf67b805396e",
+        "note": "官网正文 59895e3 → bf67b80。中文站：/docs/tools/api。"
+      },
+      {
+        "kind": "modified",
+        "slug": "typescript-sdk/errors",
+        "title": "typescript-sdk/errors",
+        "officialUrl": "https://www.daytona.io/docs/en/typescript-sdk/errors",
+        "handbookHref": "/docs/typescript-sdk/errors",
+        "location": "侧栏「工具」→「typescript-sdk/errors」· 本站 /docs/typescript-sdk/errors",
+        "prevHash": "58f6d5f3aa7f",
+        "nextHash": "8d37d101b3a2",
+        "note": "官网正文 58f6d5f → 8d37d10。中文站：/docs/typescript-sdk/errors。"
+      },
+      {
+        "kind": "removed",
+        "slug": "v2/python-sdk/types",
+        "title": "v2/python-sdk/types",
+        "officialUrl": "https://www.daytona.io/docs/en/v2/python-sdk/types",
+        "handbookHref": "/docs/v2/python-sdk/types",
+        "location": "侧栏「工具」→「v2/python-sdk/types」· 本站 /docs/v2/python-sdk/types",
+        "prevHash": "7ab71d8b6cd7",
+        "nextHash": null,
+        "note": "sitemap 已不再包含该页。中文站仍保留在 /docs/v2/python-sdk/types，请确认是否下线。"
+      }
+    ]
+  },
+  {
     "id": "202610261443",
     "capturedAt": "2026-10-26T14:43:23.261Z",
     "summary": "89 处官网变动（新增 87 / 改动 2 / 删除 0）",

@@ -20,6 +20,87 @@ export type UpdateLog = {
 
 export const UPDATE_LOGS: UpdateLog[] = [
   {
+    "id": "2026-10-27-bcdf77",
+    "date": "2026-10-27",
+    "title": "官网对照：9 处变动",
+    "summary": "更新 /；更新 /docs/go-sdk/daytona；更新 /docs/go-sdk/errors；更新 /docs/go-sdk/types；新增 /docs/guides/fireworks/fireworks-coding-agent；更新 /docs/python-sdk/common/errors；更新 /docs/tools/api；更新 /docs/typescript-sdk/errors",
+    "sourceHint": "https://www.daytona.io/docs/llms.txt · https://www.daytona.io/docs/sitemap-0.xml",
+    "changes": [
+      {
+        "kind": "updated",
+        "slug": "index",
+        "title": "index",
+        "webPath": "/",
+        "officialUrl": "https://www.daytona.io/docs/",
+        "detail": "官网正文 6dbeb19 → 1dc6998。中文站：/。"
+      },
+      {
+        "kind": "updated",
+        "slug": "go-sdk/daytona",
+        "title": "go-sdk/daytona",
+        "webPath": "/docs/go-sdk/daytona",
+        "officialUrl": "https://www.daytona.io/docs/en/go-sdk/daytona",
+        "detail": "官网正文 d9b50a6 → e121969。中文站：/docs/go-sdk/daytona。"
+      },
+      {
+        "kind": "updated",
+        "slug": "go-sdk/errors",
+        "title": "go-sdk/errors",
+        "webPath": "/docs/go-sdk/errors",
+        "officialUrl": "https://www.daytona.io/docs/en/go-sdk/errors",
+        "detail": "官网正文 4b0a0b0 → a25d226。中文站：/docs/go-sdk/errors。"
+      },
+      {
+        "kind": "updated",
+        "slug": "go-sdk/types",
+        "title": "go-sdk/types",
+        "webPath": "/docs/go-sdk/types",
+        "officialUrl": "https://www.daytona.io/docs/en/go-sdk/types",
+        "detail": "官网正文 3fde4cb → e3da6bf。中文站：/docs/go-sdk/types。"
+      },
+      {
+        "kind": "added",
+        "slug": "guides/fireworks/fireworks-coding-agent",
+        "title": "fireworks-coding-agent",
+        "webPath": "/docs/guides/fireworks/fireworks-coding-agent",
+        "officialUrl": "https://www.daytona.io/docs/en/guides/fireworks/fireworks-coding-agent",
+        "detail": "官网新增页面（哈希 3da90c772d2d）。中文站位置：/docs/guides/fireworks/fireworks-coding-agent，已自动建档待补译。"
+      },
+      {
+        "kind": "updated",
+        "slug": "python-sdk/common/errors",
+        "title": "python-sdk/common/errors",
+        "webPath": "/docs/python-sdk/common/errors",
+        "officialUrl": "https://www.daytona.io/docs/en/python-sdk/common/errors",
+        "detail": "官网正文 cff5999 → 5e93c15。中文站：/docs/python-sdk/common/errors。"
+      },
+      {
+        "kind": "updated",
+        "slug": "tools/api",
+        "title": "tools/api",
+        "webPath": "/docs/tools/api",
+        "officialUrl": "https://www.daytona.io/docs/en/tools/api",
+        "detail": "官网正文 59895e3 → bf67b80。中文站：/docs/tools/api。"
+      },
+      {
+        "kind": "updated",
+        "slug": "typescript-sdk/errors",
+        "title": "typescript-sdk/errors",
+        "webPath": "/docs/typescript-sdk/errors",
+        "officialUrl": "https://www.daytona.io/docs/en/typescript-sdk/errors",
+        "detail": "官网正文 58f6d5f → 8d37d10。中文站：/docs/typescript-sdk/errors。"
+      },
+      {
+        "kind": "removed",
+        "slug": "v2/python-sdk/types",
+        "title": "v2/python-sdk/types",
+        "webPath": "/docs/v2/python-sdk/types",
+        "officialUrl": "https://www.daytona.io/docs/en/v2/python-sdk/types",
+        "detail": "sitemap 已不再包含该页。中文站仍保留在 /docs/v2/python-sdk/types，请确认是否下线。"
+      }
+    ]
+  },
+  {
     "id": "2026-10-26-b3dfc3",
     "date": "2026-10-26",
     "title": "官网对照：89 处变动",
