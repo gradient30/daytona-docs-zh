@@ -20,6 +20,23 @@ export type UpdateLog = {
 
 export const UPDATE_LOGS: UpdateLog[] = [
   {
+    "id": "2026-10-28-7c09b9",
+    "date": "2026-10-28",
+    "title": "官网对照：1 处变动",
+    "summary": "移除 /docs/v2/python-sdk/types",
+    "sourceHint": "https://www.daytona.io/docs/llms.txt · https://www.daytona.io/docs/sitemap-0.xml",
+    "changes": [
+      {
+        "kind": "removed",
+        "slug": "v2/python-sdk/types",
+        "title": "v2/python-sdk/types",
+        "webPath": "/docs/v2/python-sdk/types",
+        "officialUrl": "https://www.daytona.io/docs/en/v2/python-sdk/types",
+        "detail": "sitemap 已不再包含该页。中文站仍保留在 /docs/v2/python-sdk/types，请确认是否下线。"
+      }
+    ]
+  },
+  {
     "id": "2026-10-27-bcdf77",
     "date": "2026-10-27",
     "title": "官网对照：9 处变动",
