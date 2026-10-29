@@ -1,7 +1,7 @@
 {
-  "capturedAt": "2026-10-28",
+  "capturedAt": "2026-10-29",
   "officialRef": "docs-site",
-  "docsTreeSha": "e5029d234bfa",
+  "docsTreeSha": "52ce78e02147",
   "source": "https://www.daytona.io/docs/sitemap-0.xml",
   "docs": [
     {
@@ -532,12 +532,12 @@
       "section": "tools",
       "kind": "official",
       "officialPath": "en/tools/cli.md",
-      "size": 15647,
-      "lastSeenSha": "f365893af1df",
+      "size": 15639,
+      "lastSeenSha": "53dfc63dd173",
       "translatedAtSha": "0a3b0241bddf",
       "webPath": "/docs/tools/cli",
       "officialUrl": "https://www.daytona.io/docs/en/tools/cli",
-      "contentSha": "f365893af1df"
+      "contentSha": "53dfc63dd173"
     },
     {
       "slug": "tools/api",

@@ -1,5 +1,35 @@
 [
   {
+    "id": "202610291450",
+    "capturedAt": "2026-10-29T14:50:54.635Z",
+    "summary": "2 处官网变动（新增 0 / 改动 1 / 删除 1）",
+    "llmsHash": "a580c1bd95b6",
+    "changes": [
+      {
+        "kind": "modified",
+        "slug": "tools/cli",
+        "title": "tools/cli",
+        "officialUrl": "https://www.daytona.io/docs/en/tools/cli",
+        "handbookHref": "/docs/tools/cli",
+        "location": "侧栏「工具」→「tools/cli」· 本站 /docs/tools/cli",
+        "prevHash": "f365893af1df",
+        "nextHash": "53dfc63dd173",
+        "note": "官网正文 f365893 → 53dfc63。中文站：/docs/tools/cli。"
+      },
+      {
+        "kind": "removed",
+        "slug": "v2/python-sdk/types",
+        "title": "v2/python-sdk/types",
+        "officialUrl": "https://www.daytona.io/docs/en/v2/python-sdk/types",
+        "handbookHref": "/docs/v2/python-sdk/types",
+        "location": "侧栏「工具」→「v2/python-sdk/types」· 本站 /docs/v2/python-sdk/types",
+        "prevHash": "7ab71d8b6cd7",
+        "nextHash": null,
+        "note": "sitemap 已不再包含该页。中文站仍保留在 /docs/v2/python-sdk/types，请确认是否下线。"
+      }
+    ]
+  },
+  {
     "id": "202610281444",
     "capturedAt": "2026-10-28T14:44:04.188Z",
     "summary": "1 处官网变动（新增 0 / 改动 0 / 删除 1）",
